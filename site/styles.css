@@ -326,10 +326,20 @@ section { padding: 84px 0; position: relative; }
 .cta-box .lead, .cta-box .micro { color: #e9e2ff; }
 .cta-box h2 { font-size: clamp(1.9rem, 4.2vw, 3rem); }
 .cta-box.marks::before, .cta-box.marks::after { border-color: var(--accent); }
-/* finał: jasnopomarańczowe tło, kontener wyjeżdża od dołu i rośnie przy przewijaniu */
-.final.pop { background: #fdba74; min-height: 100vh; min-height: 100svh; display: grid; align-items: center; padding: 72px 0 96px; overflow: hidden; }
+/* finał: tło w kolorze CTA z siatką blueprintu, kontener wyjeżdża od dołu i rośnie przy przewijaniu */
+.final.pop {
+  background-color: var(--accent);
+  background-image:
+    linear-gradient(rgba(17, 24, 39, 0.16) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(17, 24, 39, 0.16) 1px, transparent 1px),
+    linear-gradient(rgba(17, 24, 39, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(17, 24, 39, 0.07) 1px, transparent 1px);
+  background-size: 120px 120px, 120px 120px, 24px 24px, 24px 24px;
+  background-position: center top;
+}
+.final.pop { min-height: 100vh; min-height: 100svh; display: grid; align-items: center; padding: 72px 0 96px; overflow: hidden; }
 .final.pop .wrap { width: 100%; }
-.final.pop .cta-box { box-shadow: 0 40px 90px rgba(67, 20, 7, 0.45); transform-origin: center bottom; will-change: transform; }
+.final.pop .cta-box { box-shadow: 0 40px 90px rgba(66, 32, 6, 0.5); transform-origin: center bottom; will-change: transform; }
 .final.pop .cta-box.marks::before, .final.pop .cta-box.marks::after { border-color: var(--secondary); }
 .final .signup { margin: 30px auto 0; justify-content: center; }
 .final .micro, .final .lead { margin-left: auto; margin-right: auto; }

@@ -219,4 +219,4 @@ Na tym etapie głównym celem jest pokazanie mojego sposobu myślenia, zbudowani
 
 ---
 
-*[Landing nie ma stopki — strona kończy się kontenerem zapisu na jasnopomarańczowym tle. Link „O mnie” jest w nagłówku.]*
+*[Landing nie ma stopki — strona kończy się kontenerem zapisu na żółtym tle (kolor CTA) z siatką blueprintu. Link „O mnie” jest w nagłówku.]*
