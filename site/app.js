@@ -3,7 +3,7 @@
 // SIGNUP_ENDPOINT: adres, na który formularz wysyła e-mail (POST, JSON: { email, source }).
 // Dopóki jest pusty, formularz NIE zapisuje nikogo — tylko przenosi na stronę po zapisie (tryb podglądu).
 const SIGNUP_ENDPOINT = "";
-const THANK_YOU_URL = "dziekuje.html";
+const THANK_YOU_URL = "/dziekuje/";
 
 document.querySelectorAll("form.signup").forEach((form) => {
   form.addEventListener("submit", async (event) => {

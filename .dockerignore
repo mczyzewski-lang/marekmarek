@@ -1,0 +1,11 @@
+# Do serwowania strony potrzebne są tylko site/ i Staticfile.
+.git
+.gitignore
+.dockerignore
+content/
+assets/
+CLAUDE.md
+README.md
+*.md
+.claude/
+.DS_Store
