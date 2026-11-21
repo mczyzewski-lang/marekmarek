@@ -397,6 +397,11 @@ section { padding: 84px 0; position: relative; }
 .glass .stats b { font-size: 1.9rem; color: #fff; }
 .glass .stats span { color: #fff; }
 
+/* zdjęcie zespołu w ciemnej sekcji „Kim jestem” na landingu */
+.deep .teamband { margin-top: 40px; }
+.deep .teamband::after { background: linear-gradient(to bottom, var(--secondary) 0%, rgba(17, 24, 39, 0.75) 20%, rgba(17, 24, 39, 0.15) 50%, rgba(17, 24, 39, 0.5) 82%, var(--secondary) 100%); }
+.deep .teamband + .wrap .media { margin-top: 24px; }
+
 /* media: logotypy w jednym kolorze */
 .media { margin-top: 40px; }
 .media p { font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--violet-light); margin-bottom: 8px; }
@@ -630,6 +635,7 @@ footer a { text-underline-offset: 3px; }
   .teamband { min-height: 520px; }
   .teamband .photo { top: 0; bottom: 150px; transform: none !important; background: linear-gradient(rgba(124, 58, 237, 0.12), rgba(124, 58, 237, 0.12)), url("/img/zespol.jpg") var(--px, 50%) center / auto 100% no-repeat; }
   .teamband::after { background: linear-gradient(to bottom, var(--bg) 0%, rgba(30, 27, 75, 0.25) 14%, rgba(30, 27, 75, 0) 40%, rgba(30, 27, 75, 0.15) 62%, var(--bg) 78%); }
+  .deep .teamband::after { background: linear-gradient(to bottom, var(--secondary) 0%, rgba(17, 24, 39, 0.25) 14%, rgba(17, 24, 39, 0) 40%, rgba(17, 24, 39, 0.15) 62%, var(--secondary) 78%); }
   .timeline { grid-template-columns: 1fr; }
   .tagline, .nav a:not(.btn):not(.strong) { display: none; }
   .signup { padding: 12px; }

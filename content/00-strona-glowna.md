@@ -1,6 +1,6 @@
-# Strona główna - MarekMarek.com
+# Strona „O mnie” - MarekMarek.com/www/
 
-Strona o Marku. Prowadzi do landing page’a sprintu (`/sprint7x/`).
+Strona o Marku (dawna strona główna). Prowadzi do landingu sprintu, który jest teraz stroną główną (`/`).
 
 ---
 
@@ -14,7 +14,7 @@ Tworzę i rozwijam firmy, budując ich marki on-line. AI to moje narzędzie prac
 **Podtytuł:**
 Nazywam się Marek. Stąd nazwa tej strony - trochę żart, trochę opis stanowiska. Pokazuję tu, jak używam AI w swoich biznesach: w markach, marketingu, sprzedaży i procesach. Bez hype’u.
 
-**CTA:** Zobacz bezpłatny sprint AI → `/sprint7x/`
+**CTA:** Zobacz bezpłatny sprint AI → `/`
 
 **Link:** Zobacz moje firmy ↓
 

@@ -58,4 +58,4 @@ Pola: imię i e-mail, razem z przyciskiem w osobnym kontenerze. Na jednym ekrani
 ## Struktura
 
 - `content/` - źródło prawdy dla tekstów.
-- `site/` - statyczna strona złożona z tych tekstów: `/` (o Marku), `/sprint7x/` (landing sprintu), `/dziekuje/` (po zapisie). Zmieniając tekst, zmień oba miejsca.
+- `site/` - statyczna strona złożona z tych tekstów: `/` (landing sprintu - strona główna), `/www/` (o Marku; stary adres `/sprint7x/` przekierowuje na `/`), `/dziekuje/` (po zapisie). Zmieniając tekst, zmień oba miejsca.

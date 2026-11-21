@@ -1,4 +1,4 @@
-# Landing page sprintu - MarekMarek.com/sprint7x/
+# Landing page sprintu - MarekMarek.com (strona główna)
 
 Zapis na Sprint: 7x e-mail z wideo. Strona główna (o Marku) ma osobny plik: `00-strona-glowna.md`.
 
