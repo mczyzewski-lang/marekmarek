@@ -57,5 +57,7 @@ Pola: imię i e-mail, razem z przyciskiem w osobnym kontenerze. Na jednym ekrani
 
 ## Struktura
 
+- Linki do `styles.css` i `app.js` mają parametr `?v=...` - po zmianie tych plików podbij go we wszystkich stronach, inaczej telefon pokaże starą wersję z pamięci podręcznej.
+
 - `content/` - źródło prawdy dla tekstów.
 - `site/` - statyczna strona złożona z tych tekstów: `/` (landing sprintu - strona główna), `/www/` (o Marku; stary adres `/sprint7x/` przekierowuje na `/`), `/dziekuje/` (po zapisie). Zmieniając tekst, zmień oba miejsca.
