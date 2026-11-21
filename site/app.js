@@ -126,17 +126,18 @@ document.querySelectorAll("[data-hscroll]").forEach((section) => {
   if (!wrap || !row || reduceMotion) return;
   let overflow = 0;
   let pinTop = 12;
+  const lead = 170; // najpierw boks staje na środku, dopiero po chwili rząd zaczyna jechać w bok (i tak samo na końcu)
   const measure = () => {
     overflow = Math.max(0, row.scrollWidth - row.clientWidth);
     if (overflow < 8) { overflow = 0; section.style.height = ""; return; }
     const height = wrap.getBoundingClientRect().height;
     pinTop = Math.max(12, (window.innerHeight - height) / 2);
     section.style.setProperty("--pin-top", pinTop + "px");
-    section.style.height = height + overflow + 12 + "px";
+    section.style.height = height + overflow + lead * 2 + 12 + "px";
   };
   const sync = () => {
     if (!overflow) return;
-    const progress = Math.max(0, Math.min(1, (pinTop - section.getBoundingClientRect().top) / overflow));
+    const progress = Math.max(0, Math.min(1, (pinTop - section.getBoundingClientRect().top - lead) / overflow));
     row.scrollLeft = progress * overflow;
   };
   measure();
@@ -181,3 +182,55 @@ document.querySelectorAll("[data-count-seq]").forEach((block) => {
   }, { threshold: 0.6 });
   observer.observe(block);
 });
+
+// Liczby klientów w kartach firm: liczą od zera, gdy karta pojawi się na ekranie.
+const formatCount = (value) => (value >= 10000 ? String(value).replace(/\B(?=(\d{3})+(?!\d))/g, "\u00a0") : String(value));
+if (!reduceMotion && "IntersectionObserver" in window) {
+  const countObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      countObserver.unobserve(entry.target);
+      const el = entry.target;
+      const target = Number(el.dataset.countup);
+      const suffix = el.dataset.suffix || "";
+      const start = performance.now();
+      const duration = 1100;
+      const tick = (now) => {
+        const t = Math.min(1, (now - start) / duration);
+        el.textContent = formatCount(Math.round(target * (1 - Math.pow(1 - t, 3)))) + suffix;
+        if (t < 1) requestAnimationFrame(tick);
+      };
+      requestAnimationFrame(tick);
+    });
+  }, { threshold: 0.9 });
+  document.querySelectorAll("[data-countup]").forEach((el) => countObserver.observe(el));
+}
+
+// Kalendarz przy dniach programu: kartki poprzednich dni są zrywane po kolei (dzień 2 - jedna, dzień 7 - sześć),
+// na końcu zostaje właściwa. W dniu 1 kartka po prostu wjeżdża.
+if (!reduceMotion && "IntersectionObserver" in window) {
+  const step = 0.17;
+  const cals = document.querySelectorAll(".cal[data-day]");
+  cals.forEach((cal) => {
+    const day = Number(cal.dataset.day);
+    const pages = cal.querySelector(".pages");
+    if (day === 1) cal.classList.add("first");
+    for (let k = day - 1; k >= 1; k -= 1) {
+      const sheet = document.createElement("span");
+      sheet.className = "sheet";
+      sheet.setAttribute("aria-hidden", "true");
+      sheet.textContent = k;
+      sheet.style.setProperty("--d", ((k - 1) * step).toFixed(2) + "s");
+      pages.appendChild(sheet); // kartka 1 dodana jako ostatnia, więc leży na wierzchu
+    }
+    cal.style.setProperty("--end", (Math.max(0, day - 1) * step + 0.1).toFixed(2) + "s");
+  });
+  const calObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      calObserver.unobserve(entry.target);
+      entry.target.classList.add("go");
+    });
+  }, { threshold: 1, rootMargin: "0px 0px -12% 0px" });
+  cals.forEach((cal) => calObserver.observe(cal));
+}

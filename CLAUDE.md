@@ -43,6 +43,8 @@ Gdzieniegdzie klimat blueprintu, zawsze fioletowy: siatka kreślarska (`.bp`), z
 
 Logo: „MAREK” dwa razy, drukowanymi, jedno pod drugim - górne ucięte w połowie od dołu, dolne nachodzi na nie.
 
+Animacje (wszystkie wyłączane przy systemowym ograniczeniu ruchu): liczniki nad boksem z firmami i liczby klientów, kalendarz przy dniach programu (zrywane kartki poprzednich dni, CSS 3D bez zewnętrznych bibliotek), puls z błyskawicą nad segmentem o impulsie i w finale, przypinany rząd firm.
+
 ## Formularz
 
 Pola: imię i e-mail, razem z przyciskiem w osobnym kontenerze. Na jednym ekranie ma być widoczne tylko jedno CTA (dlatego w nagłówku nie ma przycisku). W mailach powitanie `Cześć {{imie}},`. Pod każdym formularzem: informacja „Bezpłatnie” i zdanie o zgodzie na maile.
