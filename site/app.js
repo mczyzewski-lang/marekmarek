@@ -75,7 +75,8 @@ if (bar && forms.length && "IntersectionObserver" in window) {
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 const parallaxEls = document.querySelectorAll("[data-parallax]");
 const popEls = document.querySelectorAll("[data-pop]");
-if (!reduceMotion && (parallaxEls.length || popEls.length)) {
+const shiftEls = document.querySelectorAll("[data-shift]");
+if (!reduceMotion && (parallaxEls.length || popEls.length || shiftEls.length)) {
   const clamp = (v) => Math.max(0, Math.min(1, v));
   let ticking = false;
   const update = () => {
@@ -86,6 +87,14 @@ if (!reduceMotion && (parallaxEls.length || popEls.length)) {
       if (rect.bottom < 0 || rect.top > vh) return;
       const progress = (vh - rect.top) / (vh + rect.height); // 0 → 1 w trakcie przejazdu przez ekran
       el.style.transform = `translate3d(0, ${((progress - 0.5) * 2 * 9).toFixed(2)}%, 0)`;
+    });
+    // Kolumny z firmami: sąsiednie kolumny jadą w przeciwne strony.
+    shiftEls.forEach((el) => {
+      const rect = el.parentElement.getBoundingClientRect();
+      if (rect.bottom < -50 || rect.top > vh + 50) return;
+      const progress = clamp((vh - rect.top) / (vh + rect.height));
+      const offset = (progress - 0.5) * 2 * 30 * Number(el.dataset.shift);
+      el.style.transform = `translate3d(0, ${offset.toFixed(1)}px, 0)`;
     });
     popEls.forEach((el) => {
       const section = el.closest("section");

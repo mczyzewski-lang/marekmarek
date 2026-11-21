@@ -18,6 +18,7 @@ To jest marka osobista. Marek woli mniej kliknięć i niższą konwersję niż u
 - Spółki: Pravna, Nowy Etap, **Risify** (nie „Rightsify”), Budaro.
 - Liczby i media do użycia: patrz `README.md` (źródło: foundersai.pl). Przychód podajemy jako „ponad 35 mln zł” / „>35 mln zł” (wybór Marka).
 - Oceny Google: Pravna 4,7 (1000+), Nowy Etap 4,8 (850+), Risify 4,8 (120+), Budaro 5,0 (25+).
+- Liczba klientów: Pravna 21 000+, Nowy Etap 7000+, Risify 5000+, Budaro 100+.
 - Nie kopiujemy grafiki foundersai.pl — stamtąd pochodzą tylko dane i zdjęcia.
 
 ## Język

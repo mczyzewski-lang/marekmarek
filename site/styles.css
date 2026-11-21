@@ -151,7 +151,12 @@ section { padding: 84px 0; position: relative; }
 .firm .logo { width: 100%; }
 .firm .logo img { max-height: 40px; max-width: min(150px, 100%); width: auto; }
 .firm .logo img.wide { max-height: 22px; }
-.firm .what { font-size: 0.82rem; color: #4b5563; line-height: 1.35; margin: 0 0 12px; flex: 1; }
+.firms { padding: 30px 0; }
+.firm { will-change: transform; background: #fff; }
+.firm .what { font-size: 0.82rem; color: #4b5563; line-height: 1.35; margin: 0 0 10px; flex: 1; }
+.firm .clients { display: flex; align-items: center; justify-content: center; gap: 6px; margin: 0 0 12px; padding: 7px 10px; width: 100%; border-radius: 8px; background: #f3f0ff; color: #3b1d8f; font-size: 0.82rem; line-height: 1.2; }
+.firm .clients svg { width: 16px; height: 16px; flex: none; }
+.firm .clients b { font-size: 0.95rem; white-space: nowrap; }
 .rating { font-size: 0.82rem; color: #4b5563; line-height: 1.3; }
 .rating b { color: var(--secondary); font-size: 0.95rem; }
 .stars {
@@ -427,6 +432,7 @@ footer a { text-underline-offset: 3px; }
   .proof-box { padding: 22px 16px; }
   .firms { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
   .firm.pending { grid-column: 1 / -1; }
+  .firm .clients { font-size: 0.75rem; padding: 6px 6px; }
   .how { grid-template-columns: 1fr 1fr; }
   .how div { padding: 22px 16px 22px 0; }
   .how div + div { padding-left: 0; border-left: 0; }
@@ -485,5 +491,5 @@ footer a { text-underline-offset: 3px; }
   .vid .btn, .skeleton { animation: none; }
   .js [data-reveal], .js .ruler .ruler-days span, .js .ruler .ruler-legend { opacity: 1; transform: none; transition: none; }
   .js .pulse path { stroke-dashoffset: 0; transition: none; }
-  [data-pop], [data-parallax] { transform: none !important; }
+  [data-pop], [data-parallax], [data-shift] { transform: none !important; }
 }
