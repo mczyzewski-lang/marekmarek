@@ -180,7 +180,10 @@ Kim jestem
 
 *[Zdjęcie: `assets/foundersai/founder.png`]*
 
-Nazywam się Marek. Tworzę i rozwijam firmy, budując ich marki on-line. Stąd nazwa tej strony - trochę żart, trochę opis stanowiska.
+Nazywam się Marek. Tworzę i rozwijam firmy, budując ich marki on-line.
+
+**Marek, twórca marek.** *(pod nagłówkiem, w kolorze brandu)*
+ Stąd nazwa tej strony - trochę żart, trochę opis stanowiska.
 
 Na co dzień pracuję na realnych projektach: *[w tym miejscu białe logotypy: Nowy Etap, Risify, Budaro, Pravna]* Mediacje, psychoterapia online, domy modułowe, usługi prawne i przy kolejnych inicjatywach, które dopiero powstają. Cztery różne branże i cztery różne modele biznesowe, a problemy zaskakująco podobne: jak dotrzeć do klienta, jak nie gubić leadów, jak szybciej podejmować dobre decyzje.
 
