@@ -31,13 +31,13 @@ Ton: praktyk, nie guru. Konkretnie, osobiście, z lekką autoironią. Tam, gdzie
 
 ## Wygląd
 
-Motyw „Social Bold (Growth)” (wybór Marka, 2026-11-21): kolor główny `#7C3AED`, akcent i podświetlenie słów `#FACC15`, kolor dodatkowy `#111827`, tekst `#FFFFFF`, tło `#1E1B4B`. Tokeny są na górze `site/styles.css`.
+Motyw „Social Bold (Growth)” (wybór Marka, 2026-11-21): kolor główny `#7C3AED`, żółty `#FACC15` **tylko dla przycisków CTA** (i tła finałowej sekcji zapisu), podświetlenie słów i ozdobniki w fiolecie, kolor dodatkowy `#111827`, tekst `#FFFFFF`, tło `#1E1B4B`. Tokeny są na górze `site/styles.css`.
 
 Gdzieniegdzie klimat blueprintu, zawsze fioletowy: siatka kreślarska (`.bp`), znaczniki narożne (`.marks`), przerywane linie, etykiety pismem maszynowym („Fig. 01”). Oszczędnie — nie na każdej sekcji. Logotypy spółek są ciemne, więc stoją na białej karcie, pod każdym ocena Google. Logotypy mediów: białe, jednokolorowe PNG w `site/img/media/` (wycięte z plików foundersai.pl), pokazywane małe. Przy CTA zawsze informacja, że sprint jest bezpłatny. Finał landingu: sekcja w kolorze akcentu z ciemną siatką blueprintu, fioletowy kontener zapisu „wyskakuje” przy przewijaniu; landing nie ma stopki.
 
 ## Formularz
 
-Pola: imię i e-mail. W mailach powitanie `Cześć {{imie}},`. Pod każdym formularzem: informacja „Bezpłatnie” i zdanie o zgodzie na maile.
+Pola: imię i e-mail, razem z przyciskiem w osobnym kontenerze. Na jednym ekranie ma być widoczne tylko jedno CTA (dlatego w nagłówku nie ma przycisku). W mailach powitanie `Cześć {{imie}},`. Pod każdym formularzem: informacja „Bezpłatnie” i zdanie o zgodzie na maile.
 
 ## Struktura
 
