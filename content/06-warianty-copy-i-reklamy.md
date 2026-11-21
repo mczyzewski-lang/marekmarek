@@ -120,10 +120,10 @@ Dostęp trwa 10 dni, bo to sprint, nie biblioteka. Wybierasz jedną rzecz i ją 
 
 ### Reklama 4 - „Marek, twórca marek”
 
-**Hook:** „Nazywam się Marek i tworzę marki. Tak, wiem, jak to brzmi.”
+**Hook:** „Nazywam się Marek. Tworzę firmy i buduję ich marki on-line. Tak, wiem, jak brzmi ta nazwa.”
 
 **Tekst główny:**
-Nazywam się Marek i tworzę marki. Stąd MarekMarek.com.
+Nazywam się Marek. Tworzę i rozwijam firmy, budując ich marki on-line. Stąd MarekMarek.com.
 
 Mediacje, psychoterapia online, domy modułowe, usługi prawne. Różne branże, ten sam zestaw problemów: klient, sprzedaż, komunikacja, procesy.
 

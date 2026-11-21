@@ -73,7 +73,7 @@ PS. Odpisz na tego maila jednym zdaniem: czym się zajmujesz? Chcę wiedzieć, d
 
 > Cześć, tu Marek.
 >
-> Zacznę od tego, kim jestem, żebyś wiedział, kogo słuchasz. Tworzę marki i rozwijam firmy. Nowy Etap, Risify, Budaro i kilka kolejnych projektów. Różne branże, różne modele, ponad sto osób w zespołach.
+> Zacznę od tego, kim jestem, żebyś wiedział, kogo słuchasz. Tworzę i rozwijam firmy, budując ich marki on-line. Nowy Etap, Risify, Budaro i kilka kolejnych projektów. Różne branże, różne modele, ponad sto osób w zespołach.
 >
 > Nie jestem programistą ani „gościem od AI”. Jestem przedsiębiorcą, który od jakiegoś czasu używa AI w swoich firmach i widzi, że to zmienia sposób, w jaki pracuję. Nie wszystko. Ale kilka rzeczy bardzo.
 >
@@ -315,9 +315,9 @@ PS. Odpisz: gdybyś miał dziś nazwać jednym zdaniem, czym naprawdę jest Twoj
 
 **CTA do odpowiedzi:** Odpisz: gdybyś miał dziś nazwać jednym zdaniem, czym naprawdę jest Twoja marka - co byś napisał?
 
-**Cel psychologiczny:** Uwiarygodnić tytuł „twórca marek” - to dzień, w którym Marek pokazuje swoje rzemiosło. Pytanie na końcu ma lekko zaboleć: większość odbiorców nie umie odpowiedzieć jednym zdaniem.
+**Cel psychologiczny:** Uwiarygodnić tytuł „twórca marek” - to dzień, w którym Marek pokazuje, jak buduje markę firmy od strony biznesu (pozycjonowanie, oferta, komunikacja), nie grafiki. Pytanie na końcu ma lekko zaboleć: większość odbiorców nie umie odpowiedzieć jednym zdaniem.
 
-**Obraz Marka:** Rzemieślnik marek, który ma proces i gust. AI mu przyspiesza pracę, ale wybiera on.
+**Obraz Marka:** Przedsiębiorca, który buduje marki swoich firm: ma proces i sam podejmuje decyzje. AI mu przyspiesza pracę, ale wybiera on.
 
 ### Scenariusz wideo 3
 

@@ -4,6 +4,10 @@ Marka osobista „Marek, twórca marek”. Lead magnet: Sprint: 7x e-mail z wide
 
 Nazwa lead magnetu to „Sprint: 7x e-mail z wideo” (wcześniej „Sprint: 7x Impuls” - zmienione, bo było niezrozumiałe; decyzja Marka, 2026-11-21). „Impuls” zostaje jako określenie pojedynczego e-maila („każdy e-mail to impuls do działania”) i w nazwie Weekly Impuls. Skrót w przyciskach: „Sprint 7x”. Każdy dzień sprintu to jeden obszar firmy: strategia i decyzje, sprzedaż, marka, marketing, dane, realizacja i procesy, Twoja firma.
 
+## Narracja o Marku
+
+Marek to przedsiębiorca: „Tworzę i rozwijam firmy, budując ich marki on-line.” Unikamy samego „tworzę marki”, bo sugeruje designera / grafika (decyzja Marka, 2026-11-21). „Marka” zawsze w sensie biznesowym: pozycjonowanie, oferta, komunikacja, sprzedaż. Hasło „Marek, twórca marek” zostaje jako podpis / gra słów z domeną, ale zawsze w sąsiedztwie zdania o firmach.
+
 ## Zasada nadrzędna: zaufanie przed konwersją
 
 To jest marka osobista. Marek woli mniej kliknięć i niższą konwersję niż utratę zaufania do siebie (decyzja Marka, 2026-11-21). W praktyce:

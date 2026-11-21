@@ -66,8 +66,15 @@ if (bar && forms.length && "IntersectionObserver" in window) {
       if (entry.isIntersecting) visible.add(entry.target);
       else visible.delete(entry.target);
     });
-    bar.classList.toggle("show", visible.size === 0);
+    updateBar();
   });
+  // Pasek pojawia się dopiero od sekcji „Problem” (gdy taka jest na stronie) i tylko wtedy, gdy nie widać formularza.
+  const gate = document.querySelector("#problem");
+  const updateBar = () => {
+    const reached = !gate || gate.getBoundingClientRect().top < window.innerHeight * 0.45;
+    bar.classList.toggle("show", reached && visible.size === 0);
+  };
+  window.addEventListener("scroll", updateBar, { passive: true });
   forms.forEach((form) => barObserver.observe(form));
 }
 

@@ -9,7 +9,7 @@ Strona o Marku. Prowadzi do landing page’a sprintu (`/sprint7x/`).
 **Nadtytuł:** Marek, twórca marek
 
 **Nagłówek:**
-Tworzę marki i rozwijam firmy. AI to moje narzędzie pracy.
+Tworzę i rozwijam firmy, budując ich marki on-line. AI to moje narzędzie pracy.
 
 **Podtytuł:**
 Nazywam się Marek. Stąd nazwa tej strony - trochę żart, trochę opis stanowiska. Pokazuję tu, jak używam AI w swoich biznesach: w markach, marketingu, sprzedaży i procesach. Bez hype’u.
