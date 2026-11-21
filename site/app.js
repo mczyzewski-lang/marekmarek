@@ -127,9 +127,8 @@ document.querySelectorAll("[data-hscroll]").forEach((section) => {
   let overflow = 0;
   let pinTop = 12;
   const measure = () => {
-    section.style.height = "";
     overflow = Math.max(0, row.scrollWidth - row.clientWidth);
-    if (overflow < 8) { overflow = 0; return; }
+    if (overflow < 8) { overflow = 0; section.style.height = ""; return; }
     const height = wrap.getBoundingClientRect().height;
     pinTop = Math.max(12, (window.innerHeight - height) / 2);
     section.style.setProperty("--pin-top", pinTop + "px");
@@ -143,7 +142,15 @@ document.querySelectorAll("[data-hscroll]").forEach((section) => {
   measure();
   sync();
   window.addEventListener("scroll", sync, { passive: true });
-  window.addEventListener("resize", () => { measure(); sync(); });
+  // Na telefonie chowanie paska adresu wywołuje „resize” bez zmiany szerokości. Przeliczanie wtedy wysokości
+  // sekcji przesuwało całą stronę (skok przy przewijaniu na dole), więc reagujemy tylko na zmianę szerokości.
+  let lastWidth = window.innerWidth;
+  window.addEventListener("resize", () => {
+    if (window.innerWidth === lastWidth) return;
+    lastWidth = window.innerWidth;
+    measure();
+    sync();
+  });
   window.addEventListener("load", () => { measure(); sync(); });
 });
 

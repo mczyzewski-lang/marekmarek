@@ -413,17 +413,19 @@ section { padding: 84px 0; position: relative; }
 .daychips svg { width: 13px; height: 13px; flex: none; }
 .daychips b { color: #fff; }
 /* bijący puls z błyskawicą w środku */
-.beat { display: block; width: min(320px, 82%); height: auto; margin: 0 auto; overflow: visible; }
+.beat { display: block; width: min(360px, 90%); height: auto; margin: 0 auto; overflow: visible; }
 .beat path { fill: none; stroke: #fff; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
 .beat .base { opacity: 0.16; }
-.beat .t1 { stroke-dasharray: 0.06 2; animation: beat-1 2.4s linear infinite; }
-.beat .t2 { stroke-dasharray: 0.16 2; opacity: 0.5; animation: beat-2 2.4s linear infinite; }
-.beat .t3 { stroke-dasharray: 0.3 2; opacity: 0.22; animation: beat-3 2.4s linear infinite; }
-.beat .core { fill: #fff; stroke: none; transform-box: fill-box; transform-origin: center; animation: beat-core 2.4s ease-in-out infinite; filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.55)); }
+.beat .t1 { stroke-dasharray: 0.06 2; animation: beat-1 3.2s linear infinite; }
+.beat .t2 { stroke-dasharray: 0.16 2; opacity: 0.5; animation: beat-2 3.2s linear infinite; }
+.beat .t3 { stroke-dasharray: 0.3 2; opacity: 0.22; animation: beat-3 3.2s linear infinite; }
+/* 7 błyskawic (środkowa największa) zapala się po kolei, gdy mija je kreska */
+.beat .core { fill: #fff; stroke: none; transform-box: fill-box; transform-origin: center; opacity: 0.18; animation: bolt-on 3.2s ease-out infinite both; filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5)); }
 @keyframes beat-1 { from { stroke-dashoffset: 0.06; } to { stroke-dashoffset: -1.24; } }
 @keyframes beat-2 { from { stroke-dashoffset: 0.16; } to { stroke-dashoffset: -1.14; } }
 @keyframes beat-3 { from { stroke-dashoffset: 0.3; } to { stroke-dashoffset: -1; } }
-@keyframes beat-core { 0%, 30% { transform: scale(1); } 38% { transform: scale(1.35); } 45% { transform: scale(1); } 52% { transform: scale(1.18); } 60%, 100% { transform: scale(1); } }
+@keyframes bolt-on { 0% { opacity: 0.18; transform: scale(0.7); } 7% { opacity: 1; transform: scale(1.3); } 14% { transform: scale(1); } 70% { opacity: 1; transform: scale(1); } 88%, 100% { opacity: 0.18; transform: scale(0.7); } }
+.cta-sub { margin: -8px 0 18px; font-size: 1.05rem; color: #e9e2ff; text-wrap: balance; }
 /* finał: tło w kolorze CTA z siatką blueprintu, kontener wyjeżdża od dołu i rośnie przy przewijaniu */
 .final { text-align: center; }
 .final .signup { margin: 0 auto; justify-content: center; }
@@ -589,5 +591,6 @@ footer a { text-underline-offset: 3px; }
   .js .pulse .seg, .js .pulse .bolt { stroke-dashoffset: 0; fill-opacity: 1; transition: none; }
   [data-pop], [data-parallax] { transform: none !important; }
   .btn, .btn::after, .beat path { animation: none !important; }
+  .beat .core { opacity: 1; }
   .btn::after { display: none; }
 }

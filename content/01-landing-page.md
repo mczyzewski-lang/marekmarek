@@ -203,10 +203,13 @@ Wypowiadałem się m.in. dla: Rzeczpospolita, Forbes, Business Insider, Puls Biz
 
 ## Sekcja 7: CTA końcowe
 
-*[Żółta sekcja na całą wysokość ekranu, w środku fioletowy kontener. U góry kontenera zapętlona animacja pulsu z błyskawicą.]*
+*[Żółta sekcja na całą wysokość ekranu, w środku fioletowy kontener. U góry kontenera zapętlona animacja pulsu: 7 błyskawic zapala się po kolei, środkowa największa.]*
 
 **Nagłówek:**
 Odbierz 7 e-maili z wideo o AI w Twojej firmie
+
+**Podtytuł:**
+Każdy e-mail to impuls... do działania z AI
 
 **Skrót dni (pasek z kłódkami, przewijany w bok):**
 Dzień 1 Strategia · Dzień 2 Sprzedaż · Dzień 3 Marka · Dzień 4 Marketing · Dzień 5 Dane · Dzień 6 Realizacja · Dzień 7 Twoja firma
