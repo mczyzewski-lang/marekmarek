@@ -25,7 +25,7 @@ Zobacz, jak używam AI do budowania marek swoich firm, marketingu, sprzedaży i 
 Chcę dostać pierwszy impuls
 
 **Mikrocopy pod CTA:**
-Dla przedsiębiorców, freelancerów i właścicieli firm. Bez lania wody. Bez hype’u. Do działania.
+Bezpłatnie. Dla przedsiębiorców, freelancerów i właścicieli firm. Bez lania wody. Bez hype’u. Do działania.
 
 **Boks z firmami pod hero** *[logotypy z `assets/foundersai/`, pod każdym ocena Google]*
 Przykłady pochodzą z firm, które założyłem i rozwijam. 4 spółki · 120+ osób w zespołach · ponad 35 mln zł rocznego przychodu
@@ -119,7 +119,7 @@ To nie jest dla Ciebie, jeśli…
 **Nagłówek:**
 7 dni, 7 impulsów
 
-*[Każdy dzień to karta: kartka z kalendarza „DZIEŃ / numer”, rozmyty kadr wideo z kłódką, tytułem i przyciskiem „Odbierz dostęp do Sprintu 7x”, obok opis. Karty nachodzą na siebie przy przewijaniu. Na dole strony stały pasek z tym samym przyciskiem.]*
+*[Każdy dzień to karta: kartka z kalendarza „DZIEŃ / numer”, rozmyty kadr wideo z kłódką, tytułem i przyciskiem „Odbierz bezpłatny dostęp do Sprintu 7x”, obok opis. Karty nachodzą na siebie przy przewijaniu. Na dole strony stały pasek z tym samym przyciskiem.]*
 
 **Impuls 1: AI jako drugi mózg właściciela firmy**
 Zaczynamy od myślenia, nie od narzędzi. Pokażę, jak wrzucam do AI chaos z głowy — notatki, pomysł, trudną decyzję — i wychodzę z uporządkowanymi opcjami i lepszymi pytaniami. AI gra tu rolę sparingpartnera, nie wyroczni.
@@ -185,7 +185,7 @@ Jeśli chcesz dostać 7 konkretnych impulsów i wybrać jeden do wdrożenia w sw
 Chcę dostać pierwszy impuls
 
 **Mikrocopy:**
-7 dni impulsów, 10 dni dostępu. Potem raz w tygodniu Weekly Impuls. Wypisujesz się jednym kliknięciem.
+Bezpłatnie. 7 dni impulsów, 10 dni dostępu. Potem raz w tygodniu Weekly Impuls. Wypisujesz się jednym kliknięciem.
 
 ---
 

@@ -50,7 +50,7 @@ Nie uczę teorii. Pokazuję swój sposób myślenia i przykłady z własnej prac
 
 **Dwa formaty. Oba nie do kolekcjonowania.**
 
-**Sprint: 7x Impuls** (na start · 7 dni)
+**Sprint: 7x Impuls** (na start · 7 dni · bezpłatnie)
 7 krótkich maili z wideo. W każdym jeden przykład z moich projektów: decyzje, CRM i sprzedaż, nowa marka, reklamy, dane, procesy. Bierzesz jeden impuls i sprawdzasz u siebie.
 CTA: Zobacz Sprint: 7x Impuls
 
