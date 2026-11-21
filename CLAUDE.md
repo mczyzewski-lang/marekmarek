@@ -25,6 +25,12 @@ Używamy: „impuls do działania”, „realne przykłady”, „z moich projek
 
 Ton: praktyk, nie guru. Konkretnie, osobiście, z lekką autoironią. Tam, gdzie się da, formy neutralne płciowo wobec odbiorcy.
 
+## Wygląd
+
+Motyw „Social Bold (Growth)” (wybór Marka, 2026-11-21): kolor główny `#7C3AED`, akcent i podświetlenie słów `#FACC15`, kolor dodatkowy `#111827`, tekst `#FFFFFF`, tło `#1E1B4B`. Tokeny są na górze `site/styles.css`.
+
+Gdzieniegdzie klimat blueprintu, zawsze fioletowy: siatka kreślarska (`.bp`), znaczniki narożne (`.marks`), przerywane linie, etykiety pismem maszynowym („Fig. 01”). Oszczędnie — nie na każdej sekcji. Logotypy spółek i mediów są ciemne, więc stoją na białych kartach.
+
 ## Struktura
 
 - `content/` — źródło prawdy dla tekstów.
