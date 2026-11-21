@@ -39,10 +39,6 @@ Minuta ode mnie: jak korzystać ze sprintu, żeby coś z niego mieć.
 - **Do dnia 10:** masz dostęp do wszystkich materiałów. Potem sprint się zamyka.
 - **Po sprincie:** raz w tygodniu Weekly Impuls.
 
-## Zaproszenie do odpowiedzi
-
-Każdy mail w sprincie kończy się pytaniem. Jeśli chcesz przełożyć temat na swój biznes, po prostu odpisz. Czytam odpowiedzi i odpisuję.
-
 ## CTA
 
 Idź do skrzynki i odbierz pierwszy e-mail

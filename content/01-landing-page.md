@@ -2,7 +2,7 @@
 
 Zapis na Sprint: 7x e-mail z wideo. Strona główna (o Marku) ma osobny plik: `00-strona-glowna.md`.
 
-**Kolejność sekcji na stronie:** hero → firmy → problem → czym jest sprint → każdy e-mail to impuls → program (7 dni) → dla kogo → kim jestem → FAQ → końcowe CTA. Numery sekcji poniżej pochodzą z briefu. Teksty gotowe do wklejenia. Wskazówki dla osoby składającej stronę są w nawiasach kwadratowych i kursywą.
+**Kolejność sekcji na stronie:** hero → firmy → problem → czym jest sprint → program (7 dni) → każdy e-mail to impuls → dla kogo → kim jestem → FAQ → końcowe CTA. Numery sekcji poniżej pochodzą z briefu. Teksty gotowe do wklejenia. Wskazówki dla osoby składającej stronę są w nawiasach kwadratowych i kursywą.
 
 ---
 
@@ -28,7 +28,9 @@ Jak wykorzystać AI w Twoim biznesie: marketing, sprzedaż, realizacja, strategi
 Chcę dostać pierwszy e-mail
 
 **Mikrocopy pod CTA:**
-Bezpłatnie. Jeden mail z krótkim wideo dziennie przez 7 dni — pierwszy kilka minut po zapisie. Dla przedsiębiorców, freelancerów i właścicieli firm. Bez lania wody, bez hype’u.
+Bezpłatnie. Dla przedsiębiorców, freelancerów i właścicieli firm. Bez lania wody, bez hype’u.
+
+**Link pod formularzem w hero:** Zobacz, co otrzymasz ↓ *(przewija do programu)*
 
 **Zgoda (drobnym drukiem pod każdym formularzem):**
 Zapisując się, zgadzasz się na maile ode mnie: 7 impulsów sprintu, a potem Weekly Impuls. Wypisujesz się jednym kliknięciem.
@@ -110,7 +112,7 @@ Dlatego nazywam je impulsami: krótki bodziec, po którym coś robisz. Nie kolej
 1. Krótkie wideo — kilka minut, jeden obszar firmy.
 2. Przykład z firmy — jak wygląda to w jednej z moich spółek, co zadziałało, a co nie.
 3. Polecenie do skopiowania.
-4. Pytanie do Ciebie — odpisujesz jednym zdaniem. Czytam i odpowiadam.
+4. Pytanie na koniec — jedno pytanie, które przekłada temat na Twoją firmę.
 
 ---
 
@@ -143,7 +145,7 @@ To nie jest dla Ciebie, jeśli…
 
 **Obszary (duży tytuł na karcie; dotychczasowy tytuł jest podtytułem):** dzień 1 — Strategia i decyzje · dzień 2 — Sprzedaż · dzień 3 — Marka · dzień 4 — Marketing · dzień 5 — Dane · dzień 6 — Realizacja i procesy · dzień 7 — Twoja firma
 
-*[Każdy dzień to karta: kartka z kalendarza „DZIEŃ / numer”, rozmyty kadr wideo z kłódką, tytułem i przyciskiem „Odbierz bezpłatny dostęp do Sprintu 7x”, obok opis. Karty nachodzą na siebie przy przewijaniu. Na dole strony stały pasek z tym samym przyciskiem.]*
+*[Każdy dzień to karta: kartka z kalendarza „DZIEŃ / numer”, rozmyty kadr wideo z kłódką, tytułem i przyciskiem „Odbierz bezpłatny dostęp do Sprintu 7x”, obok opis. Pod opisem link „Zobacz przykład e-maila ↓” do segmentu o impulsie. Karty nachodzą na siebie przy przewijaniu. Na dole strony stały pasek z tym samym przyciskiem.]*
 
 **Impuls 1: AI jako drugi mózg właściciela firmy**
 Zaczynamy od myślenia, nie od narzędzi. Pokażę, jak wrzucam do AI chaos z głowy — notatki, pomysł, trudną decyzję — i wychodzę z uporządkowanymi opcjami i lepszymi pytaniami. AI gra tu rolę sparingpartnera, nie wyroczni.
@@ -164,7 +166,7 @@ Większość firm ma dane. Mało która regularnie zamienia je w decyzje. Zobacz
 Największa wartość pojawia się wtedy, gdy AI przestaje być czatem „od czasu do czasu”, a staje się częścią powtarzalnego procesu. Dostaniesz pięć pytań, którymi wybieram proces do usprawnienia, i sposób na start bez budowania skomplikowanego systemu.
 
 **Impuls 7: Jak wdrożyłbym AI w Twojej firmie**
-Zbieram całość w jeden sposób wyboru pierwszego kroku. A potem zapraszam do odpowiedzi: napisz mi w trzech zdaniach o swojej firmie, a odpiszę, jak ja bym do tego podszedł.
+Zbieram całość w jeden sposób wyboru pierwszego kroku: od czego zacząć z AI w Twojej firmie, żeby nie skończyć na kupionym narzędziu, z którego nikt nie korzysta.
 
 ---
 
@@ -183,7 +185,7 @@ Od dłuższego czasu sprawdzam, gdzie w tym wszystkim AI realnie pomaga: w strat
 
 Na MarekMarek.com nie uczę teorii. Pokazuję swój sposób myślenia i przykłady z własnej pracy — żeby dać Ci impuls do działania u siebie.
 
-I jeszcze jedno: chcę zbudować tu grono przedsiębiorców, którzy o AI nie tylko czytają, ale wdrażają konkretne rzeczy. Dlatego w każdym mailu proszę o odpowiedź. I je czytam.
+I jeszcze jedno: chcę zbudować tu grono przedsiębiorców, którzy o AI nie tylko czytają, ale wdrażają konkretne rzeczy.
 
 **Blok liczb** *[skromnie, jednym wierszem; logotypy z `assets/foundersai/`]*
 4 spółki · 120+ osób w zespołach · ponad 35 mln zł rocznego przychodu
@@ -197,19 +199,18 @@ Wypowiadałem się m.in. dla: Rzeczpospolita, Forbes, Business Insider, Puls Biz
 
 ## Sekcja 7: CTA końcowe
 
+*[Żółta sekcja na całą wysokość ekranu, w środku fioletowy kontener. U góry kontenera zapętlona animacja pulsu z błyskawicą.]*
+
 **Nagłówek:**
-Jeden impuls wystarczy, żeby ruszyć
+Odbierz 7 e-maili z wideo o AI w Twojej firmie
 
-**Treść:**
-Jeśli chcesz tylko kolejny materiał „na później” — nie zapisuj się. Skrzynka i tak jest pełna.
+**Skrót dni (pasek z kłódkami, przewijany w bok):**
+Dzień 1 Strategia · Dzień 2 Sprzedaż · Dzień 3 Marka · Dzień 4 Marketing · Dzień 5 Dane · Dzień 6 Realizacja · Dzień 7 Twoja firma
 
-Jeśli chcesz dostać 7 konkretnych impulsów i wybrać jeden do wdrożenia w swoim biznesie — zacznij od pierwszego. Trafi do Ciebie kilka minut po zapisie.
+**Formularz:** Imię, Twój e-mail, przycisk „Chcę dostać pierwszy e-mail”
 
-**CTA:**
-Chcę dostać pierwszy e-mail
-
-**Mikrocopy:**
-Bezpłatnie. 7 dni impulsów, 10 dni dostępu. Pierwszy mail kilka minut po zapisie.
+**Pod formularzem:**
+Bezpłatnie. Zapisując się, zgadzasz się na maile ode mnie: 7 e-maili sprintu, a potem cotygodniowy Weekly Impuls. Wypisujesz się jednym kliknięciem.
 
 ---
 

@@ -14,7 +14,7 @@ Tworzę marki i rozwijam firmy. AI to moje narzędzie pracy.
 **Podtytuł:**
 Nazywam się Marek. Stąd nazwa tej strony — trochę żart, trochę opis stanowiska. Pokazuję tu, jak używam AI w swoich biznesach: w markach, marketingu, sprzedaży i procesach. Bez hype’u.
 
-**CTA:** Zobacz Sprint: 7x e-mail z wideo — bezpłatnie → `/sprint7x/`
+**CTA:** Zobacz bezpłatny sprint AI → `/sprint7x/`
 
 **Link:** Zobacz moje firmy ↓
 

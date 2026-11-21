@@ -36,7 +36,8 @@
         <button class="btn" type="submit">Chcę dostać pierwszy e-mail</button>
       </form>
       <p class="form-error" hidden>Zapis się nie udał. Spróbuj jeszcze raz za chwilę.</p>
-      <p class="micro"><b>Bezpłatnie.</b> Jeden e-mail z krótkim wideo dziennie przez 7 dni — pierwszy kilka minut po zapisie. Dla przedsiębiorców, freelancerów i właścicieli firm. Bez lania wody, bez hype’u.</p>
+      <p class="see"><a href="#program">Zobacz, co otrzymasz ↓</a></p>
+      <p class="micro"><b>Bezpłatnie.</b> Dla przedsiębiorców, freelancerów i właścicieli firm. Bez lania wody, bez hype’u.</p>
       <p class="legal">Zapisując się, zgadzasz się na maile ode mnie: 7 e-maili sprintu, a potem cotygodniowy Weekly Impuls. Wypisujesz się jednym kliknięciem.</p>
       <p class="footnote"><b>*</b> Moje firmy generują &gt;35 mln zł rocznego przychodu <a href="#firmy">zobacz ↓</a></p>
     </div>
@@ -47,36 +48,36 @@
   </div>
 </section>
 
-<div class="proof" id="firmy">
+<div class="proof" id="firmy" data-hscroll>
   <div class="wrap">
     <div class="proof-box">
       <p><strong>Przykłady pochodzą z firm, które założyłem i rozwijam.</strong> 4 spółki · 120+ osób w zespołach · ponad 35 mln zł rocznego przychodu</p>
       <div class="firms">
-        <div class="firm" data-shift="-1" data-reveal style="--d:0.00s">
+        <div class="firm" data-reveal style="--d:0.00s">
           <div class="logo"><img src="/img/logo-pravna.svg" alt="Pravna"></div>
           <p class="what">Usługi prawne online</p>
           <p class="clients"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><circle cx="17.5" cy="9" r="2.5"/><path d="M17 14.2a5 5 0 0 1 4.5 5"/></svg><b>21&nbsp;000+</b> klientów</p>
           <div class="rating"><span class="stars" style="--r:4.7" aria-hidden="true">★★★★★</span><br><b>4,7/5</b> · 1000+ opinii Google</div>
         </div>
-        <div class="firm" data-shift="1" data-reveal style="--d:0.08s">
+        <div class="firm" data-reveal style="--d:0.08s">
           <div class="logo"><img class="wide" src="/img/logo-nowy-etap.svg" alt="Nowy Etap"></div>
           <p class="what">Usługi mediacyjne</p>
           <p class="clients"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><circle cx="17.5" cy="9" r="2.5"/><path d="M17 14.2a5 5 0 0 1 4.5 5"/></svg><b>7000+</b> klientów</p>
           <div class="rating"><span class="stars" style="--r:4.8" aria-hidden="true">★★★★★</span><br><b>4,8/5</b> · 850+ opinii Google</div>
         </div>
-        <div class="firm" data-shift="-1" data-reveal style="--d:0.16s">
+        <div class="firm" data-reveal style="--d:0.16s">
           <div class="logo"><img src="/img/logo-risify.svg" alt="Risify"></div>
           <p class="what">Psychoterapia online</p>
           <p class="clients"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><circle cx="17.5" cy="9" r="2.5"/><path d="M17 14.2a5 5 0 0 1 4.5 5"/></svg><b>5000+</b> klientów</p>
           <div class="rating"><span class="stars" style="--r:4.8" aria-hidden="true">★★★★★</span><br><b>4,8/5</b> · 120+ opinii Google</div>
         </div>
-        <div class="firm" data-shift="1" data-reveal style="--d:0.24s">
+        <div class="firm" data-reveal style="--d:0.24s">
           <div class="logo"><img class="wide" src="/img/logo-budaro.svg" alt="Budaro"></div>
           <p class="what">Piętrowe domy modułowe</p>
           <p class="clients"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><circle cx="17.5" cy="9" r="2.5"/><path d="M17 14.2a5 5 0 0 1 4.5 5"/></svg><b>100+</b> klientów</p>
           <div class="rating"><span class="stars" style="--r:5" aria-hidden="true">★★★★★</span><br><b>5,0/5</b> · 25+ opinii Google</div>
         </div>
-        <div class="firm pending" data-shift="-1" data-reveal style="--d:0.32s">
+        <div class="firm pending" data-reveal style="--d:0.32s">
           <div class="tag">[w trakcie…]</div>
           <div class="skeleton" role="img" aria-label="Kolejna marka w przygotowaniu"></div>
           <div class="skeleton small" aria-hidden="true"></div>
@@ -111,18 +112,22 @@
     </div>
     <div class="how">
       <div data-reveal style="--d:0s">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>
         <h3>Jeden e-mail, jeden obszar</h3>
         <p>Codziennie przez 7 dni e-mail z krótkim wideo. Jeden obszar firmy, jedno zastosowanie AI, pokazane na moich projektach.</p>
       </div>
       <div data-reveal style="--d:0.12s">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
         <h3>Każdy kończy się ruchem</h3>
         <p>Pytaniem albo gotowym poleceniem dla AI, które możesz tego samego dnia sprawdzić u siebie.</p>
       </div>
       <div data-reveal style="--d:0.24s">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></span>
         <h3>Dostęp trwa 10 dni</h3>
         <p>To sprint, nie biblioteka materiałów. 7 dni e-maili i 3 dni zapasu, żeby wybrać jedną rzecz i coś z nią zrobić.</p>
       </div>
       <div data-reveal style="--d:0.36s">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m17 2 4 4-4 4"/><path d="M3 11V9a3 3 0 0 1 3-3h15"/><path d="m7 22-4-4 4-4"/><path d="M21 13v2a3 3 0 0 1-3 3H3"/></svg></span>
         <h3>Potem Weekly Impuls</h3>
         <p>Raz w tygodniu jedna krótka wiadomość: jeden przykład, jedna obserwacja, jeden ruch do przodu.</p>
       </div>
@@ -130,25 +135,7 @@
   </div>
 </section>
 
-<section class="impuls">
-  <div class="wrap anatomy">
-    <div data-reveal>
-      <p class="eyebrow">Impuls</p>
-      <h2>Każdy e-mail to impuls do działania</h2>
-      <p>Nie dostajesz ogólnych rad o AI. W każdym e-mailu jest konkretna wiedza oparta na przykładzie z jednej z moich firm — i jedna rzecz, którą możesz sprawdzić u siebie tego samego dnia.</p>
-      <p class="muted">Dlatego nazywam je impulsami: krótki bodziec, po którym coś robisz. Nie kolejny materiał „na później”.</p>
-    </div>
-    <div class="mail marks" data-reveal style="--d:0.12s" role="img" aria-label="Budowa e-maila ze sprintu: krótkie wideo, przykład z firmy, polecenie do skopiowania i pytanie do Ciebie">
-      <div class="mail-head"><span>Od: Marek</span><b>Impuls 2: gdzie giną Twoje leady</b></div>
-      <div class="mail-row"><i>01</i><div><b>Krótkie wideo</b><span>Kilka minut, jeden obszar firmy.</span><div class="mail-vid"><em>▶</em></div></div></div>
-      <div class="mail-row"><i>02</i><div><b>Przykład z firmy</b><span>Jak wygląda to w jednej z moich spółek — co zadziałało, a co nie.</span></div></div>
-      <div class="mail-row"><i>03</i><div><b>Polecenie do skopiowania</b><code>„Na podstawie tych notatek z rozmów sprzedażowych wypisz najczęstsze obiekcje klientów…”</code></div></div>
-      <div class="mail-row"><i>04</i><div><b>Pytanie do Ciebie</b><span>Odpisujesz jednym zdaniem. Czytam i odpowiadam.</span></div></div>
-    </div>
-  </div>
-</section>
-
-<section>
+<section id="program">
   <div class="wrap">
     <p class="eyebrow">Program</p>
     <h2>7 dni, 7 e-maili, 7 obszarów firmy</h2>
@@ -163,7 +150,7 @@
             <a class="btn" href="#zapis">Odbierz bezpłatny dostęp<span class="long"> do Sprintu 7x</span></a>
           </div>
         </div>
-        <p>Zaczynamy od myślenia, nie od narzędzi. Pokażę, jak wrzucam do AI chaos z głowy — notatki, pomysł, trudną decyzję — i wychodzę z uporządkowanymi opcjami i lepszymi pytaniami. AI gra tu rolę sparingpartnera, nie wyroczni.</p>
+        <div class="desc"><p>Zaczynamy od myślenia, nie od narzędzi. Pokażę, jak wrzucam do AI chaos z głowy — notatki, pomysł, trudną decyzję — i wychodzę z uporządkowanymi opcjami i lepszymi pytaniami. AI gra tu rolę sparingpartnera, nie wyroczni.</p><a class="example" href="#impuls">Zobacz przykład e-maila ↓</a></div>
       </li>
       <li style="--i:1">
         <div class="cal" aria-label="Dzień 2"><small>DZIEŃ</small><b>2</b></div>
@@ -175,7 +162,7 @@
             <a class="btn" href="#zapis">Odbierz bezpłatny dostęp<span class="long"> do Sprintu 7x</span></a>
           </div>
         </div>
-        <p>Na przykładzie procesu sprzedażowego w jednej z moich firm pokażę, jak AI pomaga zobaczyć, co dzieje się między leadem a decyzją. Powtarzające się obiekcje, momenty, w których klient znika, follow-upy, które brzmią jak od człowieka.</p>
+        <div class="desc"><p>Na przykładzie procesu sprzedażowego w jednej z moich firm pokażę, jak AI pomaga zobaczyć, co dzieje się między leadem a decyzją. Powtarzające się obiekcje, momenty, w których klient znika, follow-upy, które brzmią jak od człowieka.</p><a class="example" href="#impuls">Zobacz przykład e-maila ↓</a></div>
       </li>
       <li style="--i:2">
         <div class="cal" aria-label="Dzień 3"><small>DZIEŃ</small><b>3</b></div>
@@ -187,7 +174,7 @@
             <a class="btn" href="#zapis">Odbierz bezpłatny dostęp<span class="long"> do Sprintu 7x</span></a>
           </div>
         </div>
-        <p>Marka nie zaczyna się od logo. Zobaczysz, jak przy nowym projekcie przechodzę z AI od chaosu do kilku sensownych kierunków pozycjonowania, nazw i komunikacji — i dlaczego wybór i tak zostaje po mojej stronie.</p>
+        <div class="desc"><p>Marka nie zaczyna się od logo. Zobaczysz, jak przy nowym projekcie przechodzę z AI od chaosu do kilku sensownych kierunków pozycjonowania, nazw i komunikacji — i dlaczego wybór i tak zostaje po mojej stronie.</p><a class="example" href="#impuls">Zobacz przykład e-maila ↓</a></div>
       </li>
       <li style="--i:3">
         <div class="cal" aria-label="Dzień 4"><small>DZIEŃ</small><b>4</b></div>
@@ -199,7 +186,7 @@
             <a class="btn" href="#zapis">Odbierz bezpłatny dostęp<span class="long"> do Sprintu 7x</span></a>
           </div>
         </div>
-        <p>W reklamie wygrywa ten, kto szybciej testuje trafne hipotezy. Pokażę, jak skracam drogę od pomysłu do testu: kąty reklamowe, hooki, pierwsze 3 sekundy wideo, storyboardy. I jak odróżniam „ładne” od „sprzedające”.</p>
+        <div class="desc"><p>W reklamie wygrywa ten, kto szybciej testuje trafne hipotezy. Pokażę, jak skracam drogę od pomysłu do testu: kąty reklamowe, hooki, pierwsze 3 sekundy wideo, storyboardy. I jak odróżniam „ładne” od „sprzedające”.</p><a class="example" href="#impuls">Zobacz przykład e-maila ↓</a></div>
       </li>
       <li style="--i:4">
         <div class="cal" aria-label="Dzień 5"><small>DZIEŃ</small><b>5</b></div>
@@ -211,7 +198,7 @@
             <a class="btn" href="#zapis">Odbierz bezpłatny dostęp<span class="long"> do Sprintu 7x</span></a>
           </div>
         </div>
-        <p>Większość firm ma dane. Mało która regularnie zamienia je w decyzje. Zobaczysz prosty proces: dane → obserwacje → hipotezy → decyzje → test. Bez działu analityki i bez udawania, że AI zna prawdę.</p>
+        <div class="desc"><p>Większość firm ma dane. Mało która regularnie zamienia je w decyzje. Zobaczysz prosty proces: dane → obserwacje → hipotezy → decyzje → test. Bez działu analityki i bez udawania, że AI zna prawdę.</p><a class="example" href="#impuls">Zobacz przykład e-maila ↓</a></div>
       </li>
       <li style="--i:5">
         <div class="cal" aria-label="Dzień 6"><small>DZIEŃ</small><b>6</b></div>
@@ -223,7 +210,7 @@
             <a class="btn" href="#zapis">Odbierz bezpłatny dostęp<span class="long"> do Sprintu 7x</span></a>
           </div>
         </div>
-        <p>Największa wartość pojawia się wtedy, gdy AI przestaje być czatem „od czasu do czasu”, a staje się częścią powtarzalnego procesu. Dostaniesz pięć pytań, którymi wybieram proces do usprawnienia, i sposób na start bez budowania skomplikowanego systemu.</p>
+        <div class="desc"><p>Największa wartość pojawia się wtedy, gdy AI przestaje być czatem „od czasu do czasu”, a staje się częścią powtarzalnego procesu. Dostaniesz pięć pytań, którymi wybieram proces do usprawnienia, i sposób na start bez budowania skomplikowanego systemu.</p><a class="example" href="#impuls">Zobacz przykład e-maila ↓</a></div>
       </li>
       <li style="--i:6">
         <div class="cal" aria-label="Dzień 7"><small>DZIEŃ</small><b>7</b></div>
@@ -235,9 +222,27 @@
             <a class="btn" href="#zapis">Odbierz bezpłatny dostęp<span class="long"> do Sprintu 7x</span></a>
           </div>
         </div>
-        <p>Zbieram całość w jeden sposób wyboru pierwszego kroku. A potem zapraszam do odpowiedzi: napisz mi w trzech zdaniach o swojej firmie, a odpiszę, jak ja bym do tego podszedł.</p>
+        <div class="desc"><p>Zbieram całość w jeden sposób wyboru pierwszego kroku: od czego zacząć z AI w Twojej firmie, żeby nie skończyć na kupionym narzędziu, z którego nikt nie korzysta.</p><a class="example" href="#impuls">Zobacz przykład e-maila ↓</a></div>
       </li>
     </ol>
+  </div>
+</section>
+
+<section class="impuls" id="impuls">
+  <div class="wrap anatomy">
+    <div data-reveal>
+      <p class="eyebrow">Impuls</p>
+      <h2>Każdy e-mail to impuls do działania</h2>
+      <p>Nie dostajesz ogólnych rad o AI. W każdym e-mailu jest konkretna wiedza oparta na przykładzie z jednej z moich firm — i jedna rzecz, którą możesz sprawdzić u siebie tego samego dnia.</p>
+      <p class="muted">Dlatego nazywam je impulsami: krótki bodziec, po którym coś robisz. Nie kolejny materiał „na później”.</p>
+    </div>
+    <div class="mail marks" data-reveal style="--d:0.12s" role="img" aria-label="Budowa e-maila ze sprintu: krótkie wideo, przykład z firmy, polecenie do skopiowania i pytanie na koniec">
+      <div class="mail-head"><span>Od: Marek</span><b>Impuls 2: gdzie giną Twoje leady</b></div>
+      <div class="mail-row"><i>01</i><div><b>Krótkie wideo</b><span>Kilka minut, jeden obszar firmy.</span><div class="mail-vid"><em>▶</em><div><small>Dzień 2 · Sprzedaż</small><strong>Gdzie giną Twoje leady</strong></div></div></div></div>
+      <div class="mail-row"><i>02</i><div><b>Przykład z firmy</b><span>Jak wygląda to w jednej z moich spółek — co zadziałało, a co nie.</span></div></div>
+      <div class="mail-row"><i>03</i><div><b>Polecenie do skopiowania</b><code>„Na podstawie tych notatek z rozmów sprzedażowych wypisz najczęstsze obiekcje klientów…”</code></div></div>
+      <div class="mail-row"><i>04</i><div><b>Pytanie na koniec</b><span>Jedno pytanie, które przekłada temat na Twoją firmę.</span></div></div>
+    </div>
   </div>
 </section>
 
@@ -278,7 +283,7 @@
         <h2>Nazywam się Marek. Tworzę marki i rozwijam firmy.</h2>
         <p>Na co dzień pracuję na realnych projektach: Nowy Etap, Risify, Budaro, Pravna i kolejne inicjatywy, które dopiero powstają. Mediacje, psychoterapia online, domy modułowe, usługi prawne.</p>
         <p>Od dłuższego czasu sprawdzam, gdzie w tym wszystkim AI realnie pomaga. Część rzeczy działa świetnie. Część okazała się stratą czasu. O jednych i drugich będę mówić wprost.</p>
-        <p>Chcę zbudować tu grono przedsiębiorców, którzy o AI nie tylko czytają, ale wdrażają konkretne rzeczy. Dlatego w każdym mailu proszę o odpowiedź. I je czytam.</p>
+        <p>Chcę zbudować tu grono przedsiębiorców, którzy o AI nie tylko czytają, ale wdrażają konkretne rzeczy.</p>
         <p><a class="textlink" href="/">Więcej o mnie i moich firmach →</a></p>
         <div class="stats">
           <div><b>4</b><span>spółki</span></div>
@@ -341,10 +346,15 @@
 <section class="final pop" id="zapis">
   <div class="wrap">
    <div class="cta-box marks" data-pop>
-    <p class="eyebrow">Zapis · bezpłatnie</p>
-    <h2>Jeden impuls wystarczy, żeby ruszyć</h2>
-    <p class="lead">Jeśli chcesz tylko kolejny materiał „na później” — nie zapisuj się. Skrzynka i tak jest pełna.</p>
-    <p class="lead">Jeśli chcesz dostać 7 konkretnych impulsów i wybrać jeden do wdrożenia w swoim biznesie — zacznij od pierwszego. Trafi do Ciebie kilka minut po zapisie.</p>
+    <svg class="beat" viewBox="0 0 320 64" aria-hidden="true">
+      <path class="base" d="M0 32 H118 l7 -9 l8 20 l7 -11 H148 M172 32 h8 l7 -16 l8 28 l7 -12 H320"/>
+      <path class="t3" pathLength="1" d="M0 32 H118 l7 -9 l8 20 l7 -11 H148 M172 32 h8 l7 -16 l8 28 l7 -12 H320"/>
+      <path class="t2" pathLength="1" d="M0 32 H118 l7 -9 l8 20 l7 -11 H148 M172 32 h8 l7 -16 l8 28 l7 -12 H320"/>
+      <path class="t1" pathLength="1" d="M0 32 H118 l7 -9 l8 20 l7 -11 H148 M172 32 h8 l7 -16 l8 28 l7 -12 H320"/>
+      <path class="core" d="M164 4.8 L150.4 35.2 L159.2 35.2 L155.2 59.2 L169.6 27.2 L160.8 27.2 Z"/>
+    </svg>
+    <h2>Odbierz 7 e-maili z wideo o AI w Twojej firmie</h2>
+    <ul class="daychips" aria-label="Siedem dni sprintu"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg><b>Dzień 1</b>Strategia</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg><b>Dzień 2</b>Sprzedaż</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg><b>Dzień 3</b>Marka</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg><b>Dzień 4</b>Marketing</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg><b>Dzień 5</b>Dane</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg><b>Dzień 6</b>Realizacja</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg><b>Dzień 7</b>Twoja firma</li></ul>
     <form class="signup" data-source="final">
         <label class="sr-only" for="name-final">Imię</label>
         <input id="name-final" type="text" name="name" placeholder="Imię" autocomplete="given-name" maxlength="60" required>
@@ -352,9 +362,8 @@
         <input id="email-final" type="email" name="email" placeholder="Twój e-mail" autocomplete="email" required>
         <button class="btn" type="submit">Chcę dostać pierwszy e-mail</button>
       </form>
-      <p class="form-error" hidden>Zapis się nie udał. Spróbuj jeszcze raz za chwilę.</p>
-    <p class="micro"><b>Bezpłatnie.</b> 7 e-maili z wideo w 7 dni, 10 dni dostępu. Pierwszy mail kilka minut po zapisie.</p>
-    <p class="legal">Zapisując się, zgadzasz się na maile ode mnie: 7 e-maili sprintu, a potem cotygodniowy Weekly Impuls. Wypisujesz się jednym kliknięciem.</p>
+    <p class="form-error" hidden>Zapis się nie udał. Spróbuj jeszcze raz za chwilę.</p>
+    <p class="legal"><b>Bezpłatnie.</b> Zapisując się, zgadzasz się na maile ode mnie: 7 e-maili sprintu, a potem cotygodniowy Weekly Impuls. Wypisujesz się jednym kliknięciem.</p>
    </div>
   </div>
 </section>

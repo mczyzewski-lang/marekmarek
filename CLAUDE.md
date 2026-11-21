@@ -13,6 +13,10 @@ To jest marka osobista. Marek woli mniej kliknięć i niższą konwersję niż u
 - nie wymyślamy historii, liczb ani przykładów z firm Marka; czego nie wiemy, oznaczamy `[TU: …]`,
 - ograniczenie dostępu do 10 dni tłumaczymy wprost („sprint, nie biblioteka”), bez straszenia.
 
+## Odpowiedzi na maile
+
+Marek nie zakłada newslettera, w którym czyta i odpisuje na każdą odpowiedź (decyzja Marka, 2026-11-21). Na stronie nie obiecujemy „odpisz, przeczytam / odpowiem”. Uwaga: sekwencja maili w `content/03` i `content/04` oraz skrypt wideo w `content/02` wciąż zawierają takie zaproszenia i obietnicę z maila 7 — do przerobienia po decyzji Marka.
+
 ## Fakty
 
 - Spółki: Pravna, Nowy Etap, **Risify** (nie „Rightsify”), Budaro.
@@ -31,9 +35,9 @@ Ton: praktyk, nie guru. Konkretnie, osobiście, z lekką autoironią. Tam, gdzie
 
 ## Wygląd
 
-Motyw „Social Bold (Growth)” (wybór Marka, 2026-11-21): kolor główny `#7C3AED`, żółty `#FACC15` **tylko dla przycisków CTA** (i tła finałowej sekcji zapisu), podświetlenie słów i ozdobniki w fiolecie (wyjątek: pierwszy tydzień na osi impulsów na stronie głównej jest żółty), kolor dodatkowy `#111827`, tekst `#FFFFFF`, tło `#1E1B4B`. Tokeny są na górze `site/styles.css`.
+Motyw „Social Bold (Growth)” (wybór Marka, 2026-11-21): kolor główny `#7C3AED`, żółty `#FACC15` **tylko dla przycisków CTA** (i tła finałowej sekcji zapisu), podświetlenie słów i ozdobniki w fiolecie (wyjątki: pierwszy tydzień na osi impulsów na stronie głównej i 7 dni na osi w sekcji „Czym jest Sprint” są żółte), kolor dodatkowy `#111827`, tekst `#FFFFFF`, tło `#1E1B4B`. Tokeny są na górze `site/styles.css`.
 
-Gdzieniegdzie klimat blueprintu, zawsze fioletowy: siatka kreślarska (`.bp`), znaczniki narożne (`.marks`), przerywane linie, etykiety pismem maszynowym („Fig. 01”). Oszczędnie — nie na każdej sekcji. Logotypy spółek są ciemne, więc stoją na białej karcie, pod każdym ocena Google. Logotypy mediów: białe, jednokolorowe PNG w `site/img/media/` (wycięte z plików foundersai.pl), pokazywane małe. Przy CTA zawsze informacja, że sprint jest bezpłatny. Finał landingu: sekcja w kolorze akcentu z ciemną siatką blueprintu, fioletowy kontener zapisu „wyskakuje” przy przewijaniu; landing nie ma stopki.
+Gdzieniegdzie klimat blueprintu, zawsze fioletowy: siatka kreślarska (`.bp`), znaczniki narożne (`.marks`), przerywane linie, etykiety pismem maszynowym („Fig. 01”). Oszczędnie — nie na każdej sekcji. Logotypy spółek są ciemne, więc stoją na białej karcie w 5 kolumnach (liczba klientów + ocena Google); gdy rząd nie mieści się na ekranie, boks przypina się i przewijanie w dół przesuwa rząd w bok. Przyciski CTA mają wspólną animację (puls + przebłysk). Logotypy mediów: białe, jednokolorowe PNG w `site/img/media/` (wycięte z plików foundersai.pl), pokazywane małe. Przy CTA zawsze informacja, że sprint jest bezpłatny. Finał landingu: sekcja w kolorze akcentu z ciemną siatką blueprintu, fioletowy kontener zapisu „wyskakuje” przy przewijaniu; landing nie ma stopki.
 
 ## Formularz
 

@@ -75,8 +75,7 @@ if (bar && forms.length && "IntersectionObserver" in window) {
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 const parallaxEls = document.querySelectorAll("[data-parallax]");
 const popEls = document.querySelectorAll("[data-pop]");
-const shiftEls = document.querySelectorAll("[data-shift]");
-if (!reduceMotion && (parallaxEls.length || popEls.length || shiftEls.length)) {
+if (!reduceMotion && (parallaxEls.length || popEls.length)) {
   const clamp = (v) => Math.max(0, Math.min(1, v));
   let ticking = false;
   const update = () => {
@@ -87,14 +86,6 @@ if (!reduceMotion && (parallaxEls.length || popEls.length || shiftEls.length)) {
       if (rect.bottom < 0 || rect.top > vh) return;
       const progress = (vh - rect.top) / (vh + rect.height); // 0 → 1 w trakcie przejazdu przez ekran
       el.style.transform = `translate3d(0, ${((progress - 0.5) * 2 * 9).toFixed(2)}%, 0)`;
-    });
-    // Kolumny z firmami: sąsiednie kolumny jadą w przeciwne strony.
-    shiftEls.forEach((el) => {
-      const rect = el.parentElement.getBoundingClientRect();
-      if (rect.bottom < -50 || rect.top > vh + 50) return;
-      const progress = clamp((vh - rect.top) / (vh + rect.height));
-      const offset = (progress - 0.5) * 2 * 30 * Number(el.dataset.shift);
-      el.style.transform = `translate3d(0, ${offset.toFixed(1)}px, 0)`;
     });
     popEls.forEach((el) => {
       const section = el.closest("section");
@@ -125,3 +116,32 @@ if (pulse) {
   setScale();
   window.addEventListener("resize", setScale);
 }
+
+// Boks z firmami: gdy 5 kolumn nie mieści się na ekranie, przewijanie w dół najpierw przesuwa rząd w bok
+// (boks jest „przypięty”), a dopiero potem strona jedzie dalej.
+document.querySelectorAll("[data-hscroll]").forEach((section) => {
+  const wrap = section.querySelector(".wrap");
+  const row = section.querySelector(".firms");
+  if (!wrap || !row || reduceMotion) return;
+  let overflow = 0;
+  let pinTop = 12;
+  const measure = () => {
+    section.style.height = "";
+    overflow = Math.max(0, row.scrollWidth - row.clientWidth);
+    if (overflow < 8) { overflow = 0; return; }
+    const height = wrap.getBoundingClientRect().height;
+    pinTop = Math.max(12, (window.innerHeight - height) / 2);
+    section.style.setProperty("--pin-top", pinTop + "px");
+    section.style.height = height + overflow + 12 + "px";
+  };
+  const sync = () => {
+    if (!overflow) return;
+    const progress = Math.max(0, Math.min(1, (pinTop - section.getBoundingClientRect().top) / overflow));
+    row.scrollLeft = progress * overflow;
+  };
+  measure();
+  sync();
+  window.addEventListener("scroll", sync, { passive: true });
+  window.addEventListener("resize", () => { measure(); sync(); });
+  window.addEventListener("load", () => { measure(); sync(); });
+});
