@@ -1,6 +1,6 @@
-# Landing page — MarekMarek.com
+# Landing page sprintu — MarekMarek.com/sprint7x/
 
-Zapis na Sprint: 7x Impuls. Teksty gotowe do wklejenia. Wskazówki dla osoby składającej stronę są w nawiasach kwadratowych i kursywą.
+Zapis na Sprint: 7x Impuls. Strona główna (o Marku) ma osobny plik: `00-strona-glowna.md`. Teksty gotowe do wklejenia. Wskazówki dla osoby składającej stronę są w nawiasach kwadratowych i kursywą.
 
 ---
 
@@ -11,7 +11,10 @@ Marek, twórca marek
 
 **Nagłówek:**
 Sprint: 7x Impuls
-Zobacz, jak używam AI do budowania marek, sprzedaży i procesów w realnych biznesach.
+Zobacz, jak używam AI do budowania marek swoich firm, marketingu, sprzedaży i procesów w prawdziwych biznesach*
+
+**Przypis pod formularzem:**
+\* Moje firmy generują >35 mln zł rocznego przychodu [zobacz ↓] *(link przewija do boksu z firmami)*
 
 **Podtytuł:**
 7 dni. 7 krótkich materiałów. 7 praktycznych przykładów z moich projektów — od CRM-u, przez reklamy i content, po tworzenie nowych marek i analizę danych.
@@ -24,9 +27,14 @@ Chcę dostać pierwszy impuls
 **Mikrocopy pod CTA:**
 Dla przedsiębiorców, freelancerów i właścicieli firm. Bez lania wody. Bez hype’u. Do działania.
 
-**Pasek zaufania pod hero** *[logotypy z `assets/foundersai/`: Pravna, Nowy Etap, Risify, Budaro]*
-Przykłady pochodzą z firm, które założyłem i rozwijam:
-4 spółki · 120+ osób w zespołach · ~35 mln zł rocznego przychodu
+**Boks z firmami pod hero** *[logotypy z `assets/foundersai/`, pod każdym ocena Google]*
+Przykłady pochodzą z firm, które założyłem i rozwijam. 4 spółki · 120+ osób w zespołach · ponad 35 mln zł rocznego przychodu
+
+- Pravna — usługi prawne online — 4,7/5 · 1000+ opinii Google
+- Nowy Etap — usługi mediacyjne — 4,8/5 · 850+ opinii Google
+- Risify — psychoterapia online — 4,8/5 · 120+ opinii Google
+- Budaro — piętrowe domy modułowe — 5,0/5 · 25+ opinii Google
+- [w trakcie…] — kolejna marka, pokazana jako ładujący się logotyp
 
 *[Zdjęcie: `assets/foundersai/founder.png`]*
 
@@ -59,7 +67,7 @@ Wpisują pytanie, dostają odpowiedź, zamykają kartę. Czasem poproszą o post
 
 A firma stoi w tym samym miejscu. Leady giną gdzieś między pierwszym telefonem a decyzją. Dane leżą w CRM-ie i w arkuszach, do których nikt nie zagląda. Nowa oferta czeka trzeci miesiąc, bo „nie ma kiedy tego przemyśleć”. Ty podejmujesz dziesięć decyzji dziennie, z czego osiem na czuja.
 
-Większość osób pyta AI o prompty. Ja wolę pytać: **który proces w firmie mogę dzięki temu przyspieszyć, uprościć albo lepiej zrozumieć?**
+**Większość osób pyta AI o prompty albo proste odpowiedzi. Ja wolę działać z AI tak, żeby więcej zarobić.**
 
 Dla właściciela firmy AI ma sens wtedy, gdy pracuje tam, gdzie pracuje firma: w myśleniu, w decyzjach, w sprzedaży, w marketingu i w procesach. O tym jest ten sprint.
 
@@ -111,6 +119,8 @@ To nie jest dla Ciebie, jeśli…
 **Nagłówek:**
 7 dni, 7 impulsów
 
+*[Każdy dzień to karta: kartka z kalendarza „DZIEŃ / numer”, rozmyty kadr wideo z kłódką, tytułem i przyciskiem „Odbierz dostęp do Sprintu 7x”, obok opis. Karty nachodzą na siebie przy przewijaniu. Na dole strony stały pasek z tym samym przyciskiem.]*
+
 **Impuls 1: AI jako drugi mózg właściciela firmy**
 Zaczynamy od myślenia, nie od narzędzi. Pokażę, jak wrzucam do AI chaos z głowy — notatki, pomysł, trudną decyzję — i wychodzę z uporządkowanymi opcjami i lepszymi pytaniami. AI gra tu rolę sparingpartnera, nie wyroczni.
 
@@ -152,7 +162,7 @@ Na MarekMarek.com nie uczę teorii. Pokazuję swój sposób myślenia i przykła
 I jeszcze jedno: chcę zbudować tu grono przedsiębiorców, którzy o AI nie tylko czytają, ale wdrażają konkretne rzeczy. Dlatego w każdym mailu proszę o odpowiedź. I je czytam.
 
 **Blok liczb** *[skromnie, jednym wierszem; logotypy z `assets/foundersai/`]*
-4 spółki · 120+ osób w zespołach · ~35 mln zł rocznego przychodu
+4 spółki · 120+ osób w zespołach · ponad 35 mln zł rocznego przychodu
 
 **Media** *[`assets/foundersai/media-logos-1.svg`, `media-logos-2.svg`]*
 Wypowiadałem się m.in. dla: Rzeczpospolita, Forbes, Business Insider, Puls Biznesu, Onet, Interia, TVP, TVN24.

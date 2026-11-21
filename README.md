@@ -6,13 +6,14 @@ Komplet treści dla marki osobistej „Marek, twórca marek”: lead magnet **Sp
 
 | Plik | Zawartość |
 |---|---|
-| `content/01-landing-page.md` | Landing page: hero + 5 alternatywnych nagłówków, problem, format, dla kogo, 7 impulsów, kim jestem, CTA końcowe, FAQ |
+| `content/00-strona-glowna.md` | Strona główna o Marku |
+| `content/01-landing-page.md` | Landing sprintu (`/sprint7x/`): hero + 5 alternatywnych nagłówków, problem, format, dla kogo, 7 impulsów, kim jestem, CTA końcowe, FAQ |
 | `content/02-thank-you-page.md` | Strona po zapisie + skrypt wideo 60–90 s |
 | `content/03-sprint-maile-0-4.md` | Harmonogram sekwencji, maile 0–4 ze scenariuszami wideo |
 | `content/04-sprint-maile-5-9.md` | Maile 5–7 ze scenariuszami wideo, mail 8 (koniec dostępu), mail 9 (przejście do Weekly Impuls) |
 | `content/05-weekly-impuls.md` | Format Weekly Impuls + 5 szkiców pierwszych wydań |
 | `content/06-warianty-copy-i-reklamy.md` | 10 nagłówków, 10 CTA, 10 tematów maili, 5 opisów, 5 reklam Meta/TikTok |
-| `site/` | Statyczna strona: `index.html` (landing), `dziekuje/index.html` (po zapisie, adres `/dziekuje/`), `styles.css`, `app.js`, `img/` |
+| `site/` | Statyczna strona: `index.html` (o Marku), `sprint7x/index.html` (landing sprintu), `dziekuje/index.html` (po zapisie, adres `/dziekuje/`), `styles.css`, `app.js`, `img/` |
 | `assets/foundersai/` | Zdjęcie Marka, zdjęcie zespołu, logotypy spółek i mediów pobrane z foundersai.pl |
 
 ## Dane przeniesione z foundersai.pl

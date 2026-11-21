@@ -35,3 +35,37 @@ document.querySelectorAll("form.signup").forEach((form) => {
     }
   });
 });
+
+// Animacje wejścia: elementy z [data-reveal] pojawiają się, gdy wjadą w ekran.
+const revealables = document.querySelectorAll("[data-reveal]");
+if ("IntersectionObserver" in window) {
+  const revealObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("in");
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.2, rootMargin: "0px 0px -8% 0px" }
+  );
+  revealables.forEach((el) => revealObserver.observe(el));
+} else {
+  revealables.forEach((el) => el.classList.add("in"));
+}
+
+// Dolny pasek: widoczny, gdy na ekranie nie ma żadnego formularza zapisu.
+const bar = document.querySelector(".stickybar");
+const forms = document.querySelectorAll("form.signup");
+if (bar && forms.length && "IntersectionObserver" in window) {
+  const visible = new Set();
+  const barObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) visible.add(entry.target);
+      else visible.delete(entry.target);
+    });
+    bar.classList.toggle("show", visible.size === 0);
+  });
+  forms.forEach((form) => barObserver.observe(form));
+}

@@ -3,19 +3,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sprint: 7x Impuls — Marek, twórca marek</title>
-  <meta name="description" content="7 dni, 7 krótkich materiałów, 7 praktycznych przykładów użycia AI w realnych biznesach: marki, sprzedaż, procesy, dane. Bez hype’u.">
-  <meta property="og:title" content="Sprint: 7x Impuls — Marek, twórca marek">
-  <meta property="og:description" content="Zobacz, jak używam AI do budowania marek, sprzedaży i procesów w realnych biznesach.">
+  <title>Marek, twórca marek — MarekMarek.com</title>
+  <meta name="description" content="Tworzę marki i rozwijam firmy. Pokazuję, jak używam AI w swoich biznesach: marki, marketing, sprzedaż, procesy. Bez hype’u.">
+  <meta property="og:title" content="Marek, twórca marek — MarekMarek.com">
+  <meta property="og:description" content="Tworzę marki i rozwijam firmy. Pokazuję, jak używam AI w swoich biznesach: marki, marketing, sprzedaż, procesy. Bez hype’u.">
   <meta property="og:image" content="/img/marek-szeroko.jpg">
   <link rel="stylesheet" href="/styles.css">
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
 
 <header class="top">
   <div class="wrap">
     <a class="brand" href="/" aria-label="MarekMarek.com">Marek<span>Marek</span></a>
-    <span class="tagline">Marek, twórca marek</span>
+    <nav class="nav">
+      <a href="#firmy">Firmy</a>
+      <a href="#o-mnie">O mnie</a>
+      <a class="btn" href="/sprint7x/">Sprint: 7x Impuls</a>
+    </nav>
   </div>
 </header>
 
@@ -24,228 +29,103 @@
 <section class="hero bp">
   <div class="wrap hero-grid">
     <div>
-      <p class="eyebrow">Sprint: 7x Impuls</p>
-      <h1>Zobacz, jak używam AI do budowania marek, sprzedaży i&nbsp;procesów w&nbsp;<span class="hl">realnych biznesach.</span></h1>
-      <p class="lead">7 dni. 7 krótkich materiałów. 7 praktycznych przykładów z moich projektów — od CRM-u, przez reklamy i content, po tworzenie nowych marek i analizę danych.</p>
-      <form class="signup" data-source="hero">
-        <label class="sr-only" for="email-hero">Twój e-mail</label>
-        <input id="email-hero" type="email" name="email" placeholder="Twój e-mail" autocomplete="email" required>
-        <button class="btn" type="submit">Chcę dostać pierwszy impuls</button>
-      </form>
-      <p class="form-error" hidden>Zapis się nie udał. Spróbuj jeszcze raz za chwilę.</p>
-      <p class="micro">Dla przedsiębiorców, freelancerów i właścicieli firm. Bez lania wody. Bez hype’u. Do działania.</p>
+      <p class="eyebrow">Marek, twórca marek</p>
+      <h1>Tworzę marki i rozwijam firmy.<br><span class="hl">AI to moje narzędzie pracy.</span></h1>
+      <p class="lead">Nazywam się Marek. Stąd nazwa tej strony — trochę żart, trochę opis stanowiska. Pokazuję tu, jak używam AI w swoich biznesach: w markach, marketingu, sprzedaży i procesach. Bez hype’u.</p>
+      <div class="hero-actions">
+        <a class="btn" href="/sprint7x/">Zacznij od Sprintu: 7x Impuls</a>
+        <a class="textlink" href="#firmy">Zobacz moje firmy ↓</a>
+      </div>
     </div>
     <figure class="hero-photo">
       <div class="marks"><img src="/img/marek-portret.jpg" alt="Marek, twórca marek" width="720" height="910"></div>
-      <figcaption><span>Fig. 01</span><span>Marek, twórca marek</span></figcaption>
+      <figcaption class="figcap"><span>Fig. 01</span><span>Marek, twórca marek</span></figcaption>
     </figure>
   </div>
 </section>
 
-<div class="proof">
-  <div class="wrap"><div>
-    <p><strong>Przykłady pochodzą z firm, które założyłem i rozwijam.</strong> 4 spółki · 120+ osób w zespołach · ~35 mln zł rocznego przychodu</p>
-    <div class="logos">
-      <img class="tall" src="/img/logo-pravna.svg" alt="Pravna">
-      <img src="/img/logo-nowy-etap.svg" alt="Nowy Etap">
-      <img class="tall" src="/img/logo-risify.svg" alt="Risify">
-      <img src="/img/logo-budaro.svg" alt="Budaro">
+<div class="proof" id="firmy">
+  <div class="wrap">
+    <div class="proof-box">
+      <p><strong>Firmy, które założyłem i rozwijam.</strong> 4 spółki · 120+ osób w zespołach · ponad 35 mln zł rocznego przychodu</p>
+      <div class="firms">
+        <div class="firm" data-reveal style="--d:0.00s">
+          <div class="logo"><img src="/img/logo-pravna.svg" alt="Pravna"></div>
+          <p class="what">Usługi prawne online</p>
+          <div class="rating"><span class="stars" style="--r:4.7" aria-hidden="true">★★★★★</span><br><b>4,7/5</b> · 1000+ opinii Google</div>
+        </div>
+        <div class="firm" data-reveal style="--d:0.08s">
+          <div class="logo"><img class="wide" src="/img/logo-nowy-etap.svg" alt="Nowy Etap"></div>
+          <p class="what">Usługi mediacyjne</p>
+          <div class="rating"><span class="stars" style="--r:4.8" aria-hidden="true">★★★★★</span><br><b>4,8/5</b> · 850+ opinii Google</div>
+        </div>
+        <div class="firm" data-reveal style="--d:0.16s">
+          <div class="logo"><img src="/img/logo-risify.svg" alt="Risify"></div>
+          <p class="what">Psychoterapia online</p>
+          <div class="rating"><span class="stars" style="--r:4.8" aria-hidden="true">★★★★★</span><br><b>4,8/5</b> · 120+ opinii Google</div>
+        </div>
+        <div class="firm" data-reveal style="--d:0.24s">
+          <div class="logo"><img class="wide" src="/img/logo-budaro.svg" alt="Budaro"></div>
+          <p class="what">Piętrowe domy modułowe</p>
+          <div class="rating"><span class="stars" style="--r:5" aria-hidden="true">★★★★★</span><br><b>5,0/5</b> · 25+ opinii Google</div>
+        </div>
+        <div class="firm pending" data-reveal style="--d:0.32s">
+          <div class="tag">[w trakcie…]</div>
+          <div class="skeleton" role="img" aria-label="Kolejna marka w przygotowaniu"></div>
+          <div class="skeleton small" aria-hidden="true"></div>
+        </div>
+      </div>
     </div>
-  </div></div>
+  </div>
 </div>
 
-<section class="problem">
-  <div class="wrap narrow">
-    <p class="eyebrow">Problem</p>
-    <h2>Większość ludzi używa AI jak zabawki albo wyszukiwarki</h2>
-    <p>Wpisują pytanie, dostają odpowiedź, zamykają kartę. Czasem poproszą o posta na LinkedIna. Zapisują kolejną listę „50 promptów dla biznesu”, której nigdy nie otworzą.</p>
-    <p>A firma stoi w tym samym miejscu. Leady giną gdzieś między pierwszym telefonem a decyzją. Dane leżą w CRM-ie i w arkuszach, do których nikt nie zagląda. Nowa oferta czeka trzeci miesiąc, bo „nie ma kiedy tego przemyśleć”. Ty podejmujesz dziesięć decyzji dziennie, z czego osiem na czuja.</p>
-    <p class="big">Większość osób pyta AI o prompty. Ja wolę pytać: który proces w firmie mogę dzięki temu przyspieszyć, uprościć albo lepiej zrozumieć?</p>
-    <p>Dla właściciela firmy AI ma sens wtedy, gdy pracuje tam, gdzie pracuje firma: w myśleniu, w decyzjach, w sprzedaży, w marketingu i w procesach. O tym jest ten sprint.</p>
-  </div>
-</section>
-
-<section class="violet">
+<section id="o-mnie">
   <div class="wrap">
-    <div class="narrow">
-      <p class="eyebrow">Format</p>
-      <h2>Czym jest 7x Impuls</h2>
-      <p>7x Impuls to krótki sprint mailowo-wideo, w którym pokazuję 7 sposobów, w jakie wykorzystuję AI w swoich biznesach. Nie jako ciekawostkę. Jako narzędzie do budowania marek, procesów, sprzedaży, reklam, treści i decyzji.</p>
-      <p class="muted">Dlaczego „Impuls”? Bo to nie jest kolejny newsletter, który wisi w skrzynce i czeka „na później”. Impuls to krótki bodziec do działania: przykład, pytanie albo sposób myślenia, który możesz od razu przełożyć na swój biznes.</p>
-    </div>
-    <div class="ruler" role="img" aria-label="Oś sprintu: dni 1 do 7 to impulsy, dni 8 do 10 to zapas, potem Weekly Impuls">
-      <div class="ruler-days">
-        <span class="on">1</span><span class="on">2</span><span class="on">3</span><span class="on">4</span><span class="on">5</span><span class="on">6</span><span class="on">7</span><span class="spare">8</span><span class="spare">9</span><span class="spare">10</span><span class="after">Weekly Impuls →</span>
+    <div class="about-grid">
+      <div data-reveal>
+        <p class="eyebrow">Kim jestem</p>
+        <h2>Cztery branże, ten sam zestaw problemów</h2>
+        <p>Na co dzień pracuję na realnych projektach: Nowy Etap, Risify, Budaro, Pravna i kolejne inicjatywy, które dopiero powstają. Mediacje, psychoterapia online, domy modułowe, usługi prawne.</p>
+        <p>Cztery różne branże i cztery różne modele biznesowe, a problemy zaskakująco podobne: jak dotrzeć do klienta, jak nie gubić leadów, jak szybciej podejmować dobre decyzje.</p>
       </div>
-      <div class="ruler-legend"><span>7 dni impulsów</span><span>3 dni zapasu</span><span>co tydzień</span></div>
-    </div>
-    <div class="how">
-      <div>
-        <h3>Jeden impuls, jeden przykład</h3>
-        <p>Codziennie przez 7 dni mail z krótkim wideo. Jeden temat, jedno zastosowanie, pokazane na moich projektach.</p>
-      </div>
-      <div>
-        <h3>Każdy kończy się ruchem</h3>
-        <p>Pytaniem albo gotowym poleceniem dla AI, które możesz tego samego dnia sprawdzić u siebie.</p>
-      </div>
-      <div>
-        <h3>Dostęp trwa 10 dni</h3>
-        <p>To sprint, nie biblioteka materiałów. 7 dni impulsów i 3 dni zapasu, żeby wybrać jedną rzecz i coś z nią zrobić.</p>
-      </div>
-      <div>
-        <h3>Potem Weekly Impuls</h3>
-        <p>Raz w tygodniu jedna krótka wiadomość: jeden przykład, jedna obserwacja, jeden ruch do przodu.</p>
+      <div data-reveal style="--d:0.12s">
+        <p class="eyebrow">Co tu robię</p>
+        <h2>Sprawdzam, gdzie AI realnie pomaga</h2>
+        <p>W strategii i sprzedaży, w reklamach, w procesach, w analizie danych. Część rzeczy działa świetnie. Część okazała się stratą czasu. O jednych i drugich mówię wprost.</p>
+        <p>Nie uczę teorii. Pokazuję swój sposób myślenia i przykłady z własnej pracy — żeby dać Ci impuls do działania u siebie.</p>
       </div>
     </div>
-  </div>
-</section>
-
-<section>
-  <div class="wrap fit">
-    <div class="yes">
-      <h2>To jest dla Ciebie, jeśli…</h2>
+    <figure class="team" data-reveal>
+      <div class="marks"><img src="/img/zespol.jpg" alt="Zespół moich firm" width="1920" height="539" loading="lazy"></div>
+      <figcaption class="figcap"><span>Fig. 02</span><span>Zespół: ponad 120 osób</span></figcaption>
+    </figure>
+    <div class="media" data-reveal>
+      <p>Wypowiadałem się m.in. dla</p>
       <ul>
-        <li>prowadzisz firmę albo działasz jako freelancer,</li>
-        <li>masz więcej pomysłów niż czasu na ich wdrażanie,</li>
-        <li>chcesz zobaczyć praktyczne zastosowania AI w biznesie, a nie pokaz możliwości,</li>
-        <li>chcesz szybciej budować markę, sprzedaż albo procesy,</li>
-        <li>kolejny teoretyczny kurs o AI Cię nie interesuje,</li>
-        <li>wolisz podejrzeć, jak ktoś używa tego w realnych projektach, i wyciągnąć własne wnioski.</li>
+        <li>Rzeczpospolita</li><li>Forbes</li><li>Business Insider</li><li>Puls Biznesu</li>
+        <li>Onet</li><li>Interia</li><li>TVP</li><li>TVN24</li>
       </ul>
     </div>
-    <div class="no">
-      <h2>To nie jest dla Ciebie, jeśli…</h2>
-      <ul>
-        <li>szukasz jednego prompta, który załatwi sprawę,</li>
-        <li>chcesz biernie kolekcjonować materiały,</li>
-        <li>oczekujesz obietnicy szybkiego zarobku,</li>
-        <li>nie zamierzasz niczego sprawdzać u siebie.</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section style="padding-top:0">
-  <div class="wrap">
-    <p class="eyebrow">Program</p>
-    <h2>7 dni, 7 impulsów</h2>
-    <ol class="program">
-      <li>
-        <div class="num"><small>Impuls</small>1</div>
-        <h3>AI jako drugi mózg właściciela firmy</h3>
-        <p>Zaczynamy od myślenia, nie od narzędzi. Pokażę, jak wrzucam do AI chaos z głowy — notatki, pomysł, trudną decyzję — i wychodzę z uporządkowanymi opcjami i lepszymi pytaniami. AI gra tu rolę sparingpartnera, nie wyroczni.</p>
-      </li>
-      <li>
-        <div class="num"><small>Impuls</small>2</div>
-        <h3>CRM, sprzedaż i follow-up</h3>
-        <p>Na przykładzie procesu sprzedażowego w jednej z moich firm pokażę, jak AI pomaga zobaczyć, co dzieje się między leadem a decyzją. Powtarzające się obiekcje, momenty, w których klient znika, follow-upy, które brzmią jak od człowieka.</p>
-      </li>
-      <li>
-        <div class="num"><small>Impuls</small>3</div>
-        <h3>Budowanie nowej marki od zera</h3>
-        <p>Marka nie zaczyna się od logo. Zobaczysz, jak przy nowym projekcie przechodzę z AI od chaosu do kilku sensownych kierunków pozycjonowania, nazw i komunikacji — i dlaczego wybór i tak zostaje po mojej stronie.</p>
-      </li>
-      <li>
-        <div class="num"><small>Impuls</small>4</div>
-        <h3>Reklamy, wideo i kreacje</h3>
-        <p>W reklamie wygrywa ten, kto szybciej testuje trafne hipotezy. Pokażę, jak skracam drogę od pomysłu do testu: kąty reklamowe, hooki, pierwsze 3 sekundy wideo, storyboardy. I jak odróżniam „ładne” od „sprzedające”.</p>
-      </li>
-      <li>
-        <div class="num"><small>Impuls</small>5</div>
-        <h3>Dane i refleksja biznesowa</h3>
-        <p>Większość firm ma dane. Mało która regularnie zamienia je w decyzje. Zobaczysz prosty proces: dane → obserwacje → hipotezy → decyzje → test. Bez działu analityki i bez udawania, że AI zna prawdę.</p>
-      </li>
-      <li>
-        <div class="num"><small>Impuls</small>6</div>
-        <h3>AI jako warstwa operacyjna</h3>
-        <p>Największa wartość pojawia się wtedy, gdy AI przestaje być czatem „od czasu do czasu”, a staje się częścią powtarzalnego procesu. Dostaniesz pięć pytań, którymi wybieram proces do usprawnienia, i sposób na start bez budowania skomplikowanego systemu.</p>
-      </li>
-      <li>
-        <div class="num"><small>Impuls</small>7</div>
-        <h3>Jak wdrożyłbym AI w Twojej firmie</h3>
-        <p>Zbieram całość w jeden sposób wyboru pierwszego kroku. A potem zapraszam do odpowiedzi: napisz mi w trzech zdaniach o swojej firmie, a odpiszę, jak ja bym do tego podszedł.</p>
-      </li>
-    </ol>
   </div>
 </section>
 
 <section class="deep bp">
   <div class="wrap">
-    <div class="about-grid">
-      <figure class="about-photo">
-        <div class="marks"><img src="/img/marek-portret.jpg" alt="Marek" width="720" height="910" loading="lazy"></div>
-        <figcaption>Fig. 02 — 4 spółki, 4 branże</figcaption>
-      </figure>
-      <div>
-        <p class="eyebrow">Kim jestem</p>
-        <h2>Nazywam się Marek. Tworzę marki i rozwijam firmy.</h2>
-        <p class="muted">Stąd nazwa tej strony — trochę żart, trochę opis stanowiska.</p>
-        <p>Na co dzień pracuję na realnych projektach: Nowy Etap, Risify, Budaro, Pravna i kolejne inicjatywy, które dopiero powstają. Mediacje, psychoterapia online, domy modułowe, usługi prawne. Cztery różne branże i cztery różne modele biznesowe, a problemy zaskakująco podobne: jak dotrzeć do klienta, jak nie gubić leadów, jak szybciej podejmować dobre decyzje.</p>
-        <p>Od dłuższego czasu sprawdzam, gdzie w tym wszystkim AI realnie pomaga: w strategii i sprzedaży, w reklamach, w procesach, w analizie danych. Część rzeczy działa świetnie. Część okazała się stratą czasu. O jednych i drugich będę mówić wprost.</p>
-        <p>Na MarekMarek.com nie uczę teorii. Pokazuję swój sposób myślenia i przykłady z własnej pracy — żeby dać Ci impuls do działania u siebie.</p>
-        <p>I jeszcze jedno: chcę zbudować tu grono przedsiębiorców, którzy o AI nie tylko czytają, ale wdrażają konkretne rzeczy. Dlatego w każdym mailu proszę o odpowiedź. I je czytam.</p>
-        <div class="stats">
-          <div><b>4</b><span>spółki</span></div>
-          <div><b>120+</b><span>osób w zespołach</span></div>
-          <div><b>~35 mln zł</b><span>rocznego przychodu</span></div>
-        </div>
+    <p class="eyebrow">Od czego zacząć</p>
+    <h2>Dwa formaty. Oba nie do kolekcjonowania.</h2>
+    <div class="paths">
+      <div class="main" data-reveal>
+        <p class="tag">Na start · 7 dni</p>
+        <h3>Sprint: 7x Impuls</h3>
+        <p>7 krótkich maili z wideo. W każdym jeden przykład z moich projektów: decyzje, CRM i sprzedaż, nowa marka, reklamy, dane, procesy. Bierzesz jeden impuls i sprawdzasz u siebie.</p>
+        <a class="btn" href="/sprint7x/">Zobacz Sprint: 7x Impuls</a>
+      </div>
+      <div data-reveal style="--d:0.12s">
+        <p class="tag">Potem · co tydzień</p>
+        <h3>Weekly Impuls</h3>
+        <p class="muted">Jedna krótka wiadomość w tygodniu: jeden przykład, jedna obserwacja, jeden ruch do przodu. Trafiasz na listę po sprincie.</p>
       </div>
     </div>
-    <div class="media">
-      <p>Wypowiadałem się m.in. dla:</p>
-      <img src="/img/media-logos-1.svg" alt="Rzeczpospolita, Interia, Puls Biznesu, Onet" loading="lazy">
-      <img src="/img/media-logos-2.svg" alt="Business Insider, TVP, Forbes, TVN24" loading="lazy">
-    </div>
-  </div>
-</section>
-
-<section class="final bp" id="zapis">
-  <div class="wrap narrow">
-    <h2>Jeden impuls wystarczy, żeby ruszyć</h2>
-    <p class="lead">Jeśli chcesz tylko kolejny materiał „na później” — nie zapisuj się. Skrzynka i tak jest pełna.</p>
-    <p class="lead">Jeśli chcesz dostać 7 konkretnych impulsów i wybrać jeden do wdrożenia w swoim biznesie — zacznij od pierwszego. Trafi do Ciebie kilka minut po zapisie.</p>
-    <form class="signup" data-source="final">
-      <label class="sr-only" for="email-final">Twój e-mail</label>
-      <input id="email-final" type="email" name="email" placeholder="Twój e-mail" autocomplete="email" required>
-      <button class="btn" type="submit">Chcę dostać pierwszy impuls</button>
-    </form>
-    <p class="form-error" hidden>Zapis się nie udał. Spróbuj jeszcze raz za chwilę.</p>
-    <p class="micro">7 dni impulsów, 10 dni dostępu. Potem raz w tygodniu Weekly Impuls. Wypisujesz się jednym kliknięciem.</p>
-  </div>
-</section>
-
-<section class="faq" style="padding-top:0">
-  <div class="wrap narrow">
-    <p class="eyebrow">FAQ</p>
-    <h2>Zanim się zapiszesz</h2>
-    <details>
-      <summary>Czy to jest kurs?</summary>
-      <p>Nie. Nie ma modułów, testów ani certyfikatu. To 7 krótkich maili z wideo, w których pokazuję, jak używam AI w swoich firmach. Masz z tego wziąć jedną rzecz i sprawdzić ją u siebie.</p>
-    </details>
-    <details>
-      <summary>Ile czasu zajmuje jeden impuls?</summary>
-      <p>Mail przeczytasz w 2 minuty. Wideo trwa kilka minut. Więcej czasu zajmie Ci dopiero to, co z impulsem zrobisz — i o to chodzi.</p>
-    </details>
-    <details>
-      <summary>Czy muszę znać narzędzia AI?</summary>
-      <p>Nie. Wystarczy dostęp do dowolnego asystenta AI i umiejętność wpisania w niego pytania. Nie zaczynam od narzędzi, tylko od problemów w firmie. Narzędzia pojawiają się po drodze, jako środek.</p>
-    </details>
-    <details>
-      <summary>Czy to jest dla freelancerów?</summary>
-      <p>Tak. Jeśli samodzielnie sprzedajesz, obsługujesz klientów i budujesz swoją markę, to masz te same procesy co firma — tylko wszystkie na jednej głowie. Tym bardziej przyda Ci się ktoś do myślenia i pierwszych wersji.</p>
-    </details>
-    <details>
-      <summary>Czy dostęp naprawdę wygasa po 10 dniach?</summary>
-      <p>Tak, naprawdę. To sprint, nie biblioteka materiałów. Z doświadczenia wiem, że materiał „dostępny zawsze” zwykle znaczy „obejrzany nigdy”. Masz 7 dni impulsów i 3 dni zapasu. Nie musisz oglądać wszystkiego — wystarczy jeden impuls, z którym coś zrobisz.</p>
-    </details>
-    <details>
-      <summary>Co dostanę po sprincie?</summary>
-      <p>Weekly Impuls: jedną krótką wiadomość w tygodniu. Jeden przykład, jedna obserwacja albo jeden pomysł do wdrożenia — o AI, markach, sprzedaży, procesach i danych. Jeśli Ci nie podejdzie, wypisujesz się jednym kliknięciem.</p>
-    </details>
-    <details>
-      <summary>Czy coś sprzedajesz po drodze?</summary>
-      <p>Na tym etapie głównym celem jest pokazanie mojego sposobu myślenia, zbudowanie relacji i rozpoczęcie rozmów z przedsiębiorcami. Jeśli zobaczę, że mogę pomóc konkretnie w Twoim przypadku, możemy porozmawiać. Ale sprint sam w sobie ma dać Ci wartość niezależnie od tego, czy kiedykolwiek coś ode mnie kupisz.</p>
-    </details>
   </div>
 </section>
 
@@ -254,6 +134,7 @@
 <footer>
   <div class="wrap">
     <span>MarekMarek.com — Marek, twórca marek. AI, marki, sprzedaż, procesy, dane. Bez hype’u.</span>
+    
     <!-- TODO: podlinkować politykę prywatności przed startem ruchu płatnego -->
   </div>
 </footer>

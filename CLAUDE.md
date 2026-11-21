@@ -14,7 +14,8 @@ To jest marka osobista. Marek woli mniej kliknięć i niższą konwersję niż u
 ## Fakty
 
 - Spółki: Pravna, Nowy Etap, **Risify** (nie „Rightsify”), Budaro.
-- Liczby i media do użycia: patrz `README.md` (źródło: foundersai.pl).
+- Liczby i media do użycia: patrz `README.md` (źródło: foundersai.pl). Przychód podajemy jako „ponad 35 mln zł” / „>35 mln zł” (wybór Marka).
+- Oceny Google: Pravna 4,7 (1000+), Nowy Etap 4,8 (850+), Risify 4,8 (120+), Budaro 5,0 (25+).
 - Nie kopiujemy grafiki foundersai.pl — stamtąd pochodzą tylko dane i zdjęcia.
 
 ## Język
@@ -29,9 +30,9 @@ Ton: praktyk, nie guru. Konkretnie, osobiście, z lekką autoironią. Tam, gdzie
 
 Motyw „Social Bold (Growth)” (wybór Marka, 2026-11-21): kolor główny `#7C3AED`, akcent i podświetlenie słów `#FACC15`, kolor dodatkowy `#111827`, tekst `#FFFFFF`, tło `#1E1B4B`. Tokeny są na górze `site/styles.css`.
 
-Gdzieniegdzie klimat blueprintu, zawsze fioletowy: siatka kreślarska (`.bp`), znaczniki narożne (`.marks`), przerywane linie, etykiety pismem maszynowym („Fig. 01”). Oszczędnie — nie na każdej sekcji. Logotypy spółek i mediów są ciemne, więc stoją na białych kartach.
+Gdzieniegdzie klimat blueprintu, zawsze fioletowy: siatka kreślarska (`.bp`), znaczniki narożne (`.marks`), przerywane linie, etykiety pismem maszynowym („Fig. 01”). Oszczędnie — nie na każdej sekcji. Logotypy spółek są ciemne, więc stoją na białej karcie, pod każdym ocena Google. Nazwy mediów składamy typograficznie (pliki z foundersai.pl to rozmyte bitmapy).
 
 ## Struktura
 
 - `content/` — źródło prawdy dla tekstów.
-- `site/` — statyczna strona (landing + strona po zapisie) złożona z tych tekstów. Zmieniając tekst, zmień oba miejsca.
+- `site/` — statyczna strona złożona z tych tekstów: `/` (o Marku), `/sprint7x/` (landing sprintu), `/dziekuje/` (po zapisie). Zmieniając tekst, zmień oba miejsca.
