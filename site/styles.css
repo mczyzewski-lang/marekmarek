@@ -102,6 +102,7 @@ section { padding: 84px 0; position: relative; }
 .hero { padding: 40px 0 76px; }
 .hero-grid { display: grid; grid-template-columns: 1.4fr 0.6fr; gap: 56px; align-items: center; }
 .hero h1 { margin-bottom: 22px; }
+.hero h1 { font-size: clamp(1.85rem, 4vw, 2.8rem); }
 .hero h1 sup { font-size: 0.5em; color: var(--violet-light); margin-left: 2px; }
 .hero .lead { margin-bottom: 30px; max-width: 34em; }
 .hero-photo img { border-radius: 6px; aspect-ratio: 4 / 5; object-fit: cover; width: 100%; }
@@ -153,7 +154,23 @@ section { padding: 84px 0; position: relative; }
   23% { box-shadow: 0 0 0 0 rgba(250, 204, 21, 0.45); }
   40%, 100% { box-shadow: 0 0 0 12px rgba(250, 204, 21, 0); }
 }
-.see { margin: 16px 0 0; }
+.see { margin: 16px 0 0; display: flex; flex-wrap: wrap; gap: 8px 24px; }
+.see a + a { font-weight: 400; color: var(--muted); }
+.legal b { color: #fff; }
+.branches { margin: -6px 0 16px; color: var(--muted); font-size: 1rem; }
+.anchor { margin: -8px 0 0; max-width: 34em; }
+/* problem: krótkie punkty zamiast akapitów */
+.pains { list-style: none; margin: 0 0 8px; padding: 0; }
+.pains li { position: relative; padding: 14px 0 14px 34px; border-top: 1px dashed var(--line); font-size: 1.1rem; }
+.pains li:last-child { border-bottom: 1px dashed var(--line); }
+.pains li::before { content: "×"; position: absolute; left: 4px; top: 12px; font-family: var(--mono); font-weight: 700; font-size: 1.2rem; color: var(--no); }
+/* pytanie segmentujące na stronie po zapisie */
+.segment { margin: 36px 0 0; padding: 24px; border-radius: var(--radius); background: var(--panel); border: 1px solid var(--line); }
+.ty .segment h2 { font-size: 1.25rem; margin: 0 0 16px; }
+.seg-options { display: flex; flex-wrap: wrap; gap: 8px; }
+.seg-options button { font: inherit; font-size: 0.95rem; font-weight: 700; color: #fff; background: transparent; border: 1.5px solid var(--violet-light); border-radius: 999px; padding: 9px 16px; cursor: pointer; }
+.seg-options button:hover, .seg-options button.on { background: var(--primary); border-color: var(--primary); }
+.seg-answer { margin: 16px 0 0; color: #fff; font-weight: 700; }
 .hero .legal { margin-top: 14px; }
 .hero .footnote { margin-top: 12px; }
 .see a { color: #fff; font-weight: 700; text-underline-offset: 4px; }
@@ -331,7 +348,9 @@ section { padding: 84px 0; position: relative; }
 .vid .lock svg { width: 18px; height: 18px; }
 .vid h3 { font-size: 1.5rem; text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5); }
 .vid .sub { font-size: 0.9rem; color: #e9e2ff; margin-top: -6px; text-shadow: 0 1px 8px rgba(0, 0, 0, 0.6); }
-.vid .btn { padding: 9px 16px; font-size: 0.85rem; border-radius: 999px; box-shadow: 0 8px 22px rgba(0, 0, 0, 0.35); animation: float 3.2s ease-in-out infinite; }
+/* przyciski na kartach dni są spokojne - animuje się tylko CTA przy formularzu i w dolnym pasku */
+.vid .btn { padding: 9px 16px; font-size: 0.85rem; border-radius: 999px; box-shadow: 0 8px 22px rgba(0, 0, 0, 0.35); animation: none; }
+.vid .btn::after { display: none; }
 @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
 .program p { margin: 0; color: var(--muted); font-size: 1rem; }
 .program .example { display: inline-block; margin-top: 12px; font-size: 0.9rem; font-weight: 700; color: #fff; text-underline-offset: 4px; }

@@ -11,16 +11,30 @@ Zapis na Sprint: 7x e-mail z wideo. Strona główna (o Marku) ma osobny plik: `0
 **Nadtytuł (nad nagłówkiem, małą czcionką):**
 Marek, twórca marek
 
-**Nadtytuł:** Bezpłatnie
+**Nadtytuł:** Bezpłatnie · 7 e-maili z wideo
 
 **Nagłówek:**
-Jak wykorzystać AI w Twoim biznesie: marketing, sprzedaż, realizacja, strategia - żeby podnieść zysk
+7 miejsc w firmie, w których AI pracuje na zysk. Pokazuję je na swoich firmach z >35 mln zł przychodu
 
 **Podtytuł:**
-7 e-maili z krótkim wideo. Każdy o jednym obszarze firmy, pokazany na przykładach z moich prawdziwych biznesów*.
+Marketing, sprzedaż, realizacja, strategia i kolejne obszary. Jeden e-mail z krótkim wideo dziennie, przez 7 dni.
 
-**Przypis pod formularzem:**
-\* Moje firmy generują >35 mln zł rocznego przychodu [zobacz ↓] *(link przewija do boksu z firmami)*
+**Linki pod formularzem:** Zobacz, co otrzymasz ↓ · Zobacz moje firmy ↓
+
+**Pod formularzem:** Dostęp do wideo: 10 dni od zapisu. + zdanie o zgodzie.
+
+**Dowód z użycia AI (do uzupełnienia przez Marka, na stronie jeszcze go nie ma):**
+[TU: jeden prawdziwy wynik, np. „AI skróciło nam X z ... do ...” albo „dzięki analizie notatek sprzedażowych odzyskaliśmy ...”]
+
+**Przy firmach:** Prawo, mediacje, psychoterapia, budownictwo: cztery różne branże, te same mechanizmy.
+
+**Kolejność sekcji (po przeglądzie konwersji):** hero → firmy → problem (4 punkty) → program → przykład e-maila → jak to działa → dla kogo → kim jestem → FAQ → zapis.
+
+**Problem w punktach:** Leady giną gdzieś między pierwszym telefonem a decyzją. / Dane leżą w CRM-ie i w arkuszach, do których nikt nie zagląda. / Nowa oferta czeka trzeci miesiąc, bo „nie ma kiedy tego przemyśleć”. / Dziesięć decyzji dziennie, z czego osiem na czuja.
+
+**Pod nagłówkiem programu:** To, co pokazuję, wdrażaliśmy w moich firmach miesiącami. Dostajesz to w 7 e-mailach, bezpłatnie.
+
+**„Jak to działa” (dawne „Czym jest sprint”, bez akapitów wstępu):** 7 dni e-maili, 10 dni dostępu, potem raz w tygodniu
 
 **Formularz:** pola „Imię” i „Twój e-mail” + przycisk
 

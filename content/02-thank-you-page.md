@@ -18,6 +18,12 @@ To nie jest kurs do kolekcjonowania. To 7-dniowy sprint, który ma dać Ci jeden
 
 Dobra decyzja. Większość ludzi o AI czyta. Ty za chwilę zobaczysz, jak to wygląda w działających firmach - i sprawdzisz jedną rzecz u siebie.
 
+## Pytanie segmentujące
+
+Zanim pójdziesz do skrzynki: w czym AI ma Ci pomóc najpierw?
+Opcje: Decyzje i strategia · Sprzedaż · Marka · Marketing i reklamy · Dane · Procesy
+Po wyborze: „Zwróć szczególną uwagę na e-mail z dnia X (obszar). Jeśli masz obejrzeć tylko jeden, obejrzyj ten.”
+
 ## Wideo
 
 *[Odtwarzacz, 60–90 sekund. Skrypt poniżej.]*

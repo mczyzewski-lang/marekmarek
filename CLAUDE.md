@@ -49,6 +49,8 @@ Logo: „MAREK” dwa razy, drukowanymi, jedno pod drugim - górne ucięte w po�
 
 Animacje (wszystkie wyłączane przy systemowym ograniczeniu ruchu): liczniki nad boksem z firmami i liczby klientów, kalendarz przy dniach programu (zrywane kartki poprzednich dni, CSS 3D bez zewnętrznych bibliotek), puls z błyskawicą nad segmentem o impulsie i w finale, przypinany rząd firm.
 
+Kolejność landingu po przeglądzie konwersji (2026-11-21): hero → firmy → problem (4 punkty) → program → przykład e-maila → jak to działa → dla kogo → kim jestem → FAQ → zapis. Animują się tylko CTA przy formularzu i w dolnym pasku; przyciski na kartach dni są spokojne. Brakuje jednego prawdziwego wyniku z użycia AI (do podania przez Marka) - nie wymyślamy go.
+
 ## Formularz
 
 Pola: imię i e-mail, razem z przyciskiem w osobnym kontenerze. Na jednym ekranie ma być widoczne tylko jedno CTA (dlatego w nagłówku nie ma przycisku). W mailach powitanie `Cześć {{imie}},`. Pod każdym formularzem: informacja „Bezpłatnie” i zdanie o zgodzie na maile.

@@ -24,6 +24,19 @@
     <p class="lead">To nie jest kurs do kolekcjonowania. To 7-dniowy sprint, który ma dać Ci jeden konkretny ruch do przodu w użyciu AI w Twoim biznesie.</p>
     <p>Dobra decyzja. Większość ludzi o AI czyta. Ty za chwilę zobaczysz, jak to wygląda w działających firmach - i sprawdzisz jedną rzecz u siebie.</p>
 
+    <div class="segment">
+      <h2>Zanim pójdziesz do skrzynki: w czym AI ma Ci pomóc najpierw?</h2>
+      <div class="seg-options" role="group" aria-label="Wybierz obszar">
+        <button type="button" data-day="1" data-area="Strategia i decyzje">Decyzje i strategia</button>
+        <button type="button" data-day="2" data-area="Sprzedaż">Sprzedaż</button>
+        <button type="button" data-day="3" data-area="Marka">Marka</button>
+        <button type="button" data-day="4" data-area="Marketing">Marketing i reklamy</button>
+        <button type="button" data-day="5" data-area="Dane">Dane</button>
+        <button type="button" data-day="6" data-area="Realizacja i procesy">Procesy</button>
+      </div>
+      <p class="seg-answer" aria-live="polite" hidden></p>
+    </div>
+
     <!-- TODO: osadzić wideo powitalne (60–90 s), skrypt w content/02-thank-you-page.md -->
     <div class="video">Tu pojawi się wideo powitalne (60–90 sekund)</div>
     <p class="micro" style="margin-top:0">Minuta ode mnie: jak korzystać ze sprintu, żeby coś z niego mieć.</p>
@@ -55,5 +68,17 @@
   </div>
 </footer>
 
+<script>
+// Pytanie segmentujące: na razie tylko podpowiada dzień. TODO: wysłać wybór do systemu mailowego, gdy będzie podpięty.
+document.querySelectorAll(".seg-options button").forEach((button) => {
+  button.addEventListener("click", () => {
+    document.querySelectorAll(".seg-options button").forEach((b) => b.classList.toggle("on", b === button));
+    const answer = document.querySelector(".seg-answer");
+    answer.textContent = "Zwróć szczególną uwagę na e-mail z dnia " + button.dataset.day + " (" + button.dataset.area + "). Jeśli masz obejrzeć tylko jeden, obejrzyj ten.";
+    answer.hidden = false;
+    try { localStorage.setItem("sprint7x-obszar", button.dataset.area); } catch (e) {}
+  });
+});
+</script>
 </body>
 </html>
