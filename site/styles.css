@@ -280,6 +280,11 @@ section { padding: 84px 0; position: relative; }
 .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 34px 0 0; padding-top: 26px; border-top: 1px dashed var(--line); }
 .stats b { display: block; font-family: var(--mono); font-size: 1.5rem; letter-spacing: -0.03em; line-height: 1.1; color: var(--accent); }
 .stats span { font-size: 0.9rem; color: var(--muted); }
+/* liczby w osobnych kontenerach (sekcja „Kim jestem” na landingu) */
+.about-grid .stats { border-top: 0; padding-top: 0; gap: 12px; }
+.about-grid .stats > div { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 16px 16px 14px; }
+.about-grid .stats b { white-space: nowrap; margin-bottom: 4px; }
+.about-grid .stats span { display: block; line-height: 1.3; }
 .team { margin-top: 56px; }
 .team img { border-radius: 6px; width: 100%; }
 
@@ -484,6 +489,9 @@ footer a { text-underline-offset: 3px; }
   .stickybar span { display: none; }
   .stickybar .btn { flex: 1; justify-content: center; }
   .stats b { font-size: 1.15rem; }
+  .about-grid .stats { grid-template-columns: 1fr; gap: 10px; }
+  .about-grid .stats > div { display: flex; align-items: baseline; gap: 14px; padding: 14px 16px; }
+  .about-grid .stats b { font-size: 1.35rem; margin: 0; min-width: 5.2em; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
