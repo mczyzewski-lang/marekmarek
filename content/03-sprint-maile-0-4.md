@@ -1,10 +1,10 @@
-# Sprint: 7x Impuls — sekwencja maili i wideo (część 1: maile 0–4)
+# Sprint: 7x e-mail z wideo — sekwencja maili i wideo (część 1: maile 0–4)
 
 ## Harmonogram całej sekwencji
 
 | Mail | Kiedy | Temat |
 |---|---|---|
-| 0 | zaraz po zapisie | Startujemy: 7x Impuls |
+| 0 | zaraz po zapisie | Startujemy: Sprint 7x |
 | 1 | dzień 1 | Impuls 1: AI jako drugi mózg właściciela firmy |
 | 2 | dzień 2 | Impuls 2: CRM, sprzedaż i follow-up |
 | 3 | dzień 3 | Impuls 3: Budowanie nowej marki od zera |
@@ -12,7 +12,7 @@
 | 5 | dzień 5 | Impuls 5: Dane i refleksja biznesowa |
 | 6 | dzień 6 | Impuls 6: AI jako warstwa operacyjna |
 | 7 | dzień 7 | Impuls 7: Jak wdrożyłbym AI w Twojej firmie |
-| 8 | dzień 9 (24 h przed końcem dostępu) | Ostatni dzień sprintu 7x Impuls |
+| 8 | dzień 9 (24 h przed końcem dostępu) | Ostatni dzień Sprintu 7x |
 | 9 | dzień 11 (po wygaśnięciu dostępu) | Od teraz: Weekly Impuls |
 
 **Konwencje:**
@@ -26,7 +26,7 @@
 
 ## Email 0: Welcome / Start sprintu
 
-**Temat:** Startujemy: 7x Impuls
+**Temat:** Startujemy: Sprint 7x
 
 **Preheader:** To nie jest kolejny kurs o AI. To sprint do działania.
 

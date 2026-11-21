@@ -1,8 +1,8 @@
 # Landing page sprintu — MarekMarek.com/sprint7x/
 
-Zapis na Sprint: 7x Impuls. Strona główna (o Marku) ma osobny plik: `00-strona-glowna.md`.
+Zapis na Sprint: 7x e-mail z wideo. Strona główna (o Marku) ma osobny plik: `00-strona-glowna.md`.
 
-**Kolejność sekcji na stronie:** hero → firmy → problem → czym jest 7x Impuls → program (7 dni) → dla kogo → kim jestem → FAQ → końcowe CTA. Numery sekcji poniżej pochodzą z briefu. Teksty gotowe do wklejenia. Wskazówki dla osoby składającej stronę są w nawiasach kwadratowych i kursywą.
+**Kolejność sekcji na stronie:** hero → firmy → problem → czym jest sprint → każdy e-mail to impuls → program (7 dni) → dla kogo → kim jestem → FAQ → końcowe CTA. Numery sekcji poniżej pochodzą z briefu. Teksty gotowe do wklejenia. Wskazówki dla osoby składającej stronę są w nawiasach kwadratowych i kursywą.
 
 ---
 
@@ -11,20 +11,21 @@ Zapis na Sprint: 7x Impuls. Strona główna (o Marku) ma osobny plik: `00-strona
 **Nadtytuł (nad nagłówkiem, małą czcionką):**
 Marek, twórca marek
 
+**Nadtytuł:** Sprint: 7x e-mail z wideo · bezpłatnie
+
 **Nagłówek:**
-Sprint: 7x Impuls
-Zobacz, jak używam AI do budowania marek swoich firm: marketingu, sprzedaży i procesów w prawdziwych biznesach*
+Jak wykorzystać AI w Twoim biznesie: marketing, sprzedaż, realizacja, strategia — żeby podnieść zysk
+
+**Podtytuł:**
+7 e-maili z krótkim wideo. Każdy o jednym obszarze firmy, pokazany na przykładach z moich prawdziwych biznesów*.
 
 **Przypis pod formularzem:**
 \* Moje firmy generują >35 mln zł rocznego przychodu [zobacz ↓] *(link przewija do boksu z firmami)*
 
-**Podtytuł:**
-7 dni. 7 krótkich materiałów. 7 praktycznych przykładów z moich projektów — od CRM-u, przez reklamy i content, po tworzenie nowych marek i analizę danych.
-
 **Formularz:** pola „Imię” i „Twój e-mail” + przycisk
 
 **CTA:**
-Chcę dostać pierwszy impuls
+Chcę dostać pierwszy e-mail
 
 **Mikrocopy pod CTA:**
 Bezpłatnie. Jeden mail z krótkim wideo dziennie przez 7 dni — pierwszy kilka minut po zapisie. Dla przedsiębiorców, freelancerów i właścicieli firm. Bez lania wody, bez hype’u.
@@ -55,7 +56,7 @@ Przykłady pochodzą z firm, które założyłem i rozwijam. 4 spółki · 120+ 
    Do decyzji, sprzedaży, marek, danych i procesów. Siedem przykładów z biznesów, które prowadzę — w siedem dni.
 
 4. **Pokażę Ci, jak używam AI w swoich firmach. Weź z tego jeden impuls dla swojej.**
-   Sprint: 7x Impuls — siedem krótkich maili z wideo, każdy o jednym konkretnym zastosowaniu.
+   Sprint: 7x e-mail z wideo — siedem krótkich maili z wideo, każdy o jednym konkretnym zastosowaniu.
 
 5. **Prompty zostaw kolekcjonerom. Tu zaczynamy od procesu, który Cię męczy.**
    Siedem dni, siedem miejsc w firmie, w których AI realnie mi pomaga — pokazane od środka.
@@ -78,22 +79,38 @@ Dla właściciela firmy AI ma sens wtedy, gdy pracuje tam, gdzie pracuje firma: 
 
 ---
 
-## Sekcja 3: Czym jest 7x Impuls
+## Sekcja 3: Czym jest Sprint: 7x e-mail z wideo
 
 **Nagłówek:**
-Czym jest 7x Impuls
+Czym jest Sprint: 7x e-mail z wideo
 
 **Treść:**
-7x Impuls to krótki sprint mailowo-wideo, w którym pokazuję 7 sposobów, w jakie wykorzystuję AI w swoich biznesach. Nie jako ciekawostkę. Jako narzędzie do budowania marek, procesów, sprzedaży, reklam, treści i decyzji.
+Przez 7 dni codziennie dostajesz jeden e-mail z krótkim wideo. W każdym pokazuję, jak używam AI w jednym obszarze firmy: w strategii, sprzedaży, marce, marketingu, danych i realizacji.
 
-Dlaczego „Impuls”? Bo to nie jest kolejny newsletter, który wisi w skrzynce i czeka „na później”. Impuls to krótki bodziec do działania: przykład, pytanie albo sposób myślenia, który możesz od razu przełożyć na swój biznes.
+Nie jako ciekawostkę. Jako narzędzie do roboty — w firmach, które muszą zarabiać.
 
 **Jak to działa:**
 
-- **Jeden impuls = jeden konkretny przykład.** Codziennie przez 7 dni dostajesz maila z krótkim wideo. Jeden temat, jedno zastosowanie, pokazane na moich projektach.
-- **Każdy materiał kończy się ruchem.** Pytaniem albo gotowym poleceniem dla AI, które możesz tego samego dnia sprawdzić u siebie.
-- **Dostęp trwa 10 dni.** To sprint, nie biblioteka materiałów. Masz 7 dni impulsów i 3 dni zapasu, żeby obejrzeć, wybrać jedną rzecz i faktycznie coś z nią zrobić.
-- **Potem przechodzisz do Weekly Impuls.** Raz w tygodniu jedna krótka wiadomość: jeden przykład, jedna obserwacja, jeden ruch do przodu.
+- **Jeden e-mail, jeden obszar.** Codziennie przez 7 dni e-mail z krótkim wideo. Jeden obszar firmy, jedno zastosowanie AI, pokazane na moich projektach.
+- **Każdy kończy się ruchem.** Pytaniem albo gotowym poleceniem dla AI, które możesz tego samego dnia sprawdzić u siebie.
+- **Dostęp trwa 10 dni.** To sprint, nie biblioteka materiałów. 7 dni e-maili i 3 dni zapasu, żeby wybrać jedną rzecz i coś z nią zrobić.
+- **Potem Weekly Impuls.** Raz w tygodniu jedna krótka wiadomość: jeden przykład, jedna obserwacja, jeden ruch do przodu.
+
+### Segment: Każdy e-mail to impuls do działania
+
+**Nagłówek:**
+Każdy e-mail to impuls do działania
+
+**Treść:**
+Nie dostajesz ogólnych rad o AI. W każdym e-mailu jest konkretna wiedza oparta na przykładzie z jednej z moich firm — i jedna rzecz, którą możesz sprawdzić u siebie tego samego dnia.
+
+Dlatego nazywam je impulsami: krótki bodziec, po którym coś robisz. Nie kolejny materiał „na później”.
+
+**Grafika: budowa e-maila** *(na przykładzie „Impuls 2: gdzie giną Twoje leady”)*
+1. Krótkie wideo — kilka minut, jeden obszar firmy.
+2. Przykład z firmy — jak wygląda to w jednej z moich spółek, co zadziałało, a co nie.
+3. Polecenie do skopiowania.
+4. Pytanie do Ciebie — odpisujesz jednym zdaniem. Czytam i odpowiadam.
 
 ---
 
@@ -122,7 +139,9 @@ To nie jest dla Ciebie, jeśli…
 ## Sekcja 5: Co dostaniesz
 
 **Nagłówek:**
-7 dni, 7 impulsów
+7 dni, 7 e-maili, 7 obszarów firmy
+
+**Obszary (duży tytuł na karcie; dotychczasowy tytuł jest podtytułem):** dzień 1 — Strategia i decyzje · dzień 2 — Sprzedaż · dzień 3 — Marka · dzień 4 — Marketing · dzień 5 — Dane · dzień 6 — Realizacja i procesy · dzień 7 — Twoja firma
 
 *[Każdy dzień to karta: kartka z kalendarza „DZIEŃ / numer”, rozmyty kadr wideo z kłódką, tytułem i przyciskiem „Odbierz bezpłatny dostęp do Sprintu 7x”, obok opis. Karty nachodzą na siebie przy przewijaniu. Na dole strony stały pasek z tym samym przyciskiem.]*
 
@@ -187,7 +206,7 @@ Jeśli chcesz tylko kolejny materiał „na później” — nie zapisuj się. S
 Jeśli chcesz dostać 7 konkretnych impulsów i wybrać jeden do wdrożenia w swoim biznesie — zacznij od pierwszego. Trafi do Ciebie kilka minut po zapisie.
 
 **CTA:**
-Chcę dostać pierwszy impuls
+Chcę dostać pierwszy e-mail
 
 **Mikrocopy:**
 Bezpłatnie. 7 dni impulsów, 10 dni dostępu. Pierwszy mail kilka minut po zapisie.

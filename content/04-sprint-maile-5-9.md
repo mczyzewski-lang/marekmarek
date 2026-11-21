@@ -1,4 +1,4 @@
-# Sprint: 7x Impuls — sekwencja maili i wideo (część 2: maile 5–9)
+# Sprint: 7x e-mail z wideo — sekwencja maili i wideo (część 2: maile 5–9)
 
 Konwencje i harmonogram: patrz `03-sprint-maile-0-4.md`.
 
@@ -350,7 +350,7 @@ PS. Dostęp do materiałów masz jeszcze przez 3 dni. Jeśli któryś impuls Ci�
 
 *Wysyłka: dzień 9, około 24 godziny przed wygaśnięciem dostępu.*
 
-**Temat:** Ostatni dzień sprintu 7x Impuls
+**Temat:** Ostatni dzień Sprintu 7x
 
 **Preheader:** Nie oglądaj wszystkiego. Wybierz jeden impuls i zrób z nim coś konkretnego.
 
@@ -402,7 +402,7 @@ PS. Nie wiesz, który wybrać? Odpisz jednym słowem: CRM, marka, reklamy, dane,
 
 Cześć {{imie}},
 
-sprint 7x Impuls się zakończył. Dzięki, że byłeś.
+Sprint 7x się zakończył. Dzięki, że byłeś.
 
 Jeśli wyniosłeś z niego jedną rzecz, którą sprawdziłeś u siebie, to zadziałał. Jeśli zebrałeś siedem pomysłów i żadnego nie ruszyłeś, wybierz jeden i daj mu godzinę w tym tygodniu. Reszta może poczekać.
 

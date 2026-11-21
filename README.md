@@ -1,6 +1,6 @@
 # MarekMarek.com — treści
 
-Komplet treści dla marki osobistej „Marek, twórca marek”: lead magnet **Sprint: 7x Impuls** i newsletter **Weekly Impuls**.
+Komplet treści dla marki osobistej „Marek, twórca marek”: lead magnet **Sprint: 7x e-mail z wideo** i newsletter **Weekly Impuls**.
 
 ## Pliki
 

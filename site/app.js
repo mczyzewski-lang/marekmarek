@@ -1,4 +1,4 @@
-// Zapis na Sprint: 7x Impuls.
+// Zapis na Sprint: 7x e-mail z wideo.
 //
 // SIGNUP_ENDPOINT: adres, na który formularz wysyła zapis (POST, JSON: { name, email, source }).
 // Dopóki jest pusty, formularz NIE zapisuje nikogo — tylko przenosi na stronę po zapisie (tryb podglądu).

@@ -1,14 +1,14 @@
 # Thank you page — MarekMarek.com
 
-Strona wyświetlana zaraz po zapisie na Sprint: 7x Impuls.
+Strona wyświetlana zaraz po zapisie na Sprint: 7x e-mail z wideo.
 
 ---
 
 ## Nagłówek
 
-Jesteś na liście. Pierwszy impuls zaraz trafi na Twoją skrzynkę.
+Jesteś na liście. Pierwszy e-mail zaraz trafi na Twoją skrzynkę.
 
-*[Wersja z briefu: „Jesteś zapisany. Pierwszy impuls zaraz trafi na Twoją skrzynkę.” — powyższa działa niezależnie od płci odbiorcy.]*
+*[Wersja z briefu: „Jesteś zapisany. Pierwszy e-mail zaraz trafi na Twoją skrzynkę.” — powyższa działa niezależnie od płci odbiorcy.]*
 
 ## Podtytuł
 
@@ -27,7 +27,7 @@ Minuta ode mnie: jak korzystać ze sprintu, żeby coś z niego mieć.
 
 ## Co teraz zrobić
 
-1. **Sprawdź skrzynkę.** Mail „Startujemy: 7x Impuls” powinien dotrzeć w ciągu kilku minut.
+1. **Sprawdź skrzynkę.** Mail „Startujemy: Sprint 7x” powinien dotrzeć w ciągu kilku minut.
 2. **Otwórz mail od Marka.** W środku jest krótkie wprowadzenie.
 3. **Dodaj mój adres do kontaktów.** Dzięki temu kolejne impulsy nie wylądują w Ofertach.
 4. **Obejrzyj pierwszy materiał.** Zajmie kilka minut.
@@ -45,7 +45,7 @@ Każdy mail w sprincie kończy się pytaniem. Jeśli chcesz przełożyć temat n
 
 ## CTA
 
-Idź do skrzynki i odbierz pierwszy impuls
+Idź do skrzynki i odbierz pierwszy e-mail
 
 ## Mikrocopy
 
@@ -61,7 +61,7 @@ Jeśli mail nie doszedł w ciągu kilku minut, sprawdź folder Oferty, Spam albo
 >
 > Zanim pójdziesz do skrzynki, minuta o tym, jak to działa.
 >
-> Sprint nazywa się 7x Impuls. Impuls to krótki bodziec do działania: jeden przykład, jedno pytanie albo jeden sposób myślenia, który możesz od razu przełożyć na swoją firmę.
+> To sprint: 7 e-maili z wideo. Każdy z nich nazywam impulsem. Impuls to krótki bodziec do działania: jeden przykład, jedno pytanie albo jeden sposób myślenia, który możesz od razu przełożyć na swoją firmę.
 >
 > Przez najbliższe siedem dni codziennie dostaniesz ode mnie maila z krótkim wideo. W każdym pokażę jedno miejsce, w którym używam AI w swoich biznesach: w decyzjach, w sprzedaży, przy budowaniu marki, w reklamach, w danych i w procesach.
 >

@@ -14,7 +14,7 @@ Tworzę marki i rozwijam firmy. AI to moje narzędzie pracy.
 **Podtytuł:**
 Nazywam się Marek. Stąd nazwa tej strony — trochę żart, trochę opis stanowiska. Pokazuję tu, jak używam AI w swoich biznesach: w markach, marketingu, sprzedaży i procesach. Bez hype’u.
 
-**CTA:** Zobacz Sprint: 7x Impuls — bezpłatnie → `/sprint7x/`
+**CTA:** Zobacz Sprint: 7x e-mail z wideo — bezpłatnie → `/sprint7x/`
 
 **Link:** Zobacz moje firmy ↓
 
@@ -50,9 +50,9 @@ Nie uczę teorii. Pokazuję swój sposób myślenia i przykłady z własnej prac
 
 **Dwa formaty. Oba nie do kolekcjonowania.**
 
-**Sprint: 7x Impuls** (na start · 7 dni · bezpłatnie)
-7 krótkich maili z wideo. W każdym jeden przykład z moich projektów: decyzje, CRM i sprzedaż, nowa marka, reklamy, dane, procesy. Bierzesz jeden impuls i sprawdzasz u siebie.
-Formularz zapisu w karcie: pola „Imię” i „Twój e-mail”, przycisk „Chcę dostać pierwszy impuls”.
+**Sprint: 7x e-mail z wideo** (na start · 7 dni · bezpłatnie)
+7 e-maili z krótkim wideo. Każdy o jednym obszarze firmy: strategia, sprzedaż, marka, marketing, dane, realizacja. Na przykładach z moich projektów. Bierzesz jedną rzecz i sprawdzasz u siebie.
+Formularz zapisu w karcie: pola „Imię” i „Twój e-mail”, przycisk „Chcę dostać pierwszy e-mail”.
 Mikrocopy: Bezpłatnie. Pierwszy mail kilka minut po zapisie. [Zobacz najpierw program sprintu →]
 
 **Weekly Impuls** (potem · co tydzień)

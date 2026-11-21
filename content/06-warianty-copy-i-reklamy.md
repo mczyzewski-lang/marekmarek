@@ -15,10 +15,10 @@
 
 ## 2. 10 wariantów CTA
 
-1. Chcę dostać pierwszy impuls
+1. Chcę dostać pierwszy e-mail
 2. Zaczynam sprint
 3. Wyślij mi pierwszy impuls
-4. Dołączam do 7x Impuls
+4. Dołączam do Sprintu 7x
 5. Chcę zobaczyć, jak to robisz
 6. Startuję dziś
 7. Pokaż mi pierwszy przykład
@@ -41,15 +41,15 @@
 
 ## 4. 5 wariantów krótkiego opisu sprintu (bio / reklama / social media)
 
-1. **Bio:** Marek, twórca marek. Pokazuję, jak używam AI w realnych biznesach: marki, sprzedaż, procesy, dane. Zacznij od sprintu 7x Impuls ↓
+1. **Bio:** Marek, twórca marek. Pokazuję, jak używam AI w realnych biznesach: marki, sprzedaż, procesy, dane. Zacznij od Sprintu 7x ↓
 
-2. **Jedno zdanie:** Sprint: 7x Impuls — 7 dni, 7 krótkich wideo o tym, jak używam AI w swoich firmach, i jeden impuls do wdrożenia w Twojej.
+2. **Jedno zdanie:** Sprint: 7x e-mail z wideo — 7 dni, 7 krótkich wideo o tym, jak używam AI w swoich firmach, i jeden impuls do wdrożenia w Twojej.
 
 3. **Opis do posta:** Buduję i rozwijam kilka firm. W każdej z nich AI robi dziś konkretną robotę: w sprzedaży, reklamach, danych i procesach. Zebrałem 7 takich przykładów w krótki sprint mailowy. Bez hype’u, do przełożenia na Twój biznes.
 
 4. **Opis pod wideo:** Nie uczę promptów. Pokazuję, jak przedsiębiorca używa AI do decyzji, sprzedaży i budowania marek. 7 impulsów w 7 dni — link w bio.
 
-5. **Krótko:** 7x Impuls. AI jako narzędzie właściciela firmy. Realne przykłady z moich projektów, nie do kolekcjonowania. Jeden ruch do przodu.
+5. **Krótko:** Sprint 7x. AI jako narzędzie właściciela firmy. Realne przykłady z moich projektów, nie do kolekcjonowania. Jeden ruch do przodu.
 
 ## 5. 5 wariantów reklamy Meta / TikTok
 
@@ -68,9 +68,9 @@ Zebrałem 7 takich przykładów w krótki sprint: 7 dni, 7 maili z wideo. Bierze
 
 Bez hype’u. Dla przedsiębiorców i właścicieli firm.
 
-**Nagłówek:** Sprint: 7x Impuls — AI w realnych biznesach
+**Nagłówek:** Sprint: 7x e-mail z wideo — AI w realnych biznesach
 
-**CTA:** Chcę dostać pierwszy impuls
+**CTA:** Chcę dostać pierwszy e-mail
 
 **Wideo:** Marek do kamery w biurze, w tle zespół. Przebitki z ekranu: CRM, panel reklamowy, rozmowa z AI.
 
@@ -85,7 +85,7 @@ Zmieniło jedno pytanie: który proces w firmie mogę dzięki AI przyspieszyć, 
 
 Follow-upy po rozmowach. Raport z kampanii. Briefy dla zespołu. Analiza, dlaczego klienci nie kupują.
 
-W sprincie 7x Impuls pokazuję 7 takich miejsc na przykładach z moich projektów. Jeden dziennie, przez 7 dni.
+W Sprincie 7x pokazuję 7 takich miejsc na przykładach z moich projektów. Jeden dziennie, przez 7 dni.
 
 **Nagłówek:** Nie prompty. Procesy.
 
@@ -131,7 +131,7 @@ Od jakiegoś czasu przy każdym z nich używam AI. Nie jako gadżetu — jako na
 
 Chcesz zobaczyć jak? 7 krótkich materiałów w 7 dni. Realne przykłady z moich projektów, do przełożenia na Twój biznes.
 
-**Nagłówek:** Marek, twórca marek — Sprint: 7x Impuls
+**Nagłówek:** Marek, twórca marek — Sprint: 7x e-mail z wideo
 
 **CTA:** Chcę zobaczyć, jak to robisz
 

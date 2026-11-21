@@ -1,6 +1,8 @@
 # MarekMarek.com
 
-Marka osobista „Marek, twórca marek”. Lead magnet: Sprint: 7x Impuls. Newsletter: Weekly Impuls. Całość po polsku.
+Marka osobista „Marek, twórca marek”. Lead magnet: Sprint: 7x e-mail z wideo. Newsletter: Weekly Impuls. Całość po polsku.
+
+Nazwa lead magnetu to „Sprint: 7x e-mail z wideo” (wcześniej „Sprint: 7x Impuls” — zmienione, bo było niezrozumiałe; decyzja Marka, 2026-11-21). „Impuls” zostaje jako określenie pojedynczego e-maila („każdy e-mail to impuls do działania”) i w nazwie Weekly Impuls. Skrót w przyciskach: „Sprint 7x”. Każdy dzień sprintu to jeden obszar firmy: strategia i decyzje, sprzedaż, marka, marketing, dane, realizacja i procesy, Twoja firma.
 
 ## Zasada nadrzędna: zaufanie przed konwersją
 
