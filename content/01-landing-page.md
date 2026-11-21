@@ -183,7 +183,7 @@ Kim jestem
 
 Nazywam się Marek. Tworzę i rozwijam firmy, budując ich marki on-line. Stąd nazwa tej strony - trochę żart, trochę opis stanowiska.
 
-Na co dzień pracuję na realnych projektach: *[w tym miejscu białe logotypy: Nowy Etap, Risify, Budaro, Pravna]* …i przy kolejnych inicjatywach, które dopiero powstają. Mediacje, psychoterapia online, domy modułowe, usługi prawne. Cztery różne branże i cztery różne modele biznesowe, a problemy zaskakująco podobne: jak dotrzeć do klienta, jak nie gubić leadów, jak szybciej podejmować dobre decyzje.
+Na co dzień pracuję na realnych projektach: *[w tym miejscu białe logotypy: Nowy Etap, Risify, Budaro, Pravna]* Mediacje, psychoterapia online, domy modułowe, usługi prawne i przy kolejnych inicjatywach, które dopiero powstają. Cztery różne branże i cztery różne modele biznesowe, a problemy zaskakująco podobne: jak dotrzeć do klienta, jak nie gubić leadów, jak szybciej podejmować dobre decyzje.
 
 Od dłuższego czasu sprawdzam, gdzie w tym wszystkim AI realnie pomaga: w strategii i sprzedaży, w reklamach, w procesach, w analizie danych. Część rzeczy działa świetnie. Część okazała się stratą czasu. O jednych i drugich będę mówić wprost.
 
