@@ -36,12 +36,16 @@ Bezpłatnie. Dla przedsiębiorców, freelancerów i właścicieli firm. Bez lani
 Zapisując się, zgadzasz się na maile ode mnie: 7 impulsów sprintu, a potem Weekly Impuls. Wypisujesz się jednym kliknięciem.
 
 **Boks z firmami pod hero** *[logotypy z `assets/foundersai/`, pod każdym ocena Google]*
-Przykłady pochodzą z firm, które założyłem i rozwijam. 4 spółki · 120+ osób w zespołach · ponad 35 mln zł rocznego przychodu
+**Nad boksem (tytuł w kolorze brandu, liczby odliczane po kolei od zera, każda w osobnej linii):**
+Przykłady pochodzą z firm, które założyłem i rozwijam
+4 spółki
+120+ osób w zespołach
+>35 mln zł rocznego przychodu
 
 - Pravna - usługi prawne online - 21 000+ klientów · 4,7/5 · 1000+ opinii Google
 - Nowy Etap - usługi mediacyjne - 7000+ klientów · 4,8/5 · 850+ opinii Google
 - Risify - psychoterapia online - 5000+ klientów · 4,8/5 · 120+ opinii Google
-- Budaro - piętrowe domy modułowe - 100+ klientów · 5,0/5 · 25+ opinii Google
+- Budaro - domy modułowe - 100+ klientów · 5,0/5 · 25+ opinii Google
 - [w trakcie…] - kolejna marka, pokazana jako ładujący się logotyp
 
 *[Zdjęcie: `assets/foundersai/founder.png`]*

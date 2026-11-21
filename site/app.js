@@ -85,6 +85,7 @@ if (!reduceMotion && (parallaxEls.length || popEls.length)) {
       const rect = el.parentElement.getBoundingClientRect();
       if (rect.bottom < 0 || rect.top > vh) return;
       const progress = (vh - rect.top) / (vh + rect.height); // 0 → 1 w trakcie przejazdu przez ekran
+      el.style.setProperty("--px", (clamp(progress) * 100).toFixed(1) + "%"); // telefon: zdjęcie jedzie w poziomie
       el.style.transform = `translate3d(0, ${((progress - 0.5) * 2 * 9).toFixed(2)}%, 0)`;
     });
     popEls.forEach((el) => {
@@ -144,4 +145,32 @@ document.querySelectorAll("[data-hscroll]").forEach((section) => {
   window.addEventListener("scroll", sync, { passive: true });
   window.addEventListener("resize", () => { measure(); sync(); });
   window.addEventListener("load", () => { measure(); sync(); });
+});
+
+// Liczby nad boksem z firmami: odliczają od zera jedna po drugiej; kolejna odblurowuje się, gdy poprzednia skończy.
+document.querySelectorAll("[data-count-seq]").forEach((block) => {
+  const items = [...block.querySelectorAll("li")];
+  const show = (b, value) => { b.textContent = (b.dataset.prefix || "") + value + (b.dataset.suffix || ""); };
+  if (reduceMotion || !("IntersectionObserver" in window)) { items.forEach((li) => li.classList.add("on")); return; }
+  items.forEach((li) => show(li.querySelector("b"), 0));
+  const run = (index) => {
+    if (index >= items.length) return;
+    const li = items[index];
+    const b = li.querySelector("b");
+    const target = Number(b.dataset.count);
+    const duration = 700 + Math.min(700, target * 8);
+    li.classList.add("on");
+    const start = performance.now();
+    const tick = (now) => {
+      const t = Math.min(1, (now - start) / duration);
+      show(b, Math.round(target * (1 - Math.pow(1 - t, 3))));
+      if (t < 1) requestAnimationFrame(tick);
+      else setTimeout(() => run(index + 1), 250);
+    };
+    setTimeout(() => requestAnimationFrame(tick), 300);
+  };
+  const observer = new IntersectionObserver((entries) => {
+    if (entries.some((entry) => entry.isIntersecting)) { observer.disconnect(); run(0); }
+  }, { threshold: 0.6 });
+  observer.observe(block);
 });
