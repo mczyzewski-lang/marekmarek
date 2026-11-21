@@ -142,7 +142,9 @@ To nie jest dla Ciebie, jeśli…
 ## Sekcja 5: Co dostaniesz
 
 **Nagłówek:**
-7 dni, 7 e-maili, 7 obszarów firmy
+7 dni, 7 e-maili, 7 obszarów firmy. Potem 1x tydzień.
+
+*[Nad nagłówkiem ta sama oś z błyskawicami co na stronie głównej: 7 dni sprintu, potem Weekly Impuls.]*
 
 **Obszary (duży tytuł na karcie; dotychczasowy tytuł jest podtytułem):** dzień 1 - Strategia i decyzje · dzień 2 - Sprzedaż · dzień 3 - Marka · dzień 4 - Marketing · dzień 5 - Dane · dzień 6 - Realizacja i procesy · dzień 7 - Twoja firma
 

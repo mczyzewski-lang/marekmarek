@@ -389,6 +389,10 @@ section { padding: 84px 0; position: relative; }
 /* oś: linia dochodzi do błyskawicy, obrysowuje ją, błyskawica się wypełnia i linia idzie dalej.
    Pierwszy tydzień (dni 1–7) jest w kolorze CTA - wyjątek od zasady „żółty tylko dla CTA” (decyzja Marka). */
 .pulse { width: 100%; height: auto; margin-top: 28px; overflow: visible; --step: 0.4s; }
+/* linia osi biegnie od krawędzi do krawędzi okna; sekcja przycina nadmiar */
+.pulse-host { overflow-x: clip; }
+.after-pulse { margin-top: 28px; }
+#program .pulse { margin-top: 8px; }
 .pulse .w1 { color: var(--accent); }
 .pulse .w2 { color: var(--violet-light); }
 .pulse path { stroke: currentColor; stroke-width: 3; stroke-linejoin: round; stroke-linecap: round; stroke-dasharray: 1; fill: none; }
@@ -583,6 +587,8 @@ footer a { text-underline-offset: 3px; }
   .pulse .grp rect { stroke-width: 3; stroke-dasharray: 12 10; }
   .pulse .grp text { font-size: calc(6.5px * var(--k, 3)); }
   .pulse { margin-top: 44px; margin-bottom: 64px; }
+  #program .pulse { margin-top: 20px; margin-bottom: 44px; }
+  .after-pulse { margin-top: 0; }
   .pulse path { stroke-width: 5; }
   .pulse .bolt { stroke-width: 3; }
   .vid .btn .long { display: none; }
