@@ -12,6 +12,7 @@ Komplet treści dla marki osobistej „Marek, twórca marek”: lead magnet **Sp
 | `content/04-sprint-maile-5-9.md` | Maile 5–7 ze scenariuszami wideo, mail 8 (koniec dostępu), mail 9 (przejście do Weekly Impuls) |
 | `content/05-weekly-impuls.md` | Format Weekly Impuls + 5 szkiców pierwszych wydań |
 | `content/06-warianty-copy-i-reklamy.md` | 10 nagłówków, 10 CTA, 10 tematów maili, 5 opisów, 5 reklam Meta/TikTok |
+| `site/` | Statyczna strona: `index.html` (landing), `dziekuje.html` (po zapisie), `styles.css`, `app.js`, `img/` |
 | `assets/foundersai/` | Zdjęcie Marka, zdjęcie zespołu, logotypy spółek i mediów pobrane z foundersai.pl |
 
 ## Dane przeniesione z foundersai.pl
@@ -26,7 +27,7 @@ Niewykorzystane, ale dostępne na tamtej stronie: przychody i liczby klientów p
 
 ## Do sprawdzenia przed publikacją
 
-1. **Nazwa „Risify”.** W briefie było „Rightsify”, na foundersai.pl logotyp i podpis to „Risify.pl”. W treściach jest „Risify”.
+1. **Formularz zapisu nie jest podpięty.** W `site/app.js` stała `SIGNUP_ENDPOINT` jest pusta: formularz tylko przenosi na `dziekuje.html` i nikogo nie zapisuje. Trzeba wpisać adres z systemu mailowego. Brakuje też linku do polityki prywatności i wideo na stronie po zapisie.
 2. **Miejsca `[TU: …]` w scenariuszach i szkicach Weekly Impuls.** To miejsca na prawdziwe przykłady z firm — celowo niewymyślone.
 3. **Zdania w pierwszej osobie o przeszłości Marka** (np. „przez pierwsze miesiące używałem AI głównie do pisania tekstów”, „miałem raporty, których nie czytałem”, folder z nieudanymi reklamami). Napisane jako prawdopodobne, ale tylko Marek wie, czy są prawdziwe. Co nieprawdziwe — wyciąć.
 4. **Mail 4:** zdanie, że reklamy sprintu powstały z polecenia pokazanego w mailu, będzie prawdą tylko wtedy, gdy rzeczywiście tak powstaną.
