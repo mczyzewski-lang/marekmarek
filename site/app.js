@@ -1,6 +1,6 @@
 // Zapis na Sprint: 7x Impuls.
 //
-// SIGNUP_ENDPOINT: adres, na który formularz wysyła e-mail (POST, JSON: { email, source }).
+// SIGNUP_ENDPOINT: adres, na który formularz wysyła zapis (POST, JSON: { name, email, source }).
 // Dopóki jest pusty, formularz NIE zapisuje nikogo — tylko przenosi na stronę po zapisie (tryb podglądu).
 const SIGNUP_ENDPOINT = "";
 const THANK_YOU_URL = "/dziekuje/";
@@ -11,6 +11,7 @@ document.querySelectorAll("form.signup").forEach((form) => {
     const button = form.querySelector("button");
     const error = form.parentElement.querySelector(".form-error");
     const email = form.querySelector('input[type="email"]').value.trim();
+    const name = form.querySelector('input[name="name"]').value.trim();
     if (error) error.hidden = true;
 
     if (!SIGNUP_ENDPOINT) {
@@ -24,7 +25,7 @@ document.querySelectorAll("form.signup").forEach((form) => {
       const response = await fetch(SIGNUP_ENDPOINT, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, source: form.dataset.source || "landing" }),
+        body: JSON.stringify({ name, email, source: form.dataset.source || "landing" }),
       });
       if (!response.ok) throw new Error("HTTP " + response.status);
       window.location.href = THANK_YOU_URL;

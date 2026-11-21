@@ -12,7 +12,7 @@ Konwencje i harmonogram: patrz `03-sprint-maile-0-4.md`.
 
 **Treść:**
 
-Cześć,
+Cześć {{imie}},
 
 zrób szybki rachunek. Ile miejsc w Twojej firmie zbiera dane?
 
@@ -118,7 +118,7 @@ PS. Odpisz: jakie dane masz w firmie, ale rzadko z nich wyciągasz decyzje?
 
 **Treść:**
 
-Cześć,
+Cześć {{imie}},
 
 przez pięć dni pokazywałem Ci rozmowy z AI. Wrzucam problem, dostaję strukturę. Wrzucam dane, dostaję hipotezy.
 
@@ -228,7 +228,7 @@ PS. Odpisz: jaki proces w Twojej firmie najbardziej nadaje się do usprawnienia,
 
 **Treść:**
 
-Cześć,
+Cześć {{imie}},
 
 to ostatni impuls sprintu. Przez sześć dni pokazywałem Ci, jak AI pracuje w moich firmach: w decyzjach, w sprzedaży, przy marce, w reklamach, w danych i w procesach.
 
@@ -356,7 +356,7 @@ PS. Dostęp do materiałów masz jeszcze przez 3 dni. Jeśli któryś impuls Ci�
 
 **Treść:**
 
-Cześć,
+Cześć {{imie}},
 
 jutro zamykam dostęp do materiałów ze sprintu.
 
@@ -400,7 +400,7 @@ PS. Nie wiesz, który wybrać? Odpisz jednym słowem: CRM, marka, reklamy, dane,
 
 **Treść:**
 
-Cześć,
+Cześć {{imie}},
 
 sprint 7x Impuls się zakończył. Dzięki, że byłeś.
 

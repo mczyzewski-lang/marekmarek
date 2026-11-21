@@ -32,6 +32,10 @@ Motyw „Social Bold (Growth)” (wybór Marka, 2026-11-21): kolor główny `#7C
 
 Gdzieniegdzie klimat blueprintu, zawsze fioletowy: siatka kreślarska (`.bp`), znaczniki narożne (`.marks`), przerywane linie, etykiety pismem maszynowym („Fig. 01”). Oszczędnie — nie na każdej sekcji. Logotypy spółek są ciemne, więc stoją na białej karcie, pod każdym ocena Google. Logotypy mediów: białe, jednokolorowe PNG w `site/img/media/` (wycięte z plików foundersai.pl), pokazywane małe. Przy CTA zawsze informacja, że sprint jest bezpłatny.
 
+## Formularz
+
+Pola: imię i e-mail. W mailach powitanie `Cześć {{imie}},`. Pod każdym formularzem: informacja „Bezpłatnie” i zdanie o zgodzie na maile.
+
 ## Struktura
 
 - `content/` — źródło prawdy dla tekstów.

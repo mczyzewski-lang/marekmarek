@@ -16,7 +16,7 @@
 <header class="top">
   <div class="wrap">
     <a class="brand" href="/" aria-label="MarekMarek.com — strona główna">Marek<span>Marek</span></a>
-    <span class="tagline">Marek, twórca marek</span>
+    <nav class="nav"><a href="/">O mnie</a><a class="btn" href="#zapis">Zapisz się bezpłatnie</a></nav>
   </div>
 </header>
 
@@ -29,12 +29,15 @@
       <h1>Zobacz, jak używam AI do budowania marek swoich firm, marketingu, sprzedaży i&nbsp;procesów w&nbsp;<span class="hl">prawdziwych biznesach</span><sup>*</sup></h1>
       <p class="lead">7 dni. 7 krótkich materiałów. 7 praktycznych przykładów z moich projektów — od CRM-u, przez reklamy i content, po tworzenie nowych marek i analizę danych.</p>
       <form class="signup" data-source="hero">
+        <label class="sr-only" for="name-hero">Imię</label>
+        <input id="name-hero" type="text" name="name" placeholder="Imię" autocomplete="given-name" maxlength="60" required>
         <label class="sr-only" for="email-hero">Twój e-mail</label>
         <input id="email-hero" type="email" name="email" placeholder="Twój e-mail" autocomplete="email" required>
         <button class="btn" type="submit">Chcę dostać pierwszy impuls</button>
       </form>
       <p class="form-error" hidden>Zapis się nie udał. Spróbuj jeszcze raz za chwilę.</p>
-      <p class="micro"><b>Bezpłatnie.</b> Dla przedsiębiorców, freelancerów i właścicieli firm. Bez lania wody. Bez hype’u. Do działania.</p>
+      <p class="micro"><b>Bezpłatnie.</b> Jeden mail z krótkim wideo dziennie przez 7 dni — pierwszy kilka minut po zapisie. Dla przedsiębiorców, freelancerów i właścicieli firm. Bez lania wody, bez hype’u.</p>
+      <p class="legal">Zapisując się, zgadzasz się na maile ode mnie: 7 impulsów sprintu, a potem Weekly Impuls. Wypisujesz się jednym kliknięciem.</p>
       <p class="footnote"><b>*</b> Moje firmy generują &gt;35 mln zł rocznego przychodu <a href="#firmy">zobacz ↓</a></p>
     </div>
     <figure class="hero-photo">
@@ -124,31 +127,6 @@
 </section>
 
 <section>
-  <div class="wrap fit">
-    <div class="yes" data-reveal>
-      <div class="verdict"><b>TAK</b><h2>To jest dla Ciebie, jeśli…</h2></div>
-      <ul>
-        <li>prowadzisz firmę albo działasz jako freelancer,</li>
-        <li>masz więcej pomysłów niż czasu na ich wdrażanie,</li>
-        <li>chcesz zobaczyć praktyczne zastosowania AI w biznesie, a nie pokaz możliwości,</li>
-        <li>chcesz szybciej budować markę, sprzedaż albo procesy,</li>
-        <li>kolejny teoretyczny kurs o AI Cię nie interesuje,</li>
-        <li>wolisz podejrzeć, jak ktoś używa tego w realnych projektach, i wyciągnąć własne wnioski.</li>
-      </ul>
-    </div>
-    <div class="no" data-reveal style="--d:0.12s">
-      <div class="verdict"><b>NIE</b><h2>To nie jest dla Ciebie, jeśli…</h2></div>
-      <ul>
-        <li>szukasz jednego prompta, który załatwi sprawę,</li>
-        <li>chcesz biernie kolekcjonować materiały,</li>
-        <li>oczekujesz obietnicy szybkiego zarobku,</li>
-        <li>nie zamierzasz niczego sprawdzać u siebie.</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section style="padding-top:0">
   <div class="wrap">
     <p class="eyebrow">Program</p>
     <h2>7 dni, 7 impulsów</h2>
@@ -234,11 +212,36 @@
   </div>
 </section>
 
+<section style="padding-top:0">
+  <div class="wrap fit">
+    <div class="yes" data-reveal>
+      <div class="verdict"><b>TAK</b><h2>To jest dla Ciebie, jeśli…</h2></div>
+      <ul>
+        <li>prowadzisz firmę albo działasz jako freelancer,</li>
+        <li>masz więcej pomysłów niż czasu na ich wdrażanie,</li>
+        <li>chcesz zobaczyć praktyczne zastosowania AI w biznesie, a nie pokaz możliwości,</li>
+        <li>chcesz szybciej budować markę, sprzedaż albo procesy,</li>
+        <li>kolejny teoretyczny kurs o AI Cię nie interesuje,</li>
+        <li>wolisz podejrzeć, jak ktoś używa tego w realnych projektach, i wyciągnąć własne wnioski.</li>
+      </ul>
+    </div>
+    <div class="no" data-reveal style="--d:0.12s">
+      <div class="verdict"><b>NIE</b><h2>To nie jest dla Ciebie, jeśli…</h2></div>
+      <ul>
+        <li>szukasz jednego prompta, który załatwi sprawę,</li>
+        <li>chcesz biernie kolekcjonować materiały,</li>
+        <li>oczekujesz obietnicy szybkiego zarobku,</li>
+        <li>nie zamierzasz niczego sprawdzać u siebie.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
 <section class="deep bp">
   <div class="wrap">
     <div class="about-grid">
       <figure class="about-photo" data-reveal>
-        <div class="marks"><img src="/img/marek-portret.jpg" alt="Marek" width="720" height="910" loading="lazy"></div>
+        <div class="marks"><img src="/img/marek-szeroko.jpg" alt="Marek" width="1432" height="910" loading="lazy"></div>
         <figcaption class="figcap"><span>Fig. 02</span><span>4 spółki, 4 branże</span></figcaption>
       </figure>
       <div data-reveal style="--d:0.12s">
@@ -271,25 +274,7 @@
   </div>
 </section>
 
-<section class="final bp" id="zapis">
-  <div class="wrap">
-   <div class="cta-box marks" data-reveal>
-    <p class="eyebrow">Zapis · bezpłatnie</p>
-    <h2>Jeden impuls wystarczy, żeby ruszyć</h2>
-    <p class="lead">Jeśli chcesz tylko kolejny materiał „na później” — nie zapisuj się. Skrzynka i tak jest pełna.</p>
-    <p class="lead">Jeśli chcesz dostać 7 konkretnych impulsów i wybrać jeden do wdrożenia w swoim biznesie — zacznij od pierwszego. Trafi do Ciebie kilka minut po zapisie.</p>
-    <form class="signup" data-source="final">
-        <label class="sr-only" for="email-final">Twój e-mail</label>
-        <input id="email-final" type="email" name="email" placeholder="Twój e-mail" autocomplete="email" required>
-        <button class="btn" type="submit">Chcę dostać pierwszy impuls</button>
-      </form>
-      <p class="form-error" hidden>Zapis się nie udał. Spróbuj jeszcze raz za chwilę.</p>
-    <p class="micro"><b>Bezpłatnie.</b> 7 dni impulsów, 10 dni dostępu. Potem raz w tygodniu Weekly Impuls. Wypisujesz się jednym kliknięciem.</p>
-   </div>
-  </div>
-</section>
-
-<section class="faq" style="padding-top:0">
+<section class="faq">
   <div class="wrap narrow">
     <p class="eyebrow">FAQ</p>
     <h2>Zanim się zapiszesz</h2>
@@ -321,6 +306,27 @@
       <summary>Czy coś sprzedajesz po drodze?</summary>
       <p>Na tym etapie głównym celem jest pokazanie mojego sposobu myślenia, zbudowanie relacji i rozpoczęcie rozmów z przedsiębiorcami. Jeśli zobaczę, że mogę pomóc konkretnie w Twoim przypadku, możemy porozmawiać. Ale sprint sam w sobie ma dać Ci wartość niezależnie od tego, czy kiedykolwiek coś ode mnie kupisz.</p>
     </details>
+  </div>
+</section>
+
+<section class="final bp" id="zapis" style="padding-top:0">
+  <div class="wrap">
+   <div class="cta-box marks" data-reveal>
+    <p class="eyebrow">Zapis · bezpłatnie</p>
+    <h2>Jeden impuls wystarczy, żeby ruszyć</h2>
+    <p class="lead">Jeśli chcesz tylko kolejny materiał „na później” — nie zapisuj się. Skrzynka i tak jest pełna.</p>
+    <p class="lead">Jeśli chcesz dostać 7 konkretnych impulsów i wybrać jeden do wdrożenia w swoim biznesie — zacznij od pierwszego. Trafi do Ciebie kilka minut po zapisie.</p>
+    <form class="signup" data-source="final">
+        <label class="sr-only" for="name-final">Imię</label>
+        <input id="name-final" type="text" name="name" placeholder="Imię" autocomplete="given-name" maxlength="60" required>
+        <label class="sr-only" for="email-final">Twój e-mail</label>
+        <input id="email-final" type="email" name="email" placeholder="Twój e-mail" autocomplete="email" required>
+        <button class="btn" type="submit">Chcę dostać pierwszy impuls</button>
+      </form>
+      <p class="form-error" hidden>Zapis się nie udał. Spróbuj jeszcze raz za chwilę.</p>
+    <p class="micro"><b>Bezpłatnie.</b> 7 dni impulsów, 10 dni dostępu. Pierwszy mail kilka minut po zapisie.</p>
+    <p class="legal">Zapisując się, zgadzasz się na maile ode mnie: 7 impulsów sprintu, a potem Weekly Impuls. Wypisujesz się jednym kliknięciem.</p>
+   </div>
   </div>
 </section>
 

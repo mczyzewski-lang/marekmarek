@@ -1,6 +1,8 @@
 # Landing page sprintu — MarekMarek.com/sprint7x/
 
-Zapis na Sprint: 7x Impuls. Strona główna (o Marku) ma osobny plik: `00-strona-glowna.md`. Teksty gotowe do wklejenia. Wskazówki dla osoby składającej stronę są w nawiasach kwadratowych i kursywą.
+Zapis na Sprint: 7x Impuls. Strona główna (o Marku) ma osobny plik: `00-strona-glowna.md`.
+
+**Kolejność sekcji na stronie:** hero → firmy → problem → czym jest 7x Impuls → program (7 dni) → dla kogo → kim jestem → FAQ → końcowe CTA. Numery sekcji poniżej pochodzą z briefu. Teksty gotowe do wklejenia. Wskazówki dla osoby składającej stronę są w nawiasach kwadratowych i kursywą.
 
 ---
 
@@ -19,13 +21,16 @@ Zobacz, jak używam AI do budowania marek swoich firm, marketingu, sprzedaży i 
 **Podtytuł:**
 7 dni. 7 krótkich materiałów. 7 praktycznych przykładów z moich projektów — od CRM-u, przez reklamy i content, po tworzenie nowych marek i analizę danych.
 
-**Formularz:** pole „Twój e-mail” + przycisk
+**Formularz:** pola „Imię” i „Twój e-mail” + przycisk
 
 **CTA:**
 Chcę dostać pierwszy impuls
 
 **Mikrocopy pod CTA:**
-Bezpłatnie. Dla przedsiębiorców, freelancerów i właścicieli firm. Bez lania wody. Bez hype’u. Do działania.
+Bezpłatnie. Jeden mail z krótkim wideo dziennie przez 7 dni — pierwszy kilka minut po zapisie. Dla przedsiębiorców, freelancerów i właścicieli firm. Bez lania wody, bez hype’u.
+
+**Zgoda (drobnym drukiem pod każdym formularzem):**
+Zapisując się, zgadzasz się na maile ode mnie: 7 impulsów sprintu, a potem Weekly Impuls. Wypisujesz się jednym kliknięciem.
 
 **Boks z firmami pod hero** *[logotypy z `assets/foundersai/`, pod każdym ocena Google]*
 Przykłady pochodzą z firm, które założyłem i rozwijam. 4 spółki · 120+ osób w zespołach · ponad 35 mln zł rocznego przychodu
@@ -185,7 +190,7 @@ Jeśli chcesz dostać 7 konkretnych impulsów i wybrać jeden do wdrożenia w sw
 Chcę dostać pierwszy impuls
 
 **Mikrocopy:**
-Bezpłatnie. 7 dni impulsów, 10 dni dostępu. Potem raz w tygodniu Weekly Impuls. Wypisujesz się jednym kliknięciem.
+Bezpłatnie. 7 dni impulsów, 10 dni dostępu. Pierwszy mail kilka minut po zapisie.
 
 ---
 

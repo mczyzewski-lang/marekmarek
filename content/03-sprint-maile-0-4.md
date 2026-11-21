@@ -17,6 +17,7 @@
 
 **Konwencje:**
 - `{{link_…}}` — miejsce na link z systemu mailowego.
+- `{{imie}}` — imię z formularza zapisu. Gdy puste, powitanie to samo „Cześć,”.
 - W scenariuszach: **[NA EKRANIE]** = nagranie ekranu, **[TU: …]** = miejsce na prawdziwy przykład Marka, którego nie da się napisać za niego.
 - Scenariusze są pisane na 4–6 minut mówienia plus pokaz ekranu.
 - Nadawca: „Marek z MarekMarek.com”. Maile wysyłane z adresu, na który można odpisać.
@@ -31,7 +32,7 @@
 
 **Treść:**
 
-Cześć,
+Cześć {{imie}},
 
 tu Marek z MarekMarek.com. Marek, twórca marek — tak, ta nazwa to trochę żart, a trochę opis tego, co robię.
 
@@ -100,7 +101,7 @@ PS. Odpisz na tego maila jednym zdaniem: czym się zajmujesz? Chcę wiedzieć, d
 
 **Treść:**
 
-Cześć,
+Cześć {{imie}},
 
 zacznę od wyznania: przez pierwsze miesiące używałem AI głównie do pisania tekstów. Mail, opis, post. Działało, ale nic w firmie się od tego nie zmieniło.
 
@@ -196,7 +197,7 @@ PS. Odpisz na tego maila jednym zdaniem: jaka decyzja albo jaki chaos w firmie n
 
 **Treść:**
 
-Cześć,
+Cześć {{imie}},
 
 kiedy sprzedaż siada, pierwszy odruch jest prawie zawsze ten sam: potrzebujemy więcej leadów. Więcej budżetu na reklamy i problem z głowy.
 
@@ -286,7 +287,7 @@ PS. Odpisz: gdzie w Twojej firmie najczęściej giną leady — przed rozmową, 
 
 **Treść:**
 
-Cześć,
+Cześć {{imie}},
 
 zbudowałem kilka marek i za każdym razem popełniałem ten sam błąd na starcie: za szybko chciałem zobaczyć logo.
 
@@ -375,7 +376,7 @@ PS. Odpisz: gdybyś miał dziś nazwać jednym zdaniem, czym naprawdę jest Twoj
 
 **Treść:**
 
-Cześć,
+Cześć {{imie}},
 
 moje firmy wydają na reklamy naprawdę dużo. Dość, żebym kilka razy boleśnie się przekonał o jednym: reklama, która najbardziej podoba się mnie i zespołowi, rzadko wygrywa.
 
