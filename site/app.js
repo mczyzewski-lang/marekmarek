@@ -114,3 +114,14 @@ if (!reduceMotion && (parallaxEls.length || popEls.length || shiftEls.length)) {
   window.addEventListener("resize", onScroll);
   update();
 }
+
+// Oś na stronie głównej: podpisy na telefonie mają stały rozmiar niezależnie od szerokości rysunku.
+const pulse = document.querySelector(".pulse");
+if (pulse) {
+  const setScale = () => {
+    const width = pulse.getBoundingClientRect().width;
+    if (width) pulse.style.setProperty("--k", (1040 / width).toFixed(3));
+  };
+  setScale();
+  window.addEventListener("resize", setScale);
+}
