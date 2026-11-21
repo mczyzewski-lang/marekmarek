@@ -11,7 +11,7 @@ Zapis na Sprint: 7x e-mail z wideo. Strona główna (o Marku) ma osobny plik: `0
 **Nadtytuł (nad nagłówkiem, małą czcionką):**
 Marek, twórca marek
 
-**Nadtytuł:** Sprint: 7x e-mail z wideo · bezpłatnie
+**Nadtytuł:** Bezpłatnie
 
 **Nagłówek:**
 Jak wykorzystać AI w Twoim biznesie: marketing, sprzedaż, realizacja, strategia - żeby podnieść zysk
@@ -26,9 +26,6 @@ Jak wykorzystać AI w Twoim biznesie: marketing, sprzedaż, realizacja, strategi
 
 **CTA:**
 Chcę dostać pierwszy e-mail
-
-**Mikrocopy pod CTA:**
-Bezpłatnie. Dla przedsiębiorców, freelancerów i właścicieli firm. Bez lania wody, bez hype’u.
 
 **Link pod formularzem w hero:** Zobacz, co otrzymasz ↓ *(przewija do programu)*
 
@@ -72,7 +69,7 @@ Przykłady pochodzą z firm, które założyłem i rozwijam
 ## Sekcja 2: Problem
 
 **Nagłówek:**
-Większość ludzi używa AI jak zabawki albo wyszukiwarki
+Zamiast używać AI jak zabawki albo wyszukiwarki, wykorzystaj przewagę AI, żeby więcej zarabiać
 
 **Treść:**
 Wpisują pytanie, dostają odpowiedź, zamykają kartę. Czasem poproszą o posta na LinkedIna. Zapisują kolejną listę „50 promptów dla biznesu”, której nigdy nie otworzą.
@@ -112,7 +109,7 @@ Nie dostajesz ogólnych rad o AI. W każdym e-mailu jest konkretna wiedza oparta
 
 Dlatego nazywam je impulsami: krótki bodziec, po którym coś robisz. Nie kolejny materiał „na później”.
 
-**Grafika: budowa e-maila** *(na przykładzie „Impuls 2: gdzie giną Twoje leady”)*
+**Grafika: przykład e-maila (z etykietą „Przykład · tak wygląda e-mail z dnia 2”)** *(na przykładzie „Impuls 2: gdzie giną Twoje leady”)*
 1. Krótkie wideo - kilka minut, jeden obszar firmy.
 2. Przykład z firmy - jak wygląda to w jednej z moich spółek, co zadziałało, a co nie.
 3. Polecenie do skopiowania.
