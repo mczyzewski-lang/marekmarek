@@ -1,4 +1,4 @@
-# Weekly Impuls — format i 5 pierwszych szkiców
+# Weekly Impuls - format i 5 pierwszych szkiców
 
 ## Format
 
@@ -14,13 +14,13 @@
 
 **Stała struktura:**
 
-1. **Co zauważyłem** — jedna obserwacja z moich projektów albo rozmów z przedsiębiorcami. Konkretna sytuacja, nie trend z branży.
-2. **Jak użyłem AI / jak bym użył AI** — co dokładnie zrobiłem, razem z poleceniem, jeśli było.
-3. **Co możesz zrobić u siebie** — jeden krok, do wykonania w mniej niż godzinę.
-4. **Pytanie do Ciebie** — jedno, na które da się odpisać jednym zdaniem.
+1. **Co zauważyłem** - jedna obserwacja z moich projektów albo rozmów z przedsiębiorcami. Konkretna sytuacja, nie trend z branży.
+2. **Jak użyłem AI / jak bym użył AI** - co dokładnie zrobiłem, razem z poleceniem, jeśli było.
+3. **Co możesz zrobić u siebie** - jeden krok, do wykonania w mniej niż godzinę.
+4. **Pytanie do Ciebie** - jedno, na które da się odpisać jednym zdaniem.
 
 **Stała stopka:**
-Weekly Impuls — jeden przykład, jedna obserwacja, jeden ruch do przodu. Marek, twórca marek · MarekMarek.com
+Weekly Impuls - jeden przykład, jedna obserwacja, jeden ruch do przodu. Marek, twórca marek · MarekMarek.com
 
 **Czego w Weekly Impuls nie ma:** przeglądu nowości ze świata AI, list narzędzi, linków „do poczytania”, pięciu tematów naraz.
 
@@ -38,7 +38,7 @@ W szkicach poniżej **[TU: …]** oznacza miejsce na prawdziwą sytuację z firm
 
 Kiedy rozmawiam z przedsiębiorcami o AI, prędzej czy później pada pytanie: kogo to zastąpi? Patrzę na swoje firmy i widzę coś innego. Ludzie nie tracą czasu na swoją właściwą robotę. Tracą go na styku: na przekazywaniu informacji, dopytywaniu, szukaniu, kto co ustalił.
 
-**[TU: jedna sytuacja — np. zadanie, które krążyło między działami, bo brief był niepełny.]**
+**[TU: jedna sytuacja - np. zadanie, które krążyło między działami, bo brief był niepełny.]**
 
 **Jak użyłem AI**
 
@@ -66,7 +66,7 @@ Dostałem po sprincie sporo odpowiedzi w stylu: „mam zapisane świetne prompty
 
 **Jak bym użył AI**
 
-Odwróciłbym kolejność. Najpierw moment: „w każdy poniedziałek rano patrzę na wyniki kampanii”. Potem wejście: „eksport z ostatnich 7 dni”. Potem rezultat: „trzy obserwacje i jedna decyzja”. Dopiero na końcu polecenie, które łączy jedno z drugim. Tak powstało u mnie **[TU: przykład stałego rytuału Marka]** i dlatego działa do dziś — bo ma swoje miejsce w tygodniu.
+Odwróciłbym kolejność. Najpierw moment: „w każdy poniedziałek rano patrzę na wyniki kampanii”. Potem wejście: „eksport z ostatnich 7 dni”. Potem rezultat: „trzy obserwacje i jedna decyzja”. Dopiero na końcu polecenie, które łączy jedno z drugim. Tak powstało u mnie **[TU: przykład stałego rytuału Marka]** i dlatego działa do dziś - bo ma swoje miejsce w tygodniu.
 
 **Co możesz zrobić u siebie**
 
@@ -92,7 +92,7 @@ W CRM-ie jest pole, które prawie każdy wypełnia byle jak: powód utraty klien
 
 Wyeksportowałem utracone leady z jednego kwartału razem z notatkami i poprosiłem: „Pogrupuj powody utraty w kategorie. Dla każdej napisz, czy to problem oferty, procesu czy komunikacji”. Okazało się, że duża część „ceny” to wcale nie cena.
 
-**[TU: prawdziwy wniosek z analizy — co kryło się pod „ceną”.]**
+**[TU: prawdziwy wniosek z analizy - co kryło się pod „ceną”.]**
 
 **Co możesz zrobić u siebie**
 
@@ -100,7 +100,7 @@ Weź 30 ostatnich utraconych klientów. Jeśli nie masz CRM-u, wystarczą maile 
 
 **Pytanie do Ciebie**
 
-Jaki powód utraty klienta słyszysz najczęściej — i czy wierzysz, że to ten prawdziwy?
+Jaki powód utraty klienta słyszysz najczęściej - i czy wierzysz, że to ten prawdziwy?
 
 ---
 
@@ -114,11 +114,11 @@ Jaki powód utraty klienta słyszysz najczęściej — i czy wierzysz, że to te
 
 Przy każdej nowej marce najdłużej trwa u mnie nie wymyślanie, tylko skreślanie. Każda firma chce być szybka, tania, profesjonalna i z ludzkim podejściem. Jak mówisz wszystko, klient nie zapamięta niczego.
 
-**[TU: przykład z jednej z marek — co świadomie wyrzucono z komunikacji i co to dało.]**
+**[TU: przykład z jednej z marek - co świadomie wyrzucono z komunikacji i co to dało.]**
 
 **Jak użyłem AI**
 
-Wklejam całą komunikację marki — stronę, reklamy, ofertę — i proszę: „Wypisz wszystkie obietnice, które tu składam. Potem wskaż, które z nich składa też każdy mój konkurent”. Lista jest zwykle długa i bolesna. To, co zostaje po skreśleniu wspólnych obietnic, jest marką. Reszta to tło.
+Wklejam całą komunikację marki - stronę, reklamy, ofertę - i proszę: „Wypisz wszystkie obietnice, które tu składam. Potem wskaż, które z nich składa też każdy mój konkurent”. Lista jest zwykle długa i bolesna. To, co zostaje po skreśleniu wspólnych obietnic, jest marką. Reszta to tło.
 
 **Co możesz zrobić u siebie**
 
@@ -148,7 +148,7 @@ Zamiast prosić o „kreatywne hooki”, wklejam prawdziwe wypowiedzi klientów:
 
 **Co możesz zrobić u siebie**
 
-Zbierz 20 wypowiedzi klientów — opinie, maile, pytania przed zakupem. Poproś AI o wybranie 10 najmocniejszych zdań o problemie. Porównaj je z nagłówkiem swojej reklamy. Zobacz, które brzmi bardziej jak człowiek.
+Zbierz 20 wypowiedzi klientów - opinie, maile, pytania przed zakupem. Poproś AI o wybranie 10 najmocniejszych zdań o problemie. Porównaj je z nagłówkiem swojej reklamy. Zobacz, które brzmi bardziej jak człowiek.
 
 **Pytanie do Ciebie**
 

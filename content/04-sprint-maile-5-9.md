@@ -1,4 +1,4 @@
-# Sprint: 7x e-mail z wideo — sekwencja maili i wideo (część 2: maile 5–9)
+# Sprint: 7x e-mail z wideo - sekwencja maili i wideo (część 2: maile 5–9)
 
 Konwencje i harmonogram: patrz `03-sprint-maile-0-4.md`.
 
@@ -46,7 +46,7 @@ PS. Odpisz: jakie dane masz w firmie, ale rzadko z nich wyciągasz decyzje?
 
 **CTA do odpowiedzi:** Odpisz: jakie dane masz w firmie, ale rzadko z nich wyciągasz decyzje?
 
-**Cel psychologiczny:** Pokazać poziom właścicielski — AI jako pomoc w decyzjach, nie w produkcji treści. Zastrzeżenie o błędach AI buduje wiarygodność przed finałem.
+**Cel psychologiczny:** Pokazać poziom właścicielski - AI jako pomoc w decyzjach, nie w produkcji treści. Zastrzeżenie o błędach AI buduje wiarygodność przed finałem.
 
 **Obraz Marka:** Trzeźwy przedsiębiorca, który ufa liczbom, ale nie ufa ślepo ani im, ani AI.
 
@@ -84,7 +84,7 @@ PS. Odpisz: jakie dane masz w firmie, ale rzadko z nich wyciągasz decyzje?
 > **[NA EKRANIE: hipotezy]**
 > **[TU: jedna hipoteza, która Marka zaskoczyła.]**
 >
-> **Decyzje.** Trzy decyzje do rozważenia. Nie do wykonania — do rozważenia. Zwykle jedna jest oczywista, jedna głupia, a jedna taka, na którą sam bym nie wpadł.
+> **Decyzje.** Trzy decyzje do rozważenia. Nie do wykonania - do rozważenia. Zwykle jedna jest oczywista, jedna głupia, a jedna taka, na którą sam bym nie wpadł.
 >
 > **Test.** I ostatni krok, o którym większość zapomina. Jak najtaniej sprawdzić, czy hipoteza jest prawdziwa? Tydzień, mały budżet, jedna zmiana.
 
@@ -126,7 +126,7 @@ To działa, ale ma jedną wadę: zależy od tego, czy pamiętam, żeby usiąść
 
 Dlatego największa zmiana u mnie przyszła później. Wtedy, gdy AI przestało być osobną kartą w przeglądarce i trafiło do środka procesów, które i tak dzieją się co tydzień.
 
-Nie chodzi o to, żeby „używać AI”. Chodzi o to, żeby wybrać proces, który jest powtarzalny, męczący albo chaotyczny — i wpiąć AI w jego środek.
+Nie chodzi o to, żeby „używać AI”. Chodzi o to, żeby wybrać proces, który jest powtarzalny, męczący albo chaotyczny - i wpiąć AI w jego środek.
 
 Jak taki proces znaleźć? Zadaję sobie pięć pytań:
 
@@ -136,7 +136,7 @@ Jak taki proces znaleźć? Zadaję sobie pięć pytań:
 4. Co ma dane wejściowe i powtarzalny rezultat?
 5. Gdzie człowiek powinien zatwierdzać wynik?
 
-Briefy, notatki po rozmowach, raport tygodniowy, pierwsza odpowiedź na zapytanie, research przed spotkaniem — większość firm ma kilkanaście takich procesów i żadnego nie ruszyła.
+Briefy, notatki po rozmowach, raport tygodniowy, pierwsza odpowiedź na zapytanie, research przed spotkaniem - większość firm ma kilkanaście takich procesów i żadnego nie ruszyła.
 
 W wideo pokazuję, jak rozpisuję proces na kroki i jak zaczynam od wersji tak prostej, że aż wstyd. Bo najczęstszy błąd, jaki widzę (i sam popełniłem), to budowanie skomplikowanego systemu, zanim cokolwiek zadziałało ręcznie.
 
@@ -152,7 +152,7 @@ PS. Odpisz: jaki proces w Twojej firmie najbardziej nadaje się do usprawnienia,
 
 **CTA do odpowiedzi:** Odpisz: jaki proces w Twojej firmie najbardziej nadaje się do usprawnienia, ale ciągle go odkładasz?
 
-**Cel psychologiczny:** Przejście od „ciekawych zastosowań” do „to da się wdrożyć na stałe”. Odbiorca ma nazwać swój proces — to przygotowuje odpowiedź na mail 7.
+**Cel psychologiczny:** Przejście od „ciekawych zastosowań” do „to da się wdrożyć na stałe”. Odbiorca ma nazwać swój proces - to przygotowuje odpowiedź na mail 7.
 
 **Obraz Marka:** Operator. Ktoś, kto myśli procesami i zaczyna od prostych rzeczy.
 
@@ -200,19 +200,19 @@ PS. Odpisz: jaki proces w Twojej firmie najbardziej nadaje się do usprawnienia,
 >
 > Zobacz: z siedmiu kroków AI przyspiesza trzy. Zbiera dane w jedną całość, pisze pierwszą wersję, sprawdza, czy niczego nie brakuje. Cztery kroki zostają u człowieka.
 >
-> I tak ma być. Wszędzie tam, gdzie wynik idzie do klienta, dotyczy pieniędzy albo czyjejś ważnej życiowej sprawy, na końcu jest człowiek, który czyta i zatwierdza. W moich branżach — prawo, mediacje, psychoterapia — nie ma od tego wyjątków.
+> I tak ma być. Wszędzie tam, gdzie wynik idzie do klienta, dotyczy pieniędzy albo czyjejś ważnej życiowej sprawy, na końcu jest człowiek, który czyta i zatwierdza. W moich branżach - prawo, mediacje, psychoterapia - nie ma od tego wyjątków.
 
 **5. Zacznij od wersji wstydliwie prostej**
 
 > Teraz błąd, który sam popełniłem. Zobaczyłem, co się da zrobić, i od razu chciałem zbudować system. Integracje, automatyzacje, wszystko połączone.
 >
-> **[TU: krótka historia, co nie wyszło — jeśli Marek chce ją opowiedzieć.]**
+> **[TU: krótka historia, co nie wyszło - jeśli Marek chce ją opowiedzieć.]**
 >
 > Dzisiaj robię odwrotnie. Wersja pierwsza to zapisane polecenie i dokument z instrukcją dla zespołu. Kopiuj, wklej, sprawdź. Jeśli po dwóch tygodniach ludzie nadal z tego korzystają, to znaczy, że proces ma sens i dopiero wtedy warto go automatyzować. Jeśli nie korzystają, to właśnie zaoszczędziłem miesiąc budowania czegoś, czego nikt nie chciał.
 
 **6. Zakończenie (do kamery)**
 
-> Twój impuls. Przejdź przez pięć pytań i wypisz trzy procesy. Wybierz ten najnudniejszy. Serio — najnudniejszy zwykle jest najlepszy na start, bo nikt za nim nie będzie tęsknić.
+> Twój impuls. Przejdź przez pięć pytań i wypisz trzy procesy. Wybierz ten najnudniejszy. Serio - najnudniejszy zwykle jest najlepszy na start, bo nikt za nim nie będzie tęsknić.
 >
 > I odpisz mi: jaki proces nadaje się u Ciebie do usprawnienia, a ciągle go odkładasz?
 >
@@ -238,9 +238,9 @@ Gdybym miał wdrażać AI w firmie, której nie znam, nie zacząłbym od wyboru 
 
 Najlepsze wdrożenie AI nie zaczyna się od narzędzia. Zaczyna się od pytania: **gdzie w firmie tracisz najwięcej czasu, pieniędzy albo jasności?**
 
-Czas — to procesy z wczorajszego impulsu.
-Pieniądze — to zwykle sprzedaż i reklamy.
-Jasność — to decyzje, dane i marka.
+Czas - to procesy z wczorajszego impulsu.
+Pieniądze - to zwykle sprzedaż i reklamy.
+Jasność - to decyzje, dane i marka.
 
 Jedno z tych trzech boli Cię teraz najbardziej. Tam jest Twój pierwszy krok. Jeden, mały, do sprawdzenia w tydzień.
 
@@ -266,9 +266,9 @@ PS. Dostęp do materiałów masz jeszcze przez 3 dni. Jeśli któryś impuls Ci�
 
 **Cel psychologiczny:** Zamienić widza w rozmówcę. Po sześciu dniach małych odpowiedzi (jedno zdanie) prośba o trzy zdania jest naturalnym kolejnym krokiem. Odbiorca ma pomyśleć: „chciałbym, żeby spojrzał na mój biznes”.
 
-**Obraz Marka:** Doradca, który najpierw pyta, potem mówi. Dostępny — odpisuje osobiście.
+**Obraz Marka:** Doradca, który najpierw pyta, potem mówi. Dostępny - odpisuje osobiście.
 
-*[Uwaga operacyjna: ten mail składa obietnicę osobistej odpowiedzi. Przed startem ruchu płatnego warto ustalić, kto i w jakim czasie odpisuje — patrz README.]*
+*[Uwaga operacyjna: ten mail składa obietnicę osobistej odpowiedzi. Przed startem ruchu płatnego warto ustalić, kto i w jakim czasie odpisuje - patrz README.]*
 
 ### Scenariusz wideo 7
 
@@ -276,7 +276,7 @@ PS. Dostęp do materiałów masz jeszcze przez 3 dni. Jeśli któryś impuls Ci�
 
 **1. Otwarcie**
 
-> To siódmy, ostatni impuls. Dzięki, że tu jesteś — większość ludzi zapisuje się na takie rzeczy i nie otwiera drugiego maila.
+> To siódmy, ostatni impuls. Dzięki, że tu jesteś - większość ludzi zapisuje się na takie rzeczy i nie otwiera drugiego maila.
 >
 > Dzisiaj nie pokażę żadnego ekranu. Chcę zebrać to, co było, i powiedzieć Ci, jak zabrałbym się do tego w Twojej firmie.
 
@@ -317,7 +317,7 @@ PS. Dostęp do materiałów masz jeszcze przez 3 dni. Jeśli któryś impuls Ci�
 
 > Pytanie, od którego ja bym zaczął: gdzie w firmie tracisz najwięcej czasu, pieniędzy albo jasności?
 >
-> Wybierz jedno z trzech. Jeśli czas — wróć do impulsu szóstego i pięciu pytań o procesy. Jeśli pieniądze — do drugiego i czwartego, sprzedaż i reklamy. Jeśli jasność — do pierwszego i piątego, decyzje i dane.
+> Wybierz jedno z trzech. Jeśli czas - wróć do impulsu szóstego i pięciu pytań o procesy. Jeśli pieniądze - do drugiego i czwartego, sprzedaż i reklamy. Jeśli jasność - do pierwszego i piątego, decyzje i dane.
 >
 > Potem trzy warunki. Pierwszy krok ma być mały: do zrobienia w tydzień. Ma być mierzalny: wiesz, po czym poznasz, że działa. I ma być Twój albo jednej konkretnej osoby, a nie „zespołu”.
 >
@@ -360,7 +360,7 @@ Cześć {{imie}},
 
 jutro zamykam dostęp do materiałów ze sprintu.
 
-Jeśli wszystko już za Tobą — świetnie, możesz zamknąć tego maila.
+Jeśli wszystko już za Tobą - świetnie, możesz zamknąć tego maila.
 
 Jeśli nie, nic się nie stało. Tydzień właściciela firmy rzadko wygląda tak, jak miał wyglądać. I naprawdę nie namawiam Cię do nadrabiania siedmiu wideo w jeden wieczór. To byłoby dokładnie to kolekcjonowanie, przed którym przestrzegałem.
 
@@ -380,11 +380,11 @@ Jeden materiał, kilka minut, jedna rzecz do sprawdzenia u siebie. To wystarczy,
 
 Marek
 
-PS. Nie wiesz, który wybrać? Odpisz jednym słowem: CRM, marka, reklamy, dane, procesy albo decyzje — a podpowiem, od którego impulsu zacząć.
+PS. Nie wiesz, który wybrać? Odpisz jednym słowem: CRM, marka, reklamy, dane, procesy albo decyzje - a podpowiem, od którego impulsu zacząć.
 
-**CTA do odpowiedzi:** Odpisz jednym słowem: CRM, marka, reklamy, dane, procesy albo decyzje — a podpowiem, od którego impulsu zacząć.
+**CTA do odpowiedzi:** Odpisz jednym słowem: CRM, marka, reklamy, dane, procesy albo decyzje - a podpowiem, od którego impulsu zacząć.
 
-**Cel psychologiczny:** Zdjąć poczucie winy („nic się nie stało”) i zmniejszyć zadanie do jednego materiału. Termin jest podany rzeczowo, bez straszenia. Odpowiedź jednym słowem to najniższy możliwy próg — ostatnia szansa na reply od cichych odbiorców.
+**Cel psychologiczny:** Zdjąć poczucie winy („nic się nie stało”) i zmniejszyć zadanie do jednego materiału. Termin jest podany rzeczowo, bez straszenia. Odpowiedź jednym słowem to najniższy możliwy próg - ostatnia szansa na reply od cichych odbiorców.
 
 **Obraz Marka:** Ktoś, kto rozumie, jak wygląda tydzień przedsiębiorcy, i nie robi z terminu dramatu.
 
@@ -408,29 +408,29 @@ Jeśli wyniosłeś z niego jedną rzecz, którą sprawdziłeś u siebie, to zadz
 
 Co dalej?
 
-Od teraz raz w tygodniu dostaniesz ode mnie **Weekly Impuls**. Krótką wiadomość o tym, jak używam AI w swoich firmach — w sprzedaży, marketingu, procesach, danych i budowaniu marek. Czasem o tym, co zadziałało. Czasem o tym, co okazało się stratą czasu, bo to bywa bardziej pouczające.
+Od teraz raz w tygodniu dostaniesz ode mnie **Weekly Impuls**. Krótką wiadomość o tym, jak używam AI w swoich firmach - w sprzedaży, marketingu, procesach, danych i budowaniu marek. Czasem o tym, co zadziałało. Czasem o tym, co okazało się stratą czasu, bo to bywa bardziej pouczające.
 
 Każdy Weekly Impuls ma tę samą budowę:
 
-1. **Co zauważyłem** — jedna obserwacja z moich projektów.
-2. **Jak użyłem AI** — albo jak bym użył.
-3. **Co możesz zrobić u siebie** — jeden krok.
-4. **Pytanie do Ciebie** — bo dalej chcę wiedzieć, co u Ciebie.
+1. **Co zauważyłem** - jedna obserwacja z moich projektów.
+2. **Jak użyłem AI** - albo jak bym użył.
+3. **Co możesz zrobić u siebie** - jeden krok.
+4. **Pytanie do Ciebie** - bo dalej chcę wiedzieć, co u Ciebie.
 
 Czytanie zajmie 3 minuty. To nie będzie newsletter do kolekcjonowania. Jeśli po przeczytaniu nie masz nic do przemyślenia ani do zrobienia, to znaczy, że ja zawaliłem.
 
-A jeśli uznasz, że to nie dla Ciebie — link do wypisania jest na dole każdego maila. Bez urazy.
+A jeśli uznasz, że to nie dla Ciebie - link do wypisania jest na dole każdego maila. Bez urazy.
 
 Zanim wyślę pierwszy, chcę wiedzieć, od czego zacząć.
 
-Odpisz: o czym chcesz dostać pierwszy Weekly Impuls — AI w sprzedaży, AI w marketingu, AI w procesach, AI w danych czy AI w budowaniu marki?
+Odpisz: o czym chcesz dostać pierwszy Weekly Impuls - AI w sprzedaży, AI w marketingu, AI w procesach, AI w danych czy AI w budowaniu marki?
 
 Do usłyszenia za tydzień.
 
 Marek
 
-**CTA do odpowiedzi:** Odpisz: o czym chcesz dostać pierwszy Weekly Impuls — AI w sprzedaży, AI w marketingu, AI w procesach, AI w danych czy AI w budowaniu marki?
+**CTA do odpowiedzi:** Odpisz: o czym chcesz dostać pierwszy Weekly Impuls - AI w sprzedaży, AI w marketingu, AI w procesach, AI w danych czy AI w budowaniu marki?
 
-**Cel psychologiczny:** Zamknąć jedną pętlę i otworzyć następną. Odbiorca wie dokładnie, czego się spodziewać (rytm, długość, budowa), i ma wpływ na pierwszy temat — co zwiększa szansę, że go otworzy.
+**Cel psychologiczny:** Zamknąć jedną pętlę i otworzyć następną. Odbiorca wie dokładnie, czego się spodziewać (rytm, długość, budowa), i ma wpływ na pierwszy temat - co zwiększa szansę, że go otworzy.
 
 **Obraz Marka:** Ktoś, kto zostaje na dłużej i trzyma stały rytm. Nie znika po lead magnecie.

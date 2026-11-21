@@ -1,7 +1,7 @@
 // Zapis na Sprint: 7x e-mail z wideo.
 //
 // SIGNUP_ENDPOINT: adres, na który formularz wysyła zapis (POST, JSON: { name, email, source }).
-// Dopóki jest pusty, formularz NIE zapisuje nikogo — tylko przenosi na stronę po zapisie (tryb podglądu).
+// Dopóki jest pusty, formularz NIE zapisuje nikogo - tylko przenosi na stronę po zapisie (tryb podglądu).
 const SIGNUP_ENDPOINT = "";
 const THANK_YOU_URL = "/dziekuje/";
 
@@ -15,7 +15,7 @@ document.querySelectorAll("form.signup").forEach((form) => {
     if (error) error.hidden = true;
 
     if (!SIGNUP_ENDPOINT) {
-      console.warn("SIGNUP_ENDPOINT jest pusty — tryb podglądu, adres nie został zapisany.");
+      console.warn("SIGNUP_ENDPOINT jest pusty - tryb podglądu, adres nie został zapisany.");
       window.location.href = THANK_YOU_URL;
       return;
     }

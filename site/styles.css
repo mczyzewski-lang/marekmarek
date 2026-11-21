@@ -87,8 +87,10 @@ section { padding: 84px 0; position: relative; }
 /* nagłówek */
 .top { padding: 22px 0; }
 .top .wrap { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
-.brand { font-weight: 800; font-size: 1.25rem; letter-spacing: -0.03em; text-decoration: none; }
-.brand span { color: var(--violet-light); }
+.brand { display: inline-block; font-weight: 900; font-size: 1.5rem; letter-spacing: -0.02em; line-height: 1; text-decoration: none; }
+/* górne MAREK ucięte w połowie od dołu, dolne nachodzi na nie */
+.brand .b1 { display: block; height: 0.5em; overflow: hidden; color: var(--violet-light); }
+.brand .b2 { display: block; color: #fff; margin-top: -0.02em; }
 .tagline { font-family: var(--mono); font-size: 0.8rem; color: var(--muted); letter-spacing: 0.06em; }
 .nav { display: flex; align-items: center; gap: 22px; font-size: 0.95rem; }
 .nav a { text-decoration: none; color: var(--muted); }
@@ -189,7 +191,7 @@ section { padding: 84px 0; position: relative; }
   background: linear-gradient(90deg, #f5b301 calc(var(--r) / 5 * 100%), #d1d5db calc(var(--r) / 5 * 100%));
   -webkit-background-clip: text; background-clip: text; color: transparent;
 }
-/* „w trakcie…” — kolejna marka jako ładujący się logotyp */
+/* „w trakcie…” - kolejna marka jako ładujący się logotyp */
 .firm.pending { border-style: dashed; justify-content: center; }
 .firm.pending .tag { font-family: var(--mono); font-size: 0.78rem; color: #6b7280; margin-bottom: 10px; }
 .skeleton {
@@ -310,6 +312,10 @@ section { padding: 84px 0; position: relative; }
 .deep { background-color: var(--secondary); }
 .about-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 60px; align-items: start; }
 .about-grid img { border-radius: 6px; }
+/* białe logotypy spółek w tekście */
+.inline-logos { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 22px; margin: 4px 0 18px; }
+.about-grid .inline-logos img { height: 17px; width: auto; border-radius: 0; filter: brightness(0) invert(1); opacity: 0.92; }
+.about-grid .inline-logos img.tall { height: 27px; }
 .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 34px 0 0; padding-top: 26px; border-top: 1px dashed var(--line); }
 .stats b { display: block; font-family: var(--mono); font-size: 1.5rem; letter-spacing: -0.03em; line-height: 1.1; color: var(--violet-light); }
 .stats span { font-size: 0.9rem; color: var(--muted); }
@@ -354,7 +360,7 @@ section { padding: 84px 0; position: relative; }
 .deep .media { border-top: 1px dashed var(--line); padding-top: 26px; margin-top: 56px; }
 
 /* oś: linia dochodzi do błyskawicy, obrysowuje ją, błyskawica się wypełnia i linia idzie dalej.
-   Pierwszy tydzień (dni 1–7) jest w kolorze CTA — wyjątek od zasady „żółty tylko dla CTA” (decyzja Marka). */
+   Pierwszy tydzień (dni 1–7) jest w kolorze CTA - wyjątek od zasady „żółty tylko dla CTA” (decyzja Marka). */
 .pulse { width: 100%; height: auto; margin-top: 28px; overflow: visible; --step: 0.4s; }
 .pulse .w1 { color: var(--accent); }
 .pulse .w2 { color: var(--violet-light); }
@@ -369,7 +375,9 @@ section { padding: 84px 0; position: relative; }
 }
 .js .pulse.in .seg, .js .pulse.in .bolt { stroke-dashoffset: 0; }
 .js .pulse.in .bolt { fill-opacity: 1; }
-.pulse .lbl-m { display: none; }
+.pulse .lbl-m, .pulse .grp-m { display: none; }
+.pulse .grp rect { fill: rgba(255, 255, 255, 0.035); stroke: rgba(167, 139, 250, 0.55); stroke-width: 1.5; stroke-dasharray: 6 6; }
+.pulse .grp text { font-size: 10px; letter-spacing: 0.14em; fill: var(--violet-light); }
 
 /* dwie drogi na stronie głównej */
 .paths { display: grid; grid-template-columns: 54fr 46fr; gap: 24px; margin-top: 18px; }
@@ -532,8 +540,12 @@ footer a { text-underline-offset: 3px; }
   .media img.m-rzeczpospolita { max-height: 14px; }
   .pulse .lbl { display: none; }
   .pulse .lbl-m { display: block; }
-  .pulse .lbl-m text { font-size: calc(6.5px * var(--k, 3)); letter-spacing: 0.04em; fill: #fff; }
-  .pulse { margin-bottom: 40px; }
+  .pulse .lbl-m text { font-size: calc(7.5px * var(--k, 3)); letter-spacing: 0.04em; fill: #c4b5fd; }
+  .pulse .grp-d { display: none; }
+  .pulse .grp-m { display: block; }
+  .pulse .grp rect { stroke-width: 3; stroke-dasharray: 12 10; }
+  .pulse .grp text { font-size: calc(6.5px * var(--k, 3)); }
+  .pulse { margin-top: 44px; margin-bottom: 64px; }
   .pulse path { stroke-width: 5; }
   .pulse .bolt { stroke-width: 3; }
   .vid .btn .long { display: none; }

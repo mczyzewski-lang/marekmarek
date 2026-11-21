@@ -1,4 +1,4 @@
-# Sprint: 7x e-mail z wideo — sekwencja maili i wideo (część 1: maile 0–4)
+# Sprint: 7x e-mail z wideo - sekwencja maili i wideo (część 1: maile 0–4)
 
 ## Harmonogram całej sekwencji
 
@@ -16,8 +16,8 @@
 | 9 | dzień 11 (po wygaśnięciu dostępu) | Od teraz: Weekly Impuls |
 
 **Konwencje:**
-- `{{link_…}}` — miejsce na link z systemu mailowego.
-- `{{imie}}` — imię z formularza zapisu. Gdy puste, powitanie to samo „Cześć,”.
+- `{{link_…}}` - miejsce na link z systemu mailowego.
+- `{{imie}}` - imię z formularza zapisu. Gdy puste, powitanie to samo „Cześć,”.
 - W scenariuszach: **[NA EKRANIE]** = nagranie ekranu, **[TU: …]** = miejsce na prawdziwy przykład Marka, którego nie da się napisać za niego.
 - Scenariusze są pisane na 4–6 minut mówienia plus pokaz ekranu.
 - Nadawca: „Marek z MarekMarek.com”. Maile wysyłane z adresu, na który można odpisać.
@@ -34,7 +34,7 @@
 
 Cześć {{imie}},
 
-tu Marek z MarekMarek.com. Marek, twórca marek — tak, ta nazwa to trochę żart, a trochę opis tego, co robię.
+tu Marek z MarekMarek.com. Marek, twórca marek - tak, ta nazwa to trochę żart, a trochę opis tego, co robię.
 
 Buduję i rozwijam firmy: Nowy Etap, Risify, Budaro i kilka kolejnych. Od dłuższego czasu sprawdzam w nich, gdzie AI realnie pomaga, a gdzie tylko dobrze wygląda na demo.
 
@@ -109,7 +109,7 @@ Zmieniło się, kiedy zacząłem wrzucać tam problemy zamiast zleceń.
 
 Jako właściciel firmy rzadko mam z kim pomyśleć. Zespół czeka na decyzję. Wspólnicy mają swoje sprawy. A ja mam w głowie siedem wątków naraz i każdy wydaje się pilny.
 
-Teraz robię tak: biorę cały ten chaos — notatki, wątpliwości, pół pomysłu — i wrzucam do AI. Nie pytam „co mam zrobić”. Proszę, żeby pomogło mi to poukładać: nazwać, co ze sobą koliduje, wypisać możliwe decyzje i zadać mi pytania, których sam sobie nie zadałem.
+Teraz robię tak: biorę cały ten chaos - notatki, wątpliwości, pół pomysłu - i wrzucam do AI. Nie pytam „co mam zrobić”. Proszę, żeby pomogło mi to poukładać: nazwać, co ze sobą koliduje, wypisać możliwe decyzje i zadać mi pytania, których sam sobie nie zadałem.
 
 Często okazuje się, że problem, nad którym siedzę od tygodnia, to tak naprawdę dwa różne problemy. Albo że odpowiedź znam, tylko jej nie lubię.
 
@@ -153,7 +153,7 @@ PS. Odpisz na tego maila jednym zdaniem: jaka decyzja albo jaki chaos w firmie n
 
 > Pokażę Ci, jak to wygląda.
 >
-> **[TU: prawdziwa decyzja Marka z ostatnich tygodni — np. czy uruchamiać nowy projekt, czy zatrudniać, czy zmieniać ofertę. Bez wrażliwych danych.]**
+> **[TU: prawdziwa decyzja Marka z ostatnich tygodni - np. czy uruchamiać nowy projekt, czy zatrudniać, czy zmieniać ofertę. Bez wrażliwych danych.]**
 >
 > Zobacz, co robię. Nie piszę ładnego pytania. Wklejam wszystko, co mam: notatki z telefonu, kilka zdań o tym, co mnie uwiera, czasem dyktuję przez dwie minuty. Chaos jest tu zaletą, bo AI ma z czego wyciągać.
 >
@@ -167,7 +167,7 @@ PS. Odpisz na tego maila jednym zdaniem: jaka decyzja albo jaki chaos w firmie n
 >
 > Po drugie opcje. Zawsze proszę o więcej niż dwie, bo jak mam „tak albo nie”, to znaczy, że za mało pomyślałem.
 >
-> Po trzecie pytania. To jest najlepsza część. Na te pytania odpowiadam — i dopiero wtedy rozmowa robi się ciekawa.
+> Po trzecie pytania. To jest najlepsza część. Na te pytania odpowiadam - i dopiero wtedy rozmowa robi się ciekawa.
 
 **4. Trzy zasady**
 
@@ -211,7 +211,7 @@ Wszystko to jest zapisane. W statusach w CRM-ie, w notatkach po rozmowach, w wia
 
 AI ma.
 
-W dzisiejszym wideo pokazuję, na przykładzie procesu sprzedażowego w Nowym Etapie, jak patrzę na CRM jak na źródło wiedzy, a nie tabelkę do odhaczania. Bez pokazywania danych klientów — chodzi o sposób.
+W dzisiejszym wideo pokazuję, na przykładzie procesu sprzedażowego w Nowym Etapie, jak patrzę na CRM jak na źródło wiedzy, a nie tabelkę do odhaczania. Bez pokazywania danych klientów - chodzi o sposób.
 
 Polecenie, od którego możesz zacząć:
 
@@ -223,9 +223,9 @@ Polecenie, od którego możesz zacząć:
 
 Marek
 
-PS. Odpisz: gdzie w Twojej firmie najczęściej giną leady — przed rozmową, po rozmowie, w follow-upie czy przy decyzji?
+PS. Odpisz: gdzie w Twojej firmie najczęściej giną leady - przed rozmową, po rozmowie, w follow-upie czy przy decyzji?
 
-**CTA do odpowiedzi:** Odpisz: gdzie w Twojej firmie najczęściej giną leady — przed rozmową, po rozmowie, w follow-upie czy przy decyzji?
+**CTA do odpowiedzi:** Odpisz: gdzie w Twojej firmie najczęściej giną leady - przed rozmową, po rozmowie, w follow-upie czy przy decyzji?
 
 **Cel psychologiczny:** Pokazać pieniądze, które odbiorca już traci. Po abstrakcyjnym dniu 1 ten mail ma być namacalny: „to dotyczy mojego przychodu”.
 
@@ -297,7 +297,7 @@ Marka nie zaczyna się od logo. Marka zaczyna się od jasności: dla kogo jeste�
 
 Dojście do tej jasności kiedyś zajmowało mi tygodnie. Warsztaty, tablice, dziesięć wersji dokumentu. Teraz zajmuje dni, bo większość pracy roboczej robię z AI.
 
-Żeby było jasne: AI nie stworzy za Ciebie marki. Ale daje mi coś, czego wcześniej nie miałem — dziesięć kierunków w godzinę, z których dziewięć mogę odrzucić. A odrzucanie to połowa pracy nad marką. Dopiero kiedy widzisz, czym nie chcesz być, zaczynasz rozumieć, czym jesteś.
+Żeby było jasne: AI nie stworzy za Ciebie marki. Ale daje mi coś, czego wcześniej nie miałem - dziesięć kierunków w godzinę, z których dziewięć mogę odrzucić. A odrzucanie to połowa pracy nad marką. Dopiero kiedy widzisz, czym nie chcesz być, zaczynasz rozumieć, czym jesteś.
 
 W dzisiejszym wideo pokazuję ten proces na nowym projekcie z obszaru relacji i terapii par, nad którym pracuję. Od researchu, przez warianty pozycjonowania, po nazwy.
 
@@ -311,11 +311,11 @@ Działa też dla marki, która istnieje od lat. Czasem zwłaszcza dla niej.
 
 Marek
 
-PS. Odpisz: gdybyś miał dziś nazwać jednym zdaniem, czym naprawdę jest Twoja marka — co byś napisał?
+PS. Odpisz: gdybyś miał dziś nazwać jednym zdaniem, czym naprawdę jest Twoja marka - co byś napisał?
 
-**CTA do odpowiedzi:** Odpisz: gdybyś miał dziś nazwać jednym zdaniem, czym naprawdę jest Twoja marka — co byś napisał?
+**CTA do odpowiedzi:** Odpisz: gdybyś miał dziś nazwać jednym zdaniem, czym naprawdę jest Twoja marka - co byś napisał?
 
-**Cel psychologiczny:** Uwiarygodnić tytuł „twórca marek” — to dzień, w którym Marek pokazuje swoje rzemiosło. Pytanie na końcu ma lekko zaboleć: większość odbiorców nie umie odpowiedzieć jednym zdaniem.
+**Cel psychologiczny:** Uwiarygodnić tytuł „twórca marek” - to dzień, w którym Marek pokazuje swoje rzemiosło. Pytanie na końcu ma lekko zaboleć: większość odbiorców nie umie odpowiedzieć jednym zdaniem.
 
 **Obraz Marka:** Rzemieślnik marek, który ma proces i gust. AI mu przyspiesza pracę, ale wybiera on.
 
@@ -345,12 +345,12 @@ PS. Odpisz: gdybyś miał dziś nazwać jednym zdaniem, czym naprawdę jest Twoj
 > **[NA EKRANIE: 5 kierunków]**
 > Zobacz ostatnią kolumnę, ryzyko. To moja ulubiona część. Każde pozycjonowanie coś kosztuje i wolę to wiedzieć przed startem.
 >
-> **Krok trzeci: odrzucanie.** Z pięciu kierunków trzy odrzucam od razu. I mówię dlaczego — wpisuję to w rozmowę. „Ten jest za kliniczny. Ten brzmi jak wszyscy.” Dzięki temu następna runda jest lepsza, bo AI uczy się mojego gustu w tej rozmowie.
+> **Krok trzeci: odrzucanie.** Z pięciu kierunków trzy odrzucam od razu. I mówię dlaczego - wpisuję to w rozmowę. „Ten jest za kliniczny. Ten brzmi jak wszyscy.” Dzięki temu następna runda jest lepsza, bo AI uczy się mojego gustu w tej rozmowie.
 > **[TU: który kierunek odpadł i dlaczego.]**
 >
 > **Krok czwarty: kąty komunikacji.** Dla dwóch kierunków, które zostały, proszę o nagłówki, pierwsze zdania reklam, opis w jednym akapicie. Marka na papierze i marka w reklamie to dwie różne rzeczy. Chcę zobaczyć, jak ten kierunek brzmi w praktyce.
 >
-> **Krok piąty: nazwy i hasła.** Dopiero teraz. Proszę o pięćdziesiąt nazw i wiem, że czterdzieści siedem będzie słabych. Trzy dadzą mi trop. Potem sprawdzam domeny i kolizje z istniejącymi markami — tego AI za mnie dobrze nie zrobi.
+> **Krok piąty: nazwy i hasła.** Dopiero teraz. Proszę o pięćdziesiąt nazw i wiem, że czterdzieści siedem będzie słabych. Trzy dadzą mi trop. Potem sprawdzam domeny i kolizje z istniejącymi markami - tego AI za mnie dobrze nie zrobi.
 
 **4. Gdzie kończy się AI**
 
@@ -400,11 +400,11 @@ Tak, to jest polecenie, od którego zaczynały się reklamy tego sprintu. Możli
 
 Marek
 
-PS. Odpisz: co dziś najtrudniej Ci zakomunikować w reklamie albo na stronie — problem, obietnicę czy różnicę względem konkurencji?
+PS. Odpisz: co dziś najtrudniej Ci zakomunikować w reklamie albo na stronie - problem, obietnicę czy różnicę względem konkurencji?
 
-**CTA do odpowiedzi:** Odpisz: co dziś najtrudniej Ci zakomunikować w reklamie albo na stronie — problem, obietnicę czy różnicę względem konkurencji?
+**CTA do odpowiedzi:** Odpisz: co dziś najtrudniej Ci zakomunikować w reklamie albo na stronie - problem, obietnicę czy różnicę względem konkurencji?
 
-**Cel psychologiczny:** Efekt „zajrzenia za kulisy” — odbiorca widzi, że reklama, która go przyprowadziła, powstała tą samą metodą. To buduje spójność: Marek robi to, o czym mówi.
+**Cel psychologiczny:** Efekt „zajrzenia za kulisy” - odbiorca widzi, że reklama, która go przyprowadziła, powstała tą samą metodą. To buduje spójność: Marek robi to, o czym mówi.
 
 **Obraz Marka:** Marketer, który wydaje własne pieniądze na reklamy i ma do kreacji stosunek praktyczny, nie artystyczny.
 
@@ -416,7 +416,7 @@ PS. Odpisz: co dziś najtrudniej Ci zakomunikować w reklamie albo na stronie �
 
 > Mam w firmach folder, którego nie lubię otwierać. Są w nim reklamy, z których byliśmy bardzo dumni. Dopracowane, ładne, drogie. I które nie sprzedały prawie nic.
 >
-> **[TU: jeden konkretny przykład — „ładna” kreacja, która przegrała z prostą. Najlepiej pokazać obie.]**
+> **[TU: jeden konkretny przykład - „ładna” kreacja, która przegrała z prostą. Najlepiej pokazać obie.]**
 >
 > Dzisiaj o tym, jak robię reklamy teraz i gdzie w tym jest AI.
 
@@ -424,7 +424,7 @@ PS. Odpisz: co dziś najtrudniej Ci zakomunikować w reklamie albo na stronie �
 
 > Nie zaczynam od „zróbmy wideo w AI”. Zaczynam od pytania: co mój klient ma w głowie, zanim zobaczy reklamę? Czego się boi, co go wkurza, co już próbował?
 >
-> Jeśli tego nie wiem, żadne narzędzie mi nie pomoże. Jeśli wiem — a wiem to choćby z notatek sprzedażowych, o których mówiłem w drugim impulsie — to mam paliwo.
+> Jeśli tego nie wiem, żadne narzędzie mi nie pomoże. Jeśli wiem - a wiem to choćby z notatek sprzedażowych, o których mówiłem w drugim impulsie - to mam paliwo.
 
 **3. Proces [NA EKRANIE]**
 
@@ -456,6 +456,6 @@ PS. Odpisz: co dziś najtrudniej Ci zakomunikować w reklamie albo na stronie �
 
 > Twój impuls. Weź polecenie z maila, podmień grupę docelową na swoją i wygeneruj dziesięć kątów. Potem zrób jedną rzecz: zaznacz ten, którego jeszcze nigdy nie testowałeś. Od niego zacznij.
 >
-> I odpisz mi: co najtrudniej Ci zakomunikować — problem, obietnicę czy to, czym różnisz się od konkurencji?
+> I odpisz mi: co najtrudniej Ci zakomunikować - problem, obietnicę czy to, czym różnisz się od konkurencji?
 >
 > Jutro dane. Brzmi nudno, a to chyba najważniejszy impuls w całym sprincie.

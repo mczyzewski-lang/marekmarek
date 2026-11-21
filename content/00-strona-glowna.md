@@ -1,4 +1,4 @@
-# Strona główna — MarekMarek.com
+# Strona główna - MarekMarek.com
 
 Strona o Marku. Prowadzi do landing page’a sprintu (`/sprint7x/`).
 
@@ -12,7 +12,7 @@ Strona o Marku. Prowadzi do landing page’a sprintu (`/sprint7x/`).
 Tworzę marki i rozwijam firmy. AI to moje narzędzie pracy.
 
 **Podtytuł:**
-Nazywam się Marek. Stąd nazwa tej strony — trochę żart, trochę opis stanowiska. Pokazuję tu, jak używam AI w swoich biznesach: w markach, marketingu, sprzedaży i procesach. Bez hype’u.
+Nazywam się Marek. Stąd nazwa tej strony - trochę żart, trochę opis stanowiska. Pokazuję tu, jak używam AI w swoich biznesach: w markach, marketingu, sprzedaży i procesach. Bez hype’u.
 
 **CTA:** Zobacz bezpłatny sprint AI → `/sprint7x/`
 
@@ -22,17 +22,17 @@ Nazywam się Marek. Stąd nazwa tej strony — trochę żart, trochę opis stano
 
 Firmy, które założyłem i rozwijam. 4 spółki · 120+ osób w zespołach · ponad 35 mln zł rocznego przychodu
 
-- Pravna — usługi prawne online — 21 000+ klientów · 4,7/5 · 1000+ opinii Google
-- Nowy Etap — usługi mediacyjne — 7000+ klientów · 4,8/5 · 850+ opinii Google
-- Risify — psychoterapia online — 5000+ klientów · 4,8/5 · 120+ opinii Google
-- Budaro — piętrowe domy modułowe — 100+ klientów · 5,0/5 · 25+ opinii Google
-- [w trakcie…] — kolejna marka
+- Pravna - usługi prawne online - 21 000+ klientów · 4,7/5 · 1000+ opinii Google
+- Nowy Etap - usługi mediacyjne - 7000+ klientów · 4,8/5 · 850+ opinii Google
+- Risify - psychoterapia online - 5000+ klientów · 4,8/5 · 120+ opinii Google
+- Budaro - piętrowe domy modułowe - 100+ klientów · 5,0/5 · 25+ opinii Google
+- [w trakcie…] - kolejna marka
 
 ## Kim jestem
 
 **Cztery branże, ten sam zestaw problemów**
 
-Na co dzień pracuję na realnych projektach: Nowy Etap, Risify, Budaro, Pravna i kolejne inicjatywy, które dopiero powstają. Mediacje, psychoterapia online, domy modułowe, usługi prawne.
+Na co dzień pracuję na realnych projektach: *[w tym miejscu białe logotypy: Nowy Etap, Risify, Budaro, Pravna]* …i przy kolejnych inicjatywach, które dopiero powstają. Mediacje, psychoterapia online, domy modułowe, usługi prawne.
 
 Cztery różne branże i cztery różne modele biznesowe, a problemy zaskakująco podobne: jak dotrzeć do klienta, jak nie gubić leadów, jak szybciej podejmować dobre decyzje.
 
@@ -40,7 +40,7 @@ Cztery różne branże i cztery różne modele biznesowe, a problemy zaskakując
 
 W strategii i sprzedaży, w reklamach, w procesach, w analizie danych. Część rzeczy działa świetnie. Część okazała się stratą czasu. O jednych i drugich mówię wprost.
 
-Nie uczę teorii. Pokazuję swój sposób myślenia i przykłady z własnej pracy — żeby dać Ci impuls do działania u siebie.
+Nie uczę teorii. Pokazuję swój sposób myślenia i przykłady z własnej pracy - żeby dać Ci impuls do działania u siebie.
 
 *[Zdjęcie zespołu, podpis: „Zespół: ponad 120 osób”]*
 

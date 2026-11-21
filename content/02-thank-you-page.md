@@ -1,4 +1,4 @@
-# Thank you page — MarekMarek.com
+# Thank you page - MarekMarek.com
 
 Strona wyświetlana zaraz po zapisie na Sprint: 7x e-mail z wideo.
 
@@ -8,7 +8,7 @@ Strona wyświetlana zaraz po zapisie na Sprint: 7x e-mail z wideo.
 
 Jesteś na liście. Pierwszy e-mail zaraz trafi na Twoją skrzynkę.
 
-*[Wersja z briefu: „Jesteś zapisany. Pierwszy e-mail zaraz trafi na Twoją skrzynkę.” — powyższa działa niezależnie od płci odbiorcy.]*
+*[Wersja z briefu: „Jesteś zapisany. Pierwszy e-mail zaraz trafi na Twoją skrzynkę.” - powyższa działa niezależnie od płci odbiorcy.]*
 
 ## Podtytuł
 
@@ -16,7 +16,7 @@ To nie jest kurs do kolekcjonowania. To 7-dniowy sprint, który ma dać Ci jeden
 
 ## Wzmocnienie decyzji
 
-Dobra decyzja. Większość ludzi o AI czyta. Ty za chwilę zobaczysz, jak to wygląda w działających firmach — i sprawdzisz jedną rzecz u siebie.
+Dobra decyzja. Większość ludzi o AI czyta. Ty za chwilę zobaczysz, jak to wygląda w działających firmach - i sprawdzisz jedną rzecz u siebie.
 
 ## Wideo
 
@@ -67,7 +67,7 @@ Jeśli mail nie doszedł w ciągu kilku minut, sprawdź folder Oferty, Spam albo
 >
 > Po sprincie raz w tygodniu będę wysyłać Weekly Impuls. Jedna krótka wiadomość, ta sama zasada.
 >
-> I ostatnia rzecz. Jeśli przy którymś mailu pomyślisz „ciekawe, jak to zrobić u mnie” — odpisz. Czytam odpowiedzi i odpisuję.
+> I ostatnia rzecz. Jeśli przy którymś mailu pomyślisz „ciekawe, jak to zrobić u mnie” - odpisz. Czytam odpowiedzi i odpisuję.
 >
 > Pierwszy mail już do Ciebie leci. Do zobaczenia w skrzynce.
 
