@@ -13,7 +13,7 @@ Marek, twórca marek
 
 **Nagłówek:**
 Sprint: 7x Impuls
-Zobacz, jak używam AI do budowania marek swoich firm, marketingu, sprzedaży i procesów w prawdziwych biznesach*
+Zobacz, jak używam AI do budowania marek swoich firm: marketingu, sprzedaży i procesów w prawdziwych biznesach*
 
 **Przypis pod formularzem:**
 \* Moje firmy generują >35 mln zł rocznego przychodu [zobacz ↓] *(link przewija do boksu z firmami)*
@@ -219,5 +219,4 @@ Na tym etapie głównym celem jest pokazanie mojego sposobu myślenia, zbudowani
 
 ---
 
-**Stopka:**
-MarekMarek.com — Marek, twórca marek. AI, marki, sprzedaż, procesy, dane. Bez hype’u.
+*[Landing nie ma stopki — strona kończy się kontenerem zapisu na jasnopomarańczowym tle. Link „O mnie” jest w nagłówku.]*

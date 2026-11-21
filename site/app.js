@@ -70,3 +70,38 @@ if (bar && forms.length && "IntersectionObserver" in window) {
   });
   forms.forEach((form) => barObserver.observe(form));
 }
+
+// Efekty zależne od przewijania: paralaksa zdjęcia zespołu i „wyskakujący” kontener zapisu.
+const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+const parallaxEls = document.querySelectorAll("[data-parallax]");
+const popEls = document.querySelectorAll("[data-pop]");
+if (!reduceMotion && (parallaxEls.length || popEls.length)) {
+  const clamp = (v) => Math.max(0, Math.min(1, v));
+  let ticking = false;
+  const update = () => {
+    ticking = false;
+    const vh = window.innerHeight;
+    parallaxEls.forEach((el) => {
+      const rect = el.parentElement.getBoundingClientRect();
+      if (rect.bottom < 0 || rect.top > vh) return;
+      const progress = (vh - rect.top) / (vh + rect.height); // 0 → 1 w trakcie przejazdu przez ekran
+      el.style.transform = `translate3d(0, ${((progress - 0.5) * 2 * 9).toFixed(2)}%, 0)`;
+    });
+    popEls.forEach((el) => {
+      const section = el.closest("section");
+      const rect = section.getBoundingClientRect();
+      const raw = clamp((vh - rect.top) / (Math.min(rect.height, vh) * 0.95));
+      const p = 1 - Math.pow(1 - raw, 2); // wyhamowanie pod koniec
+      el.style.transform = `translate3d(0, ${((1 - p) * 340).toFixed(1)}px, 0) scale(${(0.58 + 0.42 * p).toFixed(3)})`;
+    });
+  };
+  const onScroll = () => {
+    if (!ticking) {
+      ticking = true;
+      requestAnimationFrame(update);
+    }
+  };
+  window.addEventListener("scroll", onScroll, { passive: true });
+  window.addEventListener("resize", onScroll);
+  update();
+}
