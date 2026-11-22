@@ -87,10 +87,14 @@ section { padding: 84px 0; position: relative; }
 /* nagłówek */
 .top { padding: 22px 0; }
 .top .wrap { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
-.brand { display: inline-block; font-weight: 900; font-size: 1.5rem; letter-spacing: -0.02em; line-height: 1; text-decoration: none; }
-/* górne MAREK ucięte w połowie od dołu, dolne nachodzi na nie */
-.brand .b1 { display: block; height: 0.5em; overflow: hidden; color: var(--violet-light); }
-.brand .b2 { display: block; color: #fff; margin-top: -0.02em; }
+/* logo: płaskie, szerokie litery; górne MAREK zanika gradientem w przezroczystość pod dolnym, które na nie nachodzi */
+.brand {
+  display: inline-block; font-weight: 800; font-size: 1.5rem; letter-spacing: 0.16em; line-height: 1; text-decoration: none;
+  transform: scaleY(0.72); transform-origin: left center;
+}
+.brand .b1, .brand .b2 { display: block; -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-fill-color: transparent; }
+.brand .b1 { background-image: linear-gradient(to bottom, #a78bfa 0%, rgba(124, 58, 237, 0.55) 45%, rgba(124, 58, 237, 0) 82%); }
+.brand .b2 { background-image: linear-gradient(to bottom, #ffffff 15%, #c4b5fd 100%); margin-top: -0.52em; position: relative; }
 .tagline { font-family: var(--mono); font-size: 0.8rem; color: var(--muted); letter-spacing: 0.06em; }
 .nav { display: flex; align-items: center; gap: 22px; font-size: 0.95rem; }
 .nav a { text-decoration: none; color: var(--muted); }

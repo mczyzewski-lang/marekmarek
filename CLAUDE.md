@@ -45,7 +45,7 @@ Motyw „Social Bold (Growth)” (wybór Marka, 2026-11-21): kolor główny `#7C
 
 Gdzieniegdzie klimat blueprintu, zawsze fioletowy: siatka kreślarska (`.bp`), znaczniki narożne (`.marks`), przerywane linie, etykiety pismem maszynowym („Fig. 01”). Oszczędnie - nie na każdej sekcji. Logotypy spółek są ciemne, więc stoją na białej karcie w 5 kolumnach (liczba klientów + ocena Google); gdy rząd nie mieści się na ekranie, boks przypina się i przewijanie w dół przesuwa rząd w bok. Przyciski CTA mają wspólną animację (puls + przebłysk). Logotypy mediów: białe, jednokolorowe PNG w `site/img/media/` (wycięte z plików foundersai.pl), pokazywane małe. Przy CTA zawsze informacja, że sprint jest bezpłatny. Finał landingu: sekcja w kolorze akcentu z ciemną siatką blueprintu, fioletowy kontener zapisu „wyskakuje” przy przewijaniu; landing nie ma stopki.
 
-Logo: „MAREK” dwa razy, drukowanymi, jedno pod drugim - górne ucięte w połowie od dołu, dolne nachodzi na nie.
+Logo: „MAREK” dwa razy, drukowanymi, płaską i szeroką czcionką, jedno pod drugim - górne (fiolet) zanika gradientem w przezroczystość, dolne (biel przechodząca w lawendę) nachodzi na nie.
 
 Animacje (wszystkie wyłączane przy systemowym ograniczeniu ruchu): liczniki nad boksem z firmami i liczby klientów, kalendarz przy dniach programu (zrywane kartki poprzednich dni, CSS 3D bez zewnętrznych bibliotek), puls z błyskawicą nad segmentem o impulsie i w finale, przypinany rząd firm.
 
