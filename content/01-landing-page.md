@@ -14,7 +14,7 @@ Marek, twórca marek
 **Nadtytuł:** Bezpłatnie · 7 e-maili z wideo
 
 **Nagłówek:**
-7 miejsc w firmie, w których AI pracuje na zysk. Pokazuję je na swoich firmach z >35 mln zł przychodu
+7 miejsc w firmie, w których AI pracuje na zysk. Pokazuję je bezpłatnie na swoich firmach (z >35 mln zł przychodu) w 7 krótkich filmach
 
 **Podtytuł:**
 Marketing, sprzedaż, realizacja, strategia i kolejne obszary. Jeden e-mail z krótkim wideo dziennie, przez 7 dni.
